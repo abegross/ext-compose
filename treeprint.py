@@ -31,7 +31,7 @@ def showdict(data, indent):
         if first:
             first=False
         else:
-            print
+            print 
         print " "*max(indent,0) + "("+key,
         # Sneaky trick: we don't want to go newline-indent over and
         # over for long sequences, i.e. cases where there is only
