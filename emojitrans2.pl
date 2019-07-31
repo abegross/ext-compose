@@ -37,6 +37,7 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '=' => 'equal',
 	     ' ' => 'space',
 	     '*' => 'asterisk',
+             '&' => 'ampersand',
 	     '♫' => 'Multi_key',
 );
 
