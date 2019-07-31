@@ -1,6 +1,7 @@
 # H stands for Hebrew, and its capital so it doesnt interfere with other combos
 # the abcs are the positions the letters take in the hebrew keyboard
 # this is the qwerty version:
+
 # <Multi_key> <H> <t>        :   "א"    U05D0 # HEBREW LETTER ALEF
 # <Multi_key> <H> <c>        :   "ב"    U05D1 # HEBREW LETTER BET
 # <Multi_key> <H> <d>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
