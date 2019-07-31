@@ -1,6 +1,8 @@
 .XCompose
 =========
 
+I decided to take over the project from clsn, cuz kragen/xcompose is dead at this point, and I really like the project.
+
 As explained in <http://canonical.org/~kragen/setting-up-keyboard.html>,
 your Compose key in X11 is controlled by (among other things) the file
 `.XCompose` in your home directory.  This file gives you a large set
