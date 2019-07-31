@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+#grep -inT "$1" /home/nitsi/documents/xcompose/*
+rg -i "$1" /home/nitsi/documents/xcompose/*
