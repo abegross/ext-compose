@@ -7,6 +7,11 @@
 <Multi_key> <u> <k>				: "ウ" #U
 <Multi_key> <e> <k>				: "エ" #E
 <Multi_key> <o> <k>				: "オ" #O
+<Multi_key> <a> <s> <k>			: "ァ" #A
+<Multi_key> <i> <s> <k>			: "ィ" #I
+<Multi_key> <u> <s> <k>			: "ゥ" #U
+<Multi_key> <e> <s> <k>			: "ェ" #E
+<Multi_key> <o> <s> <k>			: "ォ" #O
 <Multi_key> <k> <a> <k>			: "カ" #KA
 <Multi_key> <k> <i> <k>			: "キ" #KI
 <Multi_key> <k> <u> <k>			: "ク" #KU
@@ -87,7 +92,7 @@
 <Multi_key> <p> <o> <k>			: "ポ" #PO
 
 #modifers
-#								: "ッ" #(before geminate consonant)
+<Multi_key> <t> <u> <s> <k>		: "ッ" #(before geminate consonant)
 #								: "ー" #(after long vowel)
 #								: "ヽ" #(reduplicates and unvoices syllable)
 #								: "ヾ" #(reduplicates and voices syllable)
