@@ -91,6 +91,6 @@
 <Multi_key> <p> <o> <h>			: "ぽ" #PO
 
 #modifers
-<Multi_key> <t> <u> <s> <k>		: "っ" #small TU. (indicates a geminate consonant)
+<Multi_key> <t> <u> <s> <h>		: "っ" #small TU. (indicates a geminate consonant)
 #								: "ゝ" #(reduplicates and unvoices syllable)
 #								: "ゞ" #(reduplicates and voices syllable)
