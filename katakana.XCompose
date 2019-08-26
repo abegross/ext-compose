@@ -69,6 +69,11 @@
 <Multi_key> <g> <u> <k>			: "グ" #GU
 <Multi_key> <g> <e> <k>			: "ゲ" #GE
 <Multi_key> <g> <o> <k>			: "ゴ" #GO
+<Multi_key> <N> <g> <a> <k>		: "カ゚" #GA
+<Multi_key> <N> <g> <i> <k>		: "キ゚" #GI
+<Multi_key> <N> <g> <u> <k>		: "ク゚" #GU
+<Multi_key> <N> <g> <e> <k>		: "ケ゚" #GE
+<Multi_key> <N> <g> <o> <k>		: "コ゚" #GO
 
 <Multi_key> <z> <a> <k>			: "ザ" #ZA
 <Multi_key> <z> <i> <k>			: "ジ" #ZI
