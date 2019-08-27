@@ -1,17 +1,12 @@
 #implementation of katakana as compose characters
 
 
-#Monographs
+#片仮名
 <Multi_key> <a> <k>				: "ア" #A
 <Multi_key> <i> <k>				: "イ" #I
 <Multi_key> <u> <k>				: "ウ" #U
 <Multi_key> <e> <k>				: "エ" #E
 <Multi_key> <o> <k>				: "オ" #O
-<Multi_key> <a> <s> <k>			: "ァ" #A
-<Multi_key> <i> <s> <k>			: "ィ" #I
-<Multi_key> <u> <s> <k>			: "ゥ" #U
-<Multi_key> <e> <s> <k>			: "ェ" #E
-<Multi_key> <o> <s> <k>			: "ォ" #O
 <Multi_key> <k> <a> <k>			: "カ" #KA
 <Multi_key> <k> <i> <k>			: "キ" #KI
 <Multi_key> <k> <u> <k>			: "ク" #KU
@@ -57,23 +52,13 @@
 <Multi_key> <n> <k>         	: "ン" #N
 
 
-#these 3 are used as modifiers to create Digraphs
-<Multi_key> <y> <a> <s> <k>			: "ャ" #small YA
-<Multi_key> <y> <u> <s> <k>			: "ュ" #small YU
-<Multi_key> <y> <o> <s> <k>			: "ョ" #small YO
 
-
-#Diacritics
+#濁点
 <Multi_key> <g> <a> <k>			: "ガ" #GA
 <Multi_key> <g> <i> <k>			: "ギ" #GI
 <Multi_key> <g> <u> <k>			: "グ" #GU
 <Multi_key> <g> <e> <k>			: "ゲ" #GE
 <Multi_key> <g> <o> <k>			: "ゴ" #GO
-<Multi_key> <N> <g> <a> <k>		: "カ゚" #GA
-<Multi_key> <N> <g> <i> <k>		: "キ゚" #GI
-<Multi_key> <N> <g> <u> <k>		: "ク゚" #GU
-<Multi_key> <N> <g> <e> <k>		: "ケ゚" #GE
-<Multi_key> <N> <g> <o> <k>		: "コ゚" #GO
 
 <Multi_key> <z> <a> <k>			: "ザ" #ZA
 <Multi_key> <z> <i> <k>			: "ジ" #ZI
@@ -96,8 +81,33 @@
 <Multi_key> <p> <e> <k>			: "ペ" #PE
 <Multi_key> <p> <o> <k>			: "ポ" #PO
 
-#modifers
-<Multi_key> <t> <u> <s> <k>		: "ッ" #(before geminate consonant)
+
+
+<Multi_key> <a> <l> <k>			 : 	  "ァ" #A
+<Multi_key> <i> <l> <k>			 : 	  "ィ" #I
+<Multi_key> <u> <l> <k>			 : 	  "ゥ" #U
+<Multi_key> <e> <l> <k>			 : 	  "ェ" #E
+<Multi_key> <o> <l> <k>	     	 : 	  "ォ" #O
+<Multi_key> <k> <u> <l> <k> 	 :    "ㇰ"    U31F0    # KATAKANA LETTER SMALL KU (final k)
+<Multi_key> <s> <i> <l> <k> 	 :    "ㇱ"    U31F1    # KATAKANA LETTER SMALL SI (final sh)
+<Multi_key> <s> <u> <l> <k> 	 :    "ㇲ"    U31F2    # KATAKANA LETTER SMALL SU (final s)
+<Multi_key> <t> <u> <s> <k>		 : 	  "ッ"             #(before geminate consonant)
+<Multi_key> <t> <o> <l> <k> 	 :    "ㇳ"    U31F3    # KATAKANA LETTER SMALL TO (final t)
+<Multi_key> <n> <u> <l> <k> 	 :    "ㇴ"    U31F4    # KATAKANA LETTER SMALL NU (final n)
+<Multi_key> <m> <u> <l> <k> 	 :    "ㇺ"    U31FA    # KATAKANA LETTER SMALL MU (final m)
+<Multi_key> <h> <a> <l> <k> 	 :    "ㇵ"    U31F5    # KATAKANA LETTER SMALL HA (ah)
+<Multi_key> <h> <i> <l> <k> 	 :    "ㇶ"    U31F6    # KATAKANA LETTER SMALL HI (ih)
+<Multi_key> <h> <u> <l> <k> 	 :    "ㇷ"    U31F7    # KATAKANA LETTER SMALL HU (uh)
+<Multi_key> <h> <e> <l> <k> 	 :    "ㇸ"    U31F8    # KATAKANA LETTER SMALL HE (eh)
+<Multi_key> <h> <o> <l> <k> 	 :    "ㇹ"    U31F9    # KATAKANA LETTER SMALL HO (oh)
+<Multi_key> <r> <a> <l> <k> 	 :    "ㇻ"    U31FB    # KATAKANA LETTER SMALL RA (ar)
+<Multi_key> <r> <i> <l> <k> 	 :    "ㇼ"    U31FC    # KATAKANA LETTER SMALL RI (ir)
+<Multi_key> <r> <u> <l> <k> 	 :    "ㇽ"    U31FD    # KATAKANA LETTER SMALL RU (ur)
+<Multi_key> <r> <e> <l> <k> 	 :    "ㇾ"    U31FE    # KATAKANA LETTER SMALL RE (er)
+<Multi_key> <r> <o> <l> <k> 	 :    "ㇿ"    U31FF    # KATAKANA LETTER SMALL RO (or)
+<Multi_key> <y> <a> <l> <k>		 :    "ャ" #small YA
+<Multi_key> <y> <u> <l> <k>		 :    "ュ" #small YU
+<Multi_key> <y> <o> <l> <k>		 :    "ョ" #small YO
 #								: "ー" #(after long vowel)
 #								: "ヽ" #(reduplicates and unvoices syllable)
 #								: "ヾ" #(reduplicates and voices syllable)

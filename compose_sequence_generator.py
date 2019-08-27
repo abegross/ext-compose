@@ -3,16 +3,19 @@ import unicodedata, re
 
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
-regular = "0123456789"
+# regular = "0123456789"
+regular = ["ha","hi","hu","he","ho","ra","ri","ru","re","ro"]
 
 # the letter that compose spits out
-composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
+# composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
+composed = "ㇵㇶㇷㇸㇹㇻㇼㇽㇾㇿ"
 
 # the sequence u type out.
 # "<M_>" means the compose key.
 # <MM> means compose key twice
 # ★ is what will be replaced with whats in regular
-sequence = "<M_> ★|"
+# sequence = "<M_> ★|"
+sequence = "<M_> ★lh"
 
 
 
