@@ -1,17 +1,12 @@
 #implementation of hiragana as compose characters
 
 
-#Monographs
+#平仮名
 <Multi_key> <a> <h>				: "あ" #A
 <Multi_key> <i> <h>				: "い" #I
 <Multi_key> <u> <h>				: "う" #U
 <Multi_key> <e> <h>				: "え" #E
 <Multi_key> <o> <h>				: "お" #O
-<Multi_key> <a> <s> <h>			: "ぁ" #A
-<Multi_key> <i> <s> <h>			: "ぃ" #I
-<Multi_key> <u> <s> <h>			: "ぅ" #U
-<Multi_key> <e> <s> <h>			: "ぇ" #E
-<Multi_key> <o> <s> <h>			: "ぉ" #O
 <Multi_key> <k> <a> <h>			: "か" #KA
 <Multi_key> <k> <i> <h>			: "き" #KI
 <Multi_key> <k> <u> <h>			: "く" #KU
@@ -51,19 +46,13 @@
 <Multi_key> <r> <e> <h>			: "れ" #RE
 <Multi_key> <r> <o> <h>			: "ろ" #RO
 <Multi_key> <w> <a> <h>			: "わ" #WA
-<Multi_key> <w> <i> <h>			: "ゐ" #WI this one is almost unused now
+<Multi_key> <w> <i> <h>			: "ゐ" #WI this one is unused now
 <Multi_key> <w> <e> <h>			: "ゑ" #WE same as above
 <Multi_key> <w> <o> <h>			: "を" #WO
 <Multi_key> <n> <h>         	: "ん" #N
 
 
-#these 3 are used as modifiers to create Digraphs
-<Multi_key> <y> <a> <s> <h>			: "ゃ" #small YA
-<Multi_key> <y> <u> <s> <h>			: "ゅ" #small YU
-<Multi_key> <y> <o> <s> <h>			: "ょ" #small YO
-
-
-#Diacritics
+#濁点
 <Multi_key> <g> <a> <h>			: "が" #GA
 <Multi_key> <g> <i> <h>			: "ぎ" #GI
 <Multi_key> <g> <u> <h>			: "ぐ" #GU
@@ -90,7 +79,16 @@
 <Multi_key> <p> <e> <h>			: "ぺ" #PE
 <Multi_key> <p> <o> <h>			: "ぽ" #PO
 
-#modifers
-<Multi_key> <t> <u> <s> <h>		: "っ" #small TU. (indicates a geminate consonant)
-#								: "ゝ" #(reduplicates and unvoices syllable)
-#								: "ゞ" #(reduplicates and voices syllable)
+#捨て仮名
+<Multi_key> <a> <l> <h>			: "ぁ" #A
+<Multi_key> <i> <l> <h>			: "ぃ" #I
+<Multi_key> <u> <l> <h>			: "ぅ" #U
+<Multi_key> <e> <l> <h>			: "ぇ" #E
+<Multi_key> <o> <l> <h>			: "ぉ" #O
+<Multi_key> <k> <a> <l> <h>		: "ゕ" #small ka
+<Multi_key> <k> <a> <l> <h>		: "ゖ" #small ke
+<Multi_key> <t> <u> <l> <h>		: "っ" #small TU. (indicates a geminate consonant)
+<Multi_key> <y> <a> <l> <h>		: "ゃ" #small YA
+<Multi_key> <y> <u> <l> <h>		: "ゅ" #small YU
+<Multi_key> <y> <o> <l> <h>		: "ょ" #small YO
+<Multi_key> <w> <a> <l> <h>		: "ゎ" #small wa

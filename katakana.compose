@@ -46,7 +46,7 @@
 <Multi_key> <r> <e> <k>			: "レ" #RE
 <Multi_key> <r> <o> <k>			: "ロ" #RO
 <Multi_key> <w> <a> <k>			: "ワ" #WA
-<Multi_key> <w> <i> <k>			: "ヰ" #WI this one is almost unused now
+<Multi_key> <w> <i> <k>			: "ヰ" #WI this one is unused now
 <Multi_key> <w> <e> <k>			: "ヱ" #WE same as above
 <Multi_key> <w> <o> <k>			: "ヲ" #WO
 <Multi_key> <n> <k>         	: "ン" #N
@@ -82,32 +82,33 @@
 <Multi_key> <p> <o> <k>			: "ポ" #PO
 
 
-
+#捨て仮名
 <Multi_key> <a> <l> <k>			 : 	  "ァ" #A
 <Multi_key> <i> <l> <k>			 : 	  "ィ" #I
 <Multi_key> <u> <l> <k>			 : 	  "ゥ" #U
 <Multi_key> <e> <l> <k>			 : 	  "ェ" #E
 <Multi_key> <o> <l> <k>	     	 : 	  "ォ" #O
+<Multi_key> <k> <a> <l> <k> 	 :    "ヵ"
 <Multi_key> <k> <u> <l> <k> 	 :    "ㇰ"    U31F0    # KATAKANA LETTER SMALL KU (final k)
+<Multi_key> <k> <e> <l> <k> 	 :    "ヶ"
 <Multi_key> <s> <i> <l> <k> 	 :    "ㇱ"    U31F1    # KATAKANA LETTER SMALL SI (final sh)
 <Multi_key> <s> <u> <l> <k> 	 :    "ㇲ"    U31F2    # KATAKANA LETTER SMALL SU (final s)
 <Multi_key> <t> <u> <s> <k>		 : 	  "ッ"             #(before geminate consonant)
 <Multi_key> <t> <o> <l> <k> 	 :    "ㇳ"    U31F3    # KATAKANA LETTER SMALL TO (final t)
 <Multi_key> <n> <u> <l> <k> 	 :    "ㇴ"    U31F4    # KATAKANA LETTER SMALL NU (final n)
-<Multi_key> <m> <u> <l> <k> 	 :    "ㇺ"    U31FA    # KATAKANA LETTER SMALL MU (final m)
 <Multi_key> <h> <a> <l> <k> 	 :    "ㇵ"    U31F5    # KATAKANA LETTER SMALL HA (ah)
 <Multi_key> <h> <i> <l> <k> 	 :    "ㇶ"    U31F6    # KATAKANA LETTER SMALL HI (ih)
 <Multi_key> <h> <u> <l> <k> 	 :    "ㇷ"    U31F7    # KATAKANA LETTER SMALL HU (uh)
 <Multi_key> <h> <e> <l> <k> 	 :    "ㇸ"    U31F8    # KATAKANA LETTER SMALL HE (eh)
 <Multi_key> <h> <o> <l> <k> 	 :    "ㇹ"    U31F9    # KATAKANA LETTER SMALL HO (oh)
+<Multi_key> <m> <u> <l> <k> 	 :    "ㇺ"    U31FA    # KATAKANA LETTER SMALL MU (final m)
+<Multi_key> <y> <a> <l> <k>		 :    "ャ" #small YA
+<Multi_key> <y> <u> <l> <k>		 :    "ュ" #small YU
+<Multi_key> <y> <o> <l> <k>		 :    "ョ" #small YO
 <Multi_key> <r> <a> <l> <k> 	 :    "ㇻ"    U31FB    # KATAKANA LETTER SMALL RA (ar)
 <Multi_key> <r> <i> <l> <k> 	 :    "ㇼ"    U31FC    # KATAKANA LETTER SMALL RI (ir)
 <Multi_key> <r> <u> <l> <k> 	 :    "ㇽ"    U31FD    # KATAKANA LETTER SMALL RU (ur)
 <Multi_key> <r> <e> <l> <k> 	 :    "ㇾ"    U31FE    # KATAKANA LETTER SMALL RE (er)
 <Multi_key> <r> <o> <l> <k> 	 :    "ㇿ"    U31FF    # KATAKANA LETTER SMALL RO (or)
-<Multi_key> <y> <a> <l> <k>		 :    "ャ" #small YA
-<Multi_key> <y> <u> <l> <k>		 :    "ュ" #small YU
-<Multi_key> <y> <o> <l> <k>		 :    "ョ" #small YO
-#								: "ー" #(after long vowel)
-#								: "ヽ" #(reduplicates and unvoices syllable)
-#								: "ヾ" #(reduplicates and voices syllable)
+<Multi_key> <w> <a> <l> <k>		 :    "ヮ" #small wa
+<Multi_key> <minus> <minus> <k>	 : 	  "ー" #(after long vowel)
