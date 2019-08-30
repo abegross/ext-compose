@@ -311,6 +311,9 @@
 <Multi_key> <8> <bar>  :   "𝟠"    U1D7E0 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 8
 <Multi_key> <9> <bar>  :   "𝟡"    U1D7E1 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 9
 
+<Multi_key> <parenleft>  <bar>        :	"〘"	U3018	# full width left double tortoise shell brackets
+<Multi_key> <parenright> <bar>        :	"〙"	U3019	# full width right double tortoise shell brackets
+
 
 ######
 # all cursive letters
