@@ -39,6 +39,7 @@
 <Multi_key> <m> <o> <k>			: "モ" #MO
 <Multi_key> <y> <a> <k>			: "ヤ" #YA
 <Multi_key> <y> <u> <k>			: "ユ" #YU
+<Multi_key> <y> <u> <k>			: "𛀀" #YE
 <Multi_key> <y> <o> <k>			: "ヨ" #YO
 <Multi_key> <r> <a> <k>			: "ラ" #RA
 <Multi_key> <r> <i> <k>			: "リ" #RI
@@ -47,6 +48,7 @@
 <Multi_key> <r> <o> <k>			: "ロ" #RO
 <Multi_key> <w> <a> <k>			: "ワ" #WA
 <Multi_key> <w> <i> <k>			: "ヰ" #WI this one is unused now
+<Multi_key> <w> <u> <k>			: "于" #WU this is a kanji that looks exactly like it, so im using it
 <Multi_key> <w> <e> <k>			: "ヱ" #WE same as above
 <Multi_key> <w> <o> <k>			: "ヲ" #WO
 <Multi_key> <n> <k>         	: "ン" #N
@@ -80,6 +82,11 @@
 <Multi_key> <p> <u> <k>			: "プ" #PU
 <Multi_key> <p> <e> <k>			: "ペ" #PE
 <Multi_key> <p> <o> <k>			: "ポ" #PO
+<Multi_key> <v> <a> <k>			: "ヷ" #va
+<Multi_key> <v> <i> <k>			: "ヸ" #vi
+<Multi_key> <v> <u> <k>			: "ヴ" #vu
+<Multi_key> <v> <e> <k>			: "ヹ" #ve
+<Multi_key> <v> <o> <k>			: "ヺ" #ve
 
 
 #捨て仮名
@@ -111,4 +118,10 @@
 <Multi_key> <r> <e> <l> <k> 	 :    "ㇾ"    U31FE    # KATAKANA LETTER SMALL RE (er)
 <Multi_key> <r> <o> <l> <k> 	 :    "ㇿ"    U31FF    # KATAKANA LETTER SMALL RO (or)
 <Multi_key> <w> <a> <l> <k>		 :    "ヮ" #small wa
+
+
+
 <Multi_key> <minus> <minus> <k>	 : 	  "ー" #(after long vowel)
+
+<Multi_key> <d> <t>                                  :  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
+<Multi_key> <h> <d> <t>                              :  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)
