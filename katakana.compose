@@ -38,8 +38,9 @@
 <Multi_key> <m> <e> <k>			: "メ" #ME
 <Multi_key> <m> <o> <k>			: "モ" #MO
 <Multi_key> <y> <a> <k>			: "ヤ" #YA
+<Multi_key> <y> <i> <k>			: "㇙" #YI
 <Multi_key> <y> <u> <k>			: "ユ" #YU
-<Multi_key> <y> <u> <k>			: "𛀀" #YE
+<Multi_key> <y> <e> <k>			: "⟂" #YE
 <Multi_key> <y> <o> <k>			: "ヨ" #YO
 <Multi_key> <r> <a> <k>			: "ラ" #RA
 <Multi_key> <r> <i> <k>			: "リ" #RI

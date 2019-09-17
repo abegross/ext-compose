@@ -40,7 +40,7 @@
 <Multi_key> <y> <a> <h>			: "や" #YA
 <Multi_key> <y> <i> <h>			: "𛀆" #YI
 <Multi_key> <y> <u> <h>			: "ゆ" #YU
-<Multi_key> <y> <u> <h>			: "𛀁" #YE
+<Multi_key> <y> <e> <h>			: "𛀁" #YE
 <Multi_key> <y> <o> <h>			: "よ" #YO
 <Multi_key> <r> <a> <h>			: "ら" #RA
 <Multi_key> <r> <i> <h>			: "り" #RI
