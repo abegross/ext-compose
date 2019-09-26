@@ -1,21 +1,21 @@
 #!/usr/bin/env python
-import unicodedata, re
+import unicodedata, re, pyperclip
 
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
 # regular = "0123456789"
-regular = ["l"]
+regular = ["."]
 
 # the letter that compose spits out
 # composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-composed = "ɫ"
+composed = "・"
 
 # the sequence u type out.
 # "<M_>" means the compose key.
 # <MM> means compose key twice
 # ★ is what will be replaced with whats in regular
 # sequence = "<M_> ★|"
-sequence = "<M_> ★~"
+sequence = "<M_> ★k"
 
 
 
@@ -64,6 +64,8 @@ sequence = replace(sequence)
 if len(regular) == len(composed):
     for position in range(len(regular)):
         full_sequence = sequence.replace("<★>", replace(regular[position]))
-        print(full_sequence + '        :    "'+composed[position]+'"    '+str('U%04X' % ord(composed[position])) +'    # '+ unicodedata.name(composed[position]))
+        text = (full_sequence + '\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata.name(composed[position]))
+        print(text)
+        pyperclip.copy(text)
 else:
     print("regular ("+ str(len(regular))+ ") is not equal to composed ("+str(len(composed))+ ")")

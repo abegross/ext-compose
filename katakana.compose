@@ -122,7 +122,9 @@
 
 
 
-<Multi_key> <minus> <minus> <k>	 : 	  "ー" #(after long vowel)
+<Multi_key> <minus> <k>	 : 	  "ー" #(after long vowel)
+<Multi_key> <period> <k>		:	"・"	U30FB	# KATAKANA MIDDLE DOT
+
 
 <Multi_key> <d> <t>                                  :  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
 <Multi_key> <h> <d> <t>                              :  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)
