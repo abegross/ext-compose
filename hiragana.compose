@@ -49,6 +49,7 @@
 <Multi_key> <r> <o> <h>			: "ろ" #RO
 <Multi_key> <w> <a> <h>			: "わ" #WA
 <Multi_key> <w> <i> <h>			: "ゐ" #WI this one is unused now
+<Multi_key> <w> <u> <h>			: "㐵" #WU this one is unused now
 <Multi_key> <w> <e> <h>			: "ゑ" #WE same as above
 <Multi_key> <w> <o> <h>			: "を" #WO
 <Multi_key> <n> <h>         	: "ん" #N
@@ -95,3 +96,7 @@
 <Multi_key> <y> <u> <l> <h>		: "ゅ" #small YU
 <Multi_key> <y> <o> <l> <h>		: "ょ" #small YO
 <Multi_key> <w> <a> <l> <h>		: "ゎ" #small wa
+<Multi_key> <w> <i> <l> <h>		: "𛅐" #small wi
+<Multi_key> <w> <u> <l> <h>		: "𛅏" #small wu
+<Multi_key> <w> <e> <l> <h>		: "𛅑" #small we
+<Multi_key> <w> <o> <l> <h>		: "𛅒" #small wo

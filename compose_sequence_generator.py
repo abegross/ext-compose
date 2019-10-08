@@ -1,21 +1,24 @@
 #!/usr/bin/env python
-import unicodedata, re, pyperclip
+import unicodedata, re, pyperclip, sys
+
+# usage: compose-sequence-generator.py 'regular' 'composed' 'sequence'
+# 'regular', 'composed', and 'sequence' are defined below.
 
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
 # regular = "0123456789"
-regular = ["/"]
+regular = ["/"] if not sys.argv[1] else sys.argv[1]
 
 # the letter that compose spits out
 # composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-composed = "。"
+composed = "。" if not sys.argv[2] else sys.argv[2]
 
 # the sequence u type out.
 # "<M_>" means the compose key.
 # <MM> means compose key twice
 # ★ is what will be replaced with whats in regular
 # sequence = "<M_> ★|"
-sequence = "<M_> ★k"
+sequence = "<M_> ★k" if not sys.argv[3] else sys.argv[3]
 
 
 
