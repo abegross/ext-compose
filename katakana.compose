@@ -86,7 +86,7 @@
 <Multi_key> <v> <a> <k>			: "ヷ" #va
 <Multi_key> <v> <i> <k>			: "ヸ" #vi
 <Multi_key> <v> <u> <k>			: "𛄯" #vu
-<Multi_key> <v><y> <u> <k>			: "ヴ" #vu
+<Multi_key> <v><y> <u> <k>		: "ヴ" #vu
 <Multi_key> <v> <e> <k>			: "ヹ" #ve
 <Multi_key> <v> <o> <k>			: "ヺ" #ve
 
