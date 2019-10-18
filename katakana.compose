@@ -102,7 +102,7 @@
 <Multi_key> <k> <e> <l> <k> 	 :    "ヶ"
 <Multi_key> <s> <i> <l> <k> 	 :    "ㇱ"    U31F1    # KATAKANA LETTER SMALL SI (final sh)
 <Multi_key> <s> <u> <l> <k> 	 :    "ㇲ"    U31F2    # KATAKANA LETTER SMALL SU (final s)
-<Multi_key> <t> <u> <s> <k>		 : 	  "ッ"             #(before geminate consonant)
+<Multi_key> <t> <u> <l> <k>		 : 	  "ッ"             #(before geminate consonant)
 <Multi_key> <t> <o> <l> <k> 	 :    "ㇳ"    U31F3    # KATAKANA LETTER SMALL TO (final t)
 <Multi_key> <n> <u> <l> <k> 	 :    "ㇴ"    U31F4    # KATAKANA LETTER SMALL NU (final n)
 <Multi_key> <h> <a> <l> <k> 	 :    "ㇵ"    U31F5    # KATAKANA LETTER SMALL HA (ah)
@@ -136,6 +136,7 @@
 <Multi_key> <minus> <k> 		:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
 <Multi_key> <bracketleft> <k> 	:	"「"	U300C	# LEFT CORNER BRACKET
 <Multi_key> <bracketright> <k> 	:	"」"	U300D	# RIGHT CORNER BRACKET
+<Multi_key> <asciitilde> <k>	:	"〰"	U3030	# WAVY DASH
 
 <Multi_key> <d> <t>                                  :  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
 <Multi_key> <h> <d> <t>                              :  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)
