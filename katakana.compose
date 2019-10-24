@@ -130,13 +130,14 @@
 
 
 
+<Multi_key> <space>  <k> 		:	"　"	U3000	# IDEOGRAPHIC SPACE
 <Multi_key> <comma> <k> 		:	"、"	U3001	# IDEOGRAPHIC COMMA
 <Multi_key> <period> <k>		:	"。"	U3002	# IDEOGRAPHIC FULL STOP
-<Multi_key> <slash> <k>			:	"・"	U30FB	# KATAKANA MIDDLE DOT
-<Multi_key> <minus> <k> 		:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
 <Multi_key> <bracketleft> <k> 	:	"「"	U300C	# LEFT CORNER BRACKET
 <Multi_key> <bracketright> <k> 	:	"」"	U300D	# RIGHT CORNER BRACKET
 <Multi_key> <asciitilde> <k>	:	"〰"	U3030	# WAVY DASH
+<Multi_key> <slash> <k>			:	"・"	U30FB	# KATAKANA MIDDLE DOT
+<Multi_key> <minus> <k> 		:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
 
 <Multi_key> <d> <t>                                  :  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
 <Multi_key> <h> <d> <t>                              :  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)

@@ -7,11 +7,11 @@ import unicodedata, re, pyperclip, sys
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
 # regular = "0123456789"
-regular = ["/"] if not sys.argv[1] else sys.argv[1]
+regular = ["0123456789"] if not sys.argv[1] else sys.argv[1]
 
 # the letter that compose spits out
 # composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-composed = "。" if not sys.argv[2] else sys.argv[2]
+composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡" if not sys.argv[2] else sys.argv[2]
 
 # the sequence u type out.
 # "<M_>" means the compose key.
