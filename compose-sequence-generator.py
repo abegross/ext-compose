@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import unicodedata, re, pyperclip, sys, ast
+import unicodedata2, re, pyperclip, sys, ast
 
 def isevaluable(s):
     try:
@@ -14,11 +14,10 @@ def isevaluable(s):
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
 # regular = "0123456789"
-arg1 = str(sys.argv[1])
-regular = ["0123456789"] if not arg1 else \
-        (eval(sys.argv[1]) if isevaluable(sys.argv[1]) else sys.argv[1])
+regular = ["0123456789"] if not sys.argv[1] else sys.argv[1] #\
+        # (eval(sys.argv[1]) if isevaluable(sys.argv[1]) else sys.argv[1])
 
-# the letter that compose spits out
+# the characters that compose spits out
 # composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
 composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡" if not sys.argv[2] else sys.argv[2]
 
@@ -76,7 +75,7 @@ sequence = replace(sequence)
 if len(regular) == len(composed):
     for position in range(len(regular)):
         full_sequence = sequence.replace("<★>", replace(regular[position]))
-        text = (full_sequence + '\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata.name(composed[position]))
+        text = (full_sequence + '\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata2.name(composed[position]))
         print(text)
         pyperclip.copy(text)
 else:

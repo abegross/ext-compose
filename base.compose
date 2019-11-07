@@ -91,6 +91,7 @@
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
 <Multi_key> <o> <underscore>		: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
+<Multi_key> <o> <minus> <minus>	: "ō"	U014D	# LATIN SMALL LETTER O WITH MACRON
 # I don’t use this nearly as often as the em-dash sequence I’ve remapped it to:
 #<Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
 # Already present for me:
