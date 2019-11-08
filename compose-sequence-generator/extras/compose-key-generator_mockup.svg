@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4489 2053" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <rect id="Artboard1" x="0" y="0" width="4488.37" height="2052.13" style="fill:none;"/>
+    <g id="Artboard11" serif:id="Artboard1">
+        <g id="regular" transform="matrix(1,0,0,1,-370.742,-36.552)">
+            <rect x="458.952" y="537.837" width="1937.26" height="161.873" style="fill:rgb(235,235,235);"/>
+            <g transform="matrix(0.50061,0,0,0.50061,228.117,226.955)">
+                <text x="464.173px" y="506.506px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">the regular abcs or wtvr that will be typed out</text>
+            </g>
+            <g transform="matrix(1,0,0,1,5.22172,15.6651)">
+                <text x="495.504px" y="642.271px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:109.346px;fill:rgb(136,136,136);">0123456789</text>
+            </g>
+        </g>
+        <g id="compose" transform="matrix(1,0,0,1,-370.742,375.964)">
+            <rect x="458.952" y="537.837" width="1937.26" height="161.873" style="fill:rgb(235,235,235);"/>
+            <g transform="matrix(0.50061,0,0,0.50061,228.117,226.955)">
+                <text x="464.173px" y="506.506px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">the characters that compose spits out</text>
+            </g>
+            <g transform="matrix(1,0,0,1,5.22172,15.6651)">
+                <text x="495.504px" y="642.271px" style="font-family:'SegoeUISymbol', 'Segoe UI Symbol', sans-serif;font-size:109.346px;fill:rgb(136,136,136);">𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡</text>
+            </g>
+        </g>
+        <g id="sequence" transform="matrix(1,0,0,1,-367.666,785.783)">
+            <g transform="matrix(1,0,0,1,-3.07537,367.755)">
+                <rect x="458.952" y="537.837" width="1937.26" height="161.873" style="fill:rgb(235,235,235);"/>
+            </g>
+            <g transform="matrix(0.50061,0,0,0.50061,225.042,226.955)">
+                <text x="464.173px" y="506.506px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">the sequence u type out.</text>
+                <text x="464.173px" y="687.184px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">&quot;&lt;M_&gt;&quot; means the compose key<tspan x="2967.69px " y="687.184px ">.</tspan></text>
+                <text x="464.173px" y="867.862px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">&lt;MM&gt; means compose key twice</text>
+                <text x="464.173px" y="1048.54px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:174.954px;">★</text>
+                <text x="687.735px" y="1048.54px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">is what will be replaced with whats in regular</text>
+                <text x="464.173px" y="1229.22px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">sequence = &quot;&lt;M_&gt;</text>
+                <text x="1980.41px" y="1229.22px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:174.954px;">★</text>
+                <text x="2155.37px" y="1229.22px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:174.954px;">|&quot;</text>
+            </g>
+            <g transform="matrix(1,0,0,1,2.14635,383.42)">
+                <text x="495.504px" y="642.271px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:109.346px;fill:rgb(122,122,122);">&lt;M_&gt;</text>
+                <text x="805.496px" y="642.271px" style="font-family:'MalgunGothic', 'Malgun Gothic', sans-serif;font-size:87.584px;fill:rgb(122,122,122);">★</text>
+                <text x="893.08px" y="642.271px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:109.346px;fill:rgb(122,122,122);">|</text>
+            </g>
+        </g>
+        <g id="result">
+            <rect x="2244.18" y="107.045" width="2111.03" height="1821.07" style="fill:rgb(235,235,235);"/>
+            <g transform="matrix(0.541166,0,0,0.541166,1032.58,78.7834)">
+                <clipPath id="_clip1">
+                    <rect x="2251.5" y="174.559" width="3888.28" height="1250.6"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <text x="2244.18px" y="250.642px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;0&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="250.642px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟘</text>
+                    <text x="4769.19px" y="250.642px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7D8  # MATHEMATICAL DOUBLE-STRUCK DIGIT ZERO</text>
+                    <text x="2244.18px" y="378.676px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;1&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="378.676px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟙</text>
+                    <text x="4769.19px" y="378.676px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7D9  # MATHEMATICAL DOUBLE-STRUCK DIGIT ONE</text>
+                    <text x="2244.18px" y="506.709px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;2&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="506.709px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟚</text>
+                    <text x="4769.19px" y="506.709px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DA  # MATHEMATICAL DOUBLE-STRUCK DIGIT TWO</text>
+                    <text x="2244.18px" y="634.743px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;3&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="634.743px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟛</text>
+                    <text x="4769.19px" y="634.743px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DB  # MATHEMATICAL DOUBLE-STRUCK DIGIT THREE</text>
+                    <text x="2244.18px" y="762.776px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;4&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="762.776px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟜</text>
+                    <text x="4769.19px" y="762.776px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DC  # MATHEMATICAL DOUBLE-STRUCK DIGIT FOUR</text>
+                    <text x="2244.18px" y="890.81px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;5&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="890.81px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟝</text>
+                    <text x="4769.19px" y="890.81px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DD  # MATHEMATICAL DOUBLE-STRUCK DIGIT FIVE</text>
+                    <text x="2244.18px" y="1018.84px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;6&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="1018.84px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟞</text>
+                    <text x="4769.19px" y="1018.84px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DE  # MATHEMATICAL DOUBLE-STRUCK DIGIT SIX</text>
+                    <text x="2244.18px" y="1146.88px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;7&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="1146.88px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟟</text>
+                    <text x="4769.19px" y="1146.88px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7DF  # MATHEMATICAL DOUBLE-STRUCK DIGIT SEVEN</text>
+                    <text x="2244.18px" y="1274.91px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;8&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="1274.91px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟠</text>
+                    <text x="4769.19px" y="1274.91px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7E0  # MATHEMATICAL DOUBLE-STRUCK DIGIT EIGHT</text>
+                    <text x="2244.18px" y="1402.94px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&lt;Multi_key&gt; &lt;9&gt;  &lt;bar&gt;          :       &quot;</text>
+                    <text x="4709.07px" y="1402.94px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">𝟡</text>
+                    <text x="4769.19px" y="1402.94px" style="font-family:'Consolas', monospace;font-size:109.346px;fill:rgb(122,122,122);">&quot;     U1D7E1  # MATHEMATICAL DOUBLE-STRUCK DIGIT NINE</text>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(0.658409,0,0,0.658409,33.9692,34.0233)">
+            <text x="88.21px" y="305.47px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:287.597px;fill:rgb(122,122,122);">compose-key-generator</text>
+        </g>
+    </g>
+</svg>
