@@ -73,11 +73,12 @@ def replace(sequence):
 sequence = replace(sequence)
 
 if len(regular) == len(composed):
+    text = ""
     for position in range(len(regular)):
         full_sequence = sequence.replace("<★>", replace(regular[position]))
-        text = (full_sequence + '\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata2.name(composed[position]))
-        print(text)
-        pyperclip.copy(text)
+        text += (full_sequence + '\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata2.name(composed[position])+'\n')
+    print(text.strip())
+    pyperclip.copy(text)
 else:
     print("regular ("+ str(len(regular))+ ") is not equal to composed ("+str(len(composed))+ ")")
 
