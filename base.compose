@@ -1350,7 +1350,10 @@
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 # Real bitcoin symbol now.
 <Multi_key> <B> <bar> : "₿" U20BF  # BITCOIN SIGN
-<Multi_key> <k>  <B> 		:	"㎅"	U3385	# SQUARE KB
-<Multi_key> <m>  <B> 		:	"㎆"	U3386	# SQUARE MB
-<Multi_key> <b>  <B> 		:	"㎇"	U3387	# SQUARE GB
+
+<Multi_key> <k>  <b> 		:	"㎅"	U3385	# SQUARE KB
+<Multi_key> <m>  <b> 		:	"㎆"	U3386	# SQUARE MB
+<Multi_key> <b>  <b> 		:	"㎇"	U3387	# SQUARE GB
+
+<Multi_key> <bracketleft>  <parenleft> <bracketright> <parenright> 		:	"⎄"	U2384	# COMPOSITION SYMBOL
 
