@@ -253,59 +253,118 @@
 # all cursive letters
 # the mnemonic here is '/' cuz cursive is written slanted
 
-<Multi_key> <slash> <a>    :   "𝓪"    U1D4EA #  MATHEMATICAL BOLD SCRIPT SMALL A
-<Multi_key> <slash> <b>    :   "𝓫"    U1D4EB #  MATHEMATICAL BOLD SCRIPT SMALL B
-<Multi_key> <slash> <c>    :   "𝓬"    U1D4EC #  MATHEMATICAL BOLD SCRIPT SMALL C
-<Multi_key> <slash> <d>    :   "𝓭"    U1D4ED #  MATHEMATICAL BOLD SCRIPT SMALL D
-<Multi_key> <slash> <e>    :   "𝓮"    U1D4EE #  MATHEMATICAL BOLD SCRIPT SMALL E
-<Multi_key> <slash> <f>    :   "𝓯"    U1D4EF #  MATHEMATICAL BOLD SCRIPT SMALL F
-<Multi_key> <slash> <g>    :   "𝓰"    U1D4F0 #  MATHEMATICAL BOLD SCRIPT SMALL G
-<Multi_key> <slash> <h>    :   "𝓱"    U1D4F1 #  MATHEMATICAL BOLD SCRIPT SMALL H
-<Multi_key> <slash> <i>    :   "𝓲"    U1D4F2 #  MATHEMATICAL BOLD SCRIPT SMALL I
-<Multi_key> <slash> <j>    :   "𝓳"    U1D4F3 #  MATHEMATICAL BOLD SCRIPT SMALL J
-<Multi_key> <slash> <k>    :   "𝓴"    U1D4F4 #  MATHEMATICAL BOLD SCRIPT SMALL K
-<Multi_key> <slash> <l>    :   "𝓵"    U1D4F5 #  MATHEMATICAL BOLD SCRIPT SMALL L
-<Multi_key> <slash> <m>    :   "𝓶"    U1D4F6 #  MATHEMATICAL BOLD SCRIPT SMALL M
-<Multi_key> <slash> <n>    :   "𝓷"    U1D4F7 #  MATHEMATICAL BOLD SCRIPT SMALL N
-<Multi_key> <slash> <o>    :   "𝓸"    U1D4F8 #  MATHEMATICAL BOLD SCRIPT SMALL O
-<Multi_key> <slash> <p>    :   "𝓹"    U1D4F9 #  MATHEMATICAL BOLD SCRIPT SMALL P
-<Multi_key> <slash> <q>    :   "𝓺"    U1D4FA #  MATHEMATICAL BOLD SCRIPT SMALL Q
-<Multi_key> <slash> <r>    :   "𝓻"    U1D4FB #  MATHEMATICAL BOLD SCRIPT SMALL R
-<Multi_key> <slash> <s>    :   "𝓼"    U1D4FC #  MATHEMATICAL BOLD SCRIPT SMALL S
-<Multi_key> <slash> <t>    :   "𝓽"    U1D4FD #  MATHEMATICAL BOLD SCRIPT SMALL T
-<Multi_key> <slash> <u>    :   "𝓾"    U1D4FE #  MATHEMATICAL BOLD SCRIPT SMALL U
-<Multi_key> <slash> <v>    :   "𝓿"    U1D4FF #  MATHEMATICAL BOLD SCRIPT SMALL V
-<Multi_key> <slash> <w>    :   "𝔀"    U1D500 #  MATHEMATICAL BOLD SCRIPT SMALL W
-<Multi_key> <slash> <x>    :   "𝔁"    U1D501 #  MATHEMATICAL BOLD SCRIPT SMALL X
-<Multi_key> <slash> <y>    :   "𝔂"    U1D502 #  MATHEMATICAL BOLD SCRIPT SMALL Y
-<Multi_key> <slash> <z>    :   "𝔃"    U1D503 #  MATHEMATICAL BOLD SCRIPT SMALL Z
-                   
-<Multi_key> <slash> <A>    :   "𝓐"    U1D4D0 #  MATHEMATICAL BOLD SCRIPT CAPITAL A
-<Multi_key> <slash> <B>    :   "𝓑"    U1D4D1 #  MATHEMATICAL BOLD SCRIPT CAPITAL B
-<Multi_key> <slash> <C>    :   "𝓒"    U1D4D2 #  MATHEMATICAL BOLD SCRIPT CAPITAL C
-<Multi_key> <slash> <D>    :   "𝓓"    U1D4D3 #  MATHEMATICAL BOLD SCRIPT CAPITAL D
-<Multi_key> <slash> <E>    :   "𝓔"    U1D4D4 #  MATHEMATICAL BOLD SCRIPT CAPITAL E
-<Multi_key> <slash> <F>    :   "𝓕"    U1D4D5 #  MATHEMATICAL BOLD SCRIPT CAPITAL F
-<Multi_key> <slash> <G>    :   "𝓖"    U1D4D6 #  MATHEMATICAL BOLD SCRIPT CAPITAL G
-<Multi_key> <slash> <E>    :   "𝓔"    U1D4D4 #  MATHEMATICAL BOLD SCRIPT CAPITAL H
-<Multi_key> <slash> <I>    :   "𝓘"    U1D4D8 #  MATHEMATICAL BOLD SCRIPT CAPITAL I
-<Multi_key> <slash> <J>    :   "𝓙"    U1D4D9 #  MATHEMATICAL BOLD SCRIPT CAPITAL J
-<Multi_key> <slash> <K>    :   "𝓚"    U1D4DA #  MATHEMATICAL BOLD SCRIPT CAPITAL K
-<Multi_key> <slash> <L>    :   "𝓛"    U1D4DB #  MATHEMATICAL BOLD SCRIPT CAPITAL L
-<Multi_key> <slash> <M>    :   "𝓜"    U1D4DC #  MATHEMATICAL BOLD SCRIPT CAPITAL M
-<Multi_key> <slash> <N>    :   "𝓝"    U1D4DD #  MATHEMATICAL BOLD SCRIPT CAPITAL N
-<Multi_key> <slash> <O>    :   "𝓞"    U1D4DE #  MATHEMATICAL BOLD SCRIPT CAPITAL O
-<Multi_key> <slash> <P>    :   "𝓟"    U1D4DF #  MATHEMATICAL BOLD SCRIPT CAPITAL P
-<Multi_key> <slash> <Q>    :   "𝓠"    U1D4E0 #  MATHEMATICAL BOLD SCRIPT CAPITAL Q
-<Multi_key> <slash> <R>    :   "𝓡"    U1D4E1 #  MATHEMATICAL BOLD SCRIPT CAPITAL R
-<Multi_key> <slash> <S>    :   "𝓢"    U1D4E2 #  MATHEMATICAL BOLD SCRIPT CAPITAL S
-<Multi_key> <slash> <T>    :   "𝓣"    U1D4E3 #  MATHEMATICAL BOLD SCRIPT CAPITAL T
-<Multi_key> <slash> <U>    :   "𝓤"    U1D4E4 #  MATHEMATICAL BOLD SCRIPT CAPITAL U
-<Multi_key> <slash> <V>    :   "𝓥"    U1D4E5 #  MATHEMATICAL BOLD SCRIPT CAPITAL V
-<Multi_key> <slash> <W>    :   "𝓦"    U1D4E6 #  MATHEMATICAL BOLD SCRIPT CAPITAL W
-<Multi_key> <slash> <X>    :   "𝓧"    U1D4E7 #  MATHEMATICAL BOLD SCRIPT CAPITAL X
-<Multi_key> <slash> <Y>    :   "𝓨"    U1D4E8 #  MATHEMATICAL BOLD SCRIPT CAPITAL Y
-<Multi_key> <slash> <Z>	   :   "𝓩"    U1D4E9 # MATHEMATICAL BOLD SCRIPT CAPITAL Z
+<Multi_key> <backslash> <a>    :   "𝓪"    U1D4EA #  MATHEMATICAL BOLD SCRIPT SMALL A
+<Multi_key> <backslash> <b>    :   "𝓫"    U1D4EB #  MATHEMATICAL BOLD SCRIPT SMALL B
+<Multi_key> <backslash> <c>    :   "𝓬"    U1D4EC #  MATHEMATICAL BOLD SCRIPT SMALL C
+<Multi_key> <backslash> <d>    :   "𝓭"    U1D4ED #  MATHEMATICAL BOLD SCRIPT SMALL D
+<Multi_key> <backslash> <e>    :   "𝓮"    U1D4EE #  MATHEMATICAL BOLD SCRIPT SMALL E
+<Multi_key> <backslash> <f>    :   "𝓯"    U1D4EF #  MATHEMATICAL BOLD SCRIPT SMALL F
+<Multi_key> <backslash> <g>    :   "𝓰"    U1D4F0 #  MATHEMATICAL BOLD SCRIPT SMALL G
+<Multi_key> <backslash> <h>    :   "𝓱"    U1D4F1 #  MATHEMATICAL BOLD SCRIPT SMALL H
+<Multi_key> <backslash> <i>    :   "𝓲"    U1D4F2 #  MATHEMATICAL BOLD SCRIPT SMALL I
+<Multi_key> <backslash> <j>    :   "𝓳"    U1D4F3 #  MATHEMATICAL BOLD SCRIPT SMALL J
+<Multi_key> <backslash> <k>    :   "𝓴"    U1D4F4 #  MATHEMATICAL BOLD SCRIPT SMALL K
+<Multi_key> <backslash> <l>    :   "𝓵"    U1D4F5 #  MATHEMATICAL BOLD SCRIPT SMALL L
+<Multi_key> <backslash> <m>    :   "𝓶"    U1D4F6 #  MATHEMATICAL BOLD SCRIPT SMALL M
+<Multi_key> <backslash> <n>    :   "𝓷"    U1D4F7 #  MATHEMATICAL BOLD SCRIPT SMALL N
+<Multi_key> <backslash> <o>    :   "𝓸"    U1D4F8 #  MATHEMATICAL BOLD SCRIPT SMALL O
+<Multi_key> <backslash> <p>    :   "𝓹"    U1D4F9 #  MATHEMATICAL BOLD SCRIPT SMALL P
+<Multi_key> <backslash> <q>    :   "𝓺"    U1D4FA #  MATHEMATICAL BOLD SCRIPT SMALL Q
+<Multi_key> <backslash> <r>    :   "𝓻"    U1D4FB #  MATHEMATICAL BOLD SCRIPT SMALL R
+<Multi_key> <backslash> <s>    :   "𝓼"    U1D4FC #  MATHEMATICAL BOLD SCRIPT SMALL S
+<Multi_key> <backslash> <t>    :   "𝓽"    U1D4FD #  MATHEMATICAL BOLD SCRIPT SMALL T
+<Multi_key> <backslash> <u>    :   "𝓾"    U1D4FE #  MATHEMATICAL BOLD SCRIPT SMALL U
+<Multi_key> <backslash> <v>    :   "𝓿"    U1D4FF #  MATHEMATICAL BOLD SCRIPT SMALL V
+<Multi_key> <backslash> <w>    :   "𝔀"    U1D500 #  MATHEMATICAL BOLD SCRIPT SMALL W
+<Multi_key> <backslash> <x>    :   "𝔁"    U1D501 #  MATHEMATICAL BOLD SCRIPT SMALL X
+<Multi_key> <backslash> <y>    :   "𝔂"    U1D502 #  MATHEMATICAL BOLD SCRIPT SMALL Y
+<Multi_key> <backslash> <z>    :   "𝔃"    U1D503 #  MATHEMATICAL BOLD SCRIPT SMALL Z
+             back      
+<Multi_key> <backslash> <A>    :   "𝓐"    U1D4D0 #  MATHEMATICAL BOLD SCRIPT CAPITAL A
+<Multi_key> <backslash> <B>    :   "𝓑"    U1D4D1 #  MATHEMATICAL BOLD SCRIPT CAPITAL B
+<Multi_key> <backslash> <C>    :   "𝓒"    U1D4D2 #  MATHEMATICAL BOLD SCRIPT CAPITAL C
+<Multi_key> <backslash> <D>    :   "𝓓"    U1D4D3 #  MATHEMATICAL BOLD SCRIPT CAPITAL D
+<Multi_key> <backslash> <E>    :   "𝓔"    U1D4D4 #  MATHEMATICAL BOLD SCRIPT CAPITAL E
+<Multi_key> <backslash> <F>    :   "𝓕"    U1D4D5 #  MATHEMATICAL BOLD SCRIPT CAPITAL F
+<Multi_key> <backslash> <G>    :   "𝓖"    U1D4D6 #  MATHEMATICAL BOLD SCRIPT CAPITAL G
+<Multi_key> <backslash> <E>    :   "𝓔"    U1D4D4 #  MATHEMATICAL BOLD SCRIPT CAPITAL H
+<Multi_key> <backslash> <I>    :   "𝓘"    U1D4D8 #  MATHEMATICAL BOLD SCRIPT CAPITAL I
+<Multi_key> <backslash> <J>    :   "𝓙"    U1D4D9 #  MATHEMATICAL BOLD SCRIPT CAPITAL J
+<Multi_key> <backslash> <K>    :   "𝓚"    U1D4DA #  MATHEMATICAL BOLD SCRIPT CAPITAL K
+<Multi_key> <backslash> <L>    :   "𝓛"    U1D4DB #  MATHEMATICAL BOLD SCRIPT CAPITAL L
+<Multi_key> <backslash> <M>    :   "𝓜"    U1D4DC #  MATHEMATICAL BOLD SCRIPT CAPITAL M
+<Multi_key> <backslash> <N>    :   "𝓝"    U1D4DD #  MATHEMATICAL BOLD SCRIPT CAPITAL N
+<Multi_key> <backslash> <O>    :   "𝓞"    U1D4DE #  MATHEMATICAL BOLD SCRIPT CAPITAL O
+<Multi_key> <backslash> <P>    :   "𝓟"    U1D4DF #  MATHEMATICAL BOLD SCRIPT CAPITAL P
+<Multi_key> <backslash> <Q>    :   "𝓠"    U1D4E0 #  MATHEMATICAL BOLD SCRIPT CAPITAL Q
+<Multi_key> <backslash> <R>    :   "𝓡"    U1D4E1 #  MATHEMATICAL BOLD SCRIPT CAPITAL R
+<Multi_key> <backslash> <S>    :   "𝓢"    U1D4E2 #  MATHEMATICAL BOLD SCRIPT CAPITAL S
+<Multi_key> <backslash> <T>    :   "𝓣"    U1D4E3 #  MATHEMATICAL BOLD SCRIPT CAPITAL T
+<Multi_key> <backslash> <U>    :   "𝓤"    U1D4E4 #  MATHEMATICAL BOLD SCRIPT CAPITAL U
+<Multi_key> <backslash> <V>    :   "𝓥"    U1D4E5 #  MATHEMATICAL BOLD SCRIPT CAPITAL V
+<Multi_key> <backslash> <W>    :   "𝓦"    U1D4E6 #  MATHEMATICAL BOLD SCRIPT CAPITAL W
+<Multi_key> <backslash> <X>    :   "𝓧"    U1D4E7 #  MATHEMATICAL BOLD SCRIPT CAPITAL X
+<Multi_key> <backslash> <Y>    :   "𝓨"    U1D4E8 #  MATHEMATICAL BOLD SCRIPT CAPITAL Y
+<Multi_key> <backslash> <Z>	   :   "𝓩"    U1D4E9 # MATHEMATICAL BOLD SCRIPT CAPITAL Z
+
+
+######
+# all italic letters
+# mnemonic = "/" cuz italics are diagonal like the slash
+
+<Multi_key> <slash> <A>  		:	"𝑨"	U1D468	# MATHEMATICAL BOLD ITALIC CAPITAL A
+<Multi_key> <slash> <B>  		:	"𝑩"	U1D469	# MATHEMATICAL BOLD ITALIC CAPITAL B
+<Multi_key> <slash> <C>  		:	"𝑪"	U1D46A	# MATHEMATICAL BOLD ITALIC CAPITAL C
+<Multi_key> <slash> <D>  		:	"𝑫"	U1D46B	# MATHEMATICAL BOLD ITALIC CAPITAL D
+<Multi_key> <slash> <E>  		:	"𝑬"	U1D46C	# MATHEMATICAL BOLD ITALIC CAPITAL E
+<Multi_key> <slash> <F>  		:	"𝑭"	U1D46D	# MATHEMATICAL BOLD ITALIC CAPITAL F
+<Multi_key> <slash> <G>  		:	"𝑮"	U1D46E	# MATHEMATICAL BOLD ITALIC CAPITAL G
+<Multi_key> <slash> <H>  		:	"𝑯"	U1D46F	# MATHEMATICAL BOLD ITALIC CAPITAL H
+<Multi_key> <slash> <I>  		:	"𝑰"	U1D470	# MATHEMATICAL BOLD ITALIC CAPITAL I
+<Multi_key> <slash> <J>  		:	"𝑱"	U1D471	# MATHEMATICAL BOLD ITALIC CAPITAL J
+<Multi_key> <slash> <K>  		:	"𝑲"	U1D472	# MATHEMATICAL BOLD ITALIC CAPITAL K
+<Multi_key> <slash> <L>  		:	"𝑳"	U1D473	# MATHEMATICAL BOLD ITALIC CAPITAL L
+<Multi_key> <slash> <M>  		:	"𝑴"	U1D474	# MATHEMATICAL BOLD ITALIC CAPITAL M
+<Multi_key> <slash> <N>  		:	"𝑵"	U1D475	# MATHEMATICAL BOLD ITALIC CAPITAL N
+<Multi_key> <slash> <O>  		:	"𝑶"	U1D476	# MATHEMATICAL BOLD ITALIC CAPITAL O
+<Multi_key> <slash> <P>  		:	"𝑷"	U1D477	# MATHEMATICAL BOLD ITALIC CAPITAL P
+<Multi_key> <slash> <Q>  		:	"𝑸"	U1D478	# MATHEMATICAL BOLD ITALIC CAPITAL Q
+<Multi_key> <slash> <R>  		:	"𝑹"	U1D479	# MATHEMATICAL BOLD ITALIC CAPITAL R
+<Multi_key> <slash> <S>  		:	"𝑺"	U1D47A	# MATHEMATICAL BOLD ITALIC CAPITAL S
+<Multi_key> <slash> <T>  		:	"𝑻"	U1D47B	# MATHEMATICAL BOLD ITALIC CAPITAL T
+<Multi_key> <slash> <U>  		:	"𝑼"	U1D47C	# MATHEMATICAL BOLD ITALIC CAPITAL U
+<Multi_key> <slash> <V>  		:	"𝑽"	U1D47D	# MATHEMATICAL BOLD ITALIC CAPITAL V
+<Multi_key> <slash> <W>  		:	"𝑾"	U1D47E	# MATHEMATICAL BOLD ITALIC CAPITAL W
+<Multi_key> <slash> <X>  		:	"𝑿"	U1D47F	# MATHEMATICAL BOLD ITALIC CAPITAL X
+<Multi_key> <slash> <Y>  		:	"𝒀"	U1D480	# MATHEMATICAL BOLD ITALIC CAPITAL Y
+<Multi_key> <slash> <Z>  		:	"𝒁"	U1D481	# MATHEMATICAL BOLD ITALIC CAPITAL Z
+<Multi_key> <slash> <a>  		:	"𝒂"	U1D482	# MATHEMATICAL BOLD ITALIC SMALL A
+<Multi_key> <slash> <b>  		:	"𝒃"	U1D483	# MATHEMATICAL BOLD ITALIC SMALL B
+<Multi_key> <slash> <c>  		:	"𝒄"	U1D484	# MATHEMATICAL BOLD ITALIC SMALL C
+<Multi_key> <slash> <d>  		:	"𝒅"	U1D485	# MATHEMATICAL BOLD ITALIC SMALL D
+<Multi_key> <slash> <e>  		:	"𝒆"	U1D486	# MATHEMATICAL BOLD ITALIC SMALL E
+<Multi_key> <slash> <f>  		:	"𝒇"	U1D487	# MATHEMATICAL BOLD ITALIC SMALL F
+<Multi_key> <slash> <g>  		:	"𝒈"	U1D488	# MATHEMATICAL BOLD ITALIC SMALL G
+<Multi_key> <slash> <h>  		:	"𝒉"	U1D489	# MATHEMATICAL BOLD ITALIC SMALL H
+<Multi_key> <slash> <i>  		:	"𝒊"	U1D48A	# MATHEMATICAL BOLD ITALIC SMALL I
+<Multi_key> <slash> <j>  		:	"𝒋"	U1D48B	# MATHEMATICAL BOLD ITALIC SMALL J
+<Multi_key> <slash> <k>  		:	"𝒌"	U1D48C	# MATHEMATICAL BOLD ITALIC SMALL K
+<Multi_key> <slash> <l>  		:	"𝒍"	U1D48D	# MATHEMATICAL BOLD ITALIC SMALL L
+<Multi_key> <slash> <m>  		:	"𝒎"	U1D48E	# MATHEMATICAL BOLD ITALIC SMALL M
+<Multi_key> <slash> <n>  		:	"𝒏"	U1D48F	# MATHEMATICAL BOLD ITALIC SMALL N
+<Multi_key> <slash> <o>  		:	"𝒐"	U1D490	# MATHEMATICAL BOLD ITALIC SMALL O
+<Multi_key> <slash> <p>  		:	"𝒑"	U1D491	# MATHEMATICAL BOLD ITALIC SMALL P
+<Multi_key> <slash> <q>  		:	"𝒒"	U1D492	# MATHEMATICAL BOLD ITALIC SMALL Q
+<Multi_key> <slash> <r>  		:	"𝒓"	U1D493	# MATHEMATICAL BOLD ITALIC SMALL R
+<Multi_key> <slash> <s>  		:	"𝒔"	U1D494	# MATHEMATICAL BOLD ITALIC SMALL S
+<Multi_key> <slash> <t>  		:	"𝒕"	U1D495	# MATHEMATICAL BOLD ITALIC SMALL T
+<Multi_key> <slash> <u>  		:	"𝒖"	U1D496	# MATHEMATICAL BOLD ITALIC SMALL U
+<Multi_key> <slash> <v>  		:	"𝒗"	U1D497	# MATHEMATICAL BOLD ITALIC SMALL V
+<Multi_key> <slash> <w>  		:	"𝒘"	U1D498	# MATHEMATICAL BOLD ITALIC SMALL W
+<Multi_key> <slash> <x>  		:	"𝒙"	U1D499	# MATHEMATICAL BOLD ITALIC SMALL X
+<Multi_key> <slash> <y>  		:	"𝒚"	U1D49A	# MATHEMATICAL BOLD ITALIC SMALL Y
+<Multi_key> <slash> <z>  		:	"𝒛"	U1D49B	# MATHEMATICAL BOLD ITALIC SMALL Z
+
 
 
 ######
@@ -415,6 +474,40 @@
 <Multi_key> <comma> <asterisk> <r> : "ᵨ"  U1D68     # GREEK SUBSCRIPT SMALL LETTER RHO
 <Multi_key> <comma> <asterisk> <f> : "ᵩ"  U1D69     # GREEK SUBSCRIPT SMALL LETTER PHI
 <Multi_key> <comma> <asterisk> <x> : "ᵪ"  U1D6A     # GREEK SUBSCRIPT SMALL LETTER CHI
+
+
+# How about some small-caps?  We normally use a special character as a prefix,
+# but why not a suffix?  It won't interfere with things that way.
+# Several of these are also IPA, which is handy.  And so a few have multiple
+# entries.  Whatever.
+
+<Multi_key> <Down> <a>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <Down> <b>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <Down> <c>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <Down> <d>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <Down> <e>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <Down> <f>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <Down> <g>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <Down> <h>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <Down> <i>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <Down> <j>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <Down> <k>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <Down> <l>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <Down> <m>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <Down> <n>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <Down> <o>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <Down> <p>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <Down> <q>	    	  : "ꞯ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <Down> <r>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <Down> <s>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <Down> <t>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <Down> <u>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <Down> <v>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <Down> <w>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
+# There is no SMALL CAPITAL X (yet). use a regular lowercase x. it looks the exact same
+<Multi_key> <Down> <y>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <Down> <z>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z
+
 
 
 ######
