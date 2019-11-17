@@ -1,0 +1,35 @@
+# for all sorts of diacritics
+
+<Multi_key> <plus> <apostrophe> <grave>  			:	"̀"	U0300	# COMBINING GRAVE ACCENT
+<Multi_key> <plus> <apostrophe> <apostrophe>  		:	"́"	U0301	# COMBINING ACUTE ACCENT
+<Multi_key> <plus> <apostrophe> <asciicircum>  		:	"̂"	U0302	# COMBINING CIRCUMFLEX ACCENT
+<Multi_key> <plus> <apostrophe> <asciitilde>  		:	"̃"	U0303	# COMBINING TILDE
+<Multi_key> <plus> <apostrophe> <minus>  			:	"̄"	U0304	# COMBINING MACRON
+<Multi_key> <plus> <apostrophe> <u>  		:	"̆"	U0306	# COMBINING BREVE
+<Multi_key> <plus> <apostrophe> <period>  			:	"̇"	U0307	# COMBINING DOT ABOVE
+<Multi_key> <plus> <apostrophe> <2> <period>  		:	"̈"	U0308	# COMBINING DIAERESIS
+<Multi_key> <plus> <apostrophe> <question>  		:	"̉"	U0309	# COMBINING HOOK ABOVE
+<Multi_key> <plus> <apostrophe> <o>  				:	"̊"	U030A	# COMBINING RING ABOVE
+<Multi_key> <plus> <apostrophe> <2> <apostrophe> 	:	"̋"	U030B	# COMBINING DOUBLE ACUTE ACCENT
+<Multi_key> <plus> <apostrophe> <v>  				:	"̌"	U030C	# COMBINING CARON
+<Multi_key> <plus> <apostrophe> <bar>  				:	"̍"	U030D	# COMBINING VERTICAL LINE ABOVE
+<Multi_key> <plus> <apostrophe> <2> <bar>  			:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE
+<Multi_key> <plus> <apostrophe> <2> <grave>  		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
+
+<Multi_key> <plus> <apostrophe> <grave>				:	"̀"	U0300	# COMBINING GRAVE ACCENT
+<Multi_key> <plus> <apostrophe> <apostrophe>		:	"́"	U0301	# COMBINING ACUTE ACCENT
+<Multi_key> <plus> <apostrophe> <asciicircum>		:	"̂"	U0302	# COMBINING CIRCUMFLEX ACCENT
+<Multi_key> <plus> <apostrophe> <asciitilde>		:	"̃"	U0303	# COMBINING TILDE
+<Multi_key> <plus> <apostrophe> <minus>				:	"̄"	U0304	# COMBINING MACRON
+<Multi_key> <plus> <apostrophe> <u>				:	"̆"	U0306	# COMBINING BREVE
+<Multi_key> <plus> <apostrophe> <period>			:	"̇"	U0307	# COMBINING DOT ABOVE
+<Multi_key> <plus> <apostrophe> <2> <period>		:	"̈"	U0308	# COMBINING DIAERESIS
+<Multi_key> <plus> <apostrophe> <question>		:	"̉"	U0309	# COMBINING HOOK ABOVE
+<Multi_key> <plus> <apostrophe> <o>				:	"̊"	U030A	# COMBINING RING ABOVE
+<Multi_key> <plus> <apostrophe> <2> <apostrophe>		:	"̋"	U030B	# COMBINING DOUBLE ACUTE ACCENT
+<Multi_key> <plus> <apostrophe> <v>				:	"̌"	U030C	# COMBINING CARON
+<Multi_key> <plus> <apostrophe> <bar>				:	"̍"	U030D	# COMBINING VERTICAL LINE ABOVE
+<Multi_key> <plus> <apostrophe> <2> <bar>		:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE
+<Multi_key> <plus> <apostrophe> <2> <grave>		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
+
+
