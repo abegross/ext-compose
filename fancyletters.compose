@@ -512,7 +512,7 @@
 
 ######
 # circled characters
-# mnemonic is (X) cuz it looks like the letter is circled
+# mnemonic is (X) cuz it looks like the letter is circled. the period is just cuz this is actual parenthesis and not a full circle
 
 <Multi_key>  <parenleft> <period> <1> <parenright> :  "⑴"   U2474	# PARENTHESIZED DIGIT ONE
 <Multi_key>  <parenleft> <period> <2> <parenright> :  "⑵"   U2475	# PARENTHESIZED DIGIT TWO
@@ -534,6 +534,9 @@
 <Multi_key>  <parenleft> <period> <1> <8> <parenright> :  "⒅"   U2485	# PARENTHESIZED NUMBER EIGHTEEN
 <Multi_key>  <parenleft> <period> <1> <9> <parenright> :  "⒆"   U2486	# PARENTHESIZED NUMBER NINETEEN
 <Multi_key>  <parenleft> <period> <2> <0> <parenright> :  "⒇"   U2487	# PARENTHESIZED NUMBER TWENTY
+
+# abcs 
+
 <Multi_key>  <parenleft> <period> <a> <parenright> :  "⒜"   U249C	# PARENTHESIZED LATIN SMALL LETTER A
 <Multi_key>  <parenleft> <period> <b> <parenright> :  "⒝"   U249D	# PARENTHESIZED LATIN SMALL LETTER B
 <Multi_key>  <parenleft> <period> <c> <parenright> :  "⒞"   U249E	# PARENTHESIZED LATIN SMALL LETTER C
@@ -586,6 +589,10 @@
 <Multi_key>  <parenleft> <period> <X> <parenright> :  "🄧"   U1F127	# PARENTHESIZED LATIN CAPITAL LETTER X
 <Multi_key>  <parenleft> <period> <Y> <parenright> :  "🄨"   U1F128	# PARENTHESIZED LATIN CAPITAL LETTER Y
 <Multi_key>  <parenleft> <period> <Z> <parenright> :  "🄩"   U1F129	# PARENTHESIZED LATIN CAPITAL LETTER Z
+
+
+# numbers with attached period
+
 <Multi_key>  <period> <1> <period> :  "⒈"   U2488	# DIGIT ONE FULL STOP
 <Multi_key>  <period> <2> <period> :  "⒉"   U2489	# DIGIT TWO FULL STOP
 <Multi_key>  <period> <3> <period> :  "⒊"   U248A	# DIGIT THREE FULL STOP
@@ -607,16 +614,10 @@
 <Multi_key>  <period> <1> <9> <period> :  "⒚"   U249A	# NUMBER NINETEEN FULL STOP
 <Multi_key>  <period> <2> <0> <period> :  "⒛"   U249B	# NUMBER TWENTY FULL STOP
 <Multi_key>  <period> <0> <period> :  "🄀"   U1F100	# DIGIT ZERO FULL STOP
-<Multi_key>  <parenleft> <B> <1> <1> <parenright> :  "⓫"   U24EB	# NEGATIVE CIRCLED NUMBER ELEVEN
-<Multi_key>  <parenleft> <B> <1> <2> <parenright> :  "⓬"   U24EC	# NEGATIVE CIRCLED NUMBER TWELVE
-<Multi_key>  <parenleft> <B> <1> <3> <parenright> :  "⓭"   U24ED	# NEGATIVE CIRCLED NUMBER THIRTEEN
-<Multi_key>  <parenleft> <B> <1> <4> <parenright> :  "⓮"   U24EE	# NEGATIVE CIRCLED NUMBER FOURTEEN
-<Multi_key>  <parenleft> <B> <1> <5> <parenright> :  "⓯"   U24EF	# NEGATIVE CIRCLED NUMBER FIFTEEN
-<Multi_key>  <parenleft> <B> <1> <6> <parenright> :  "⓰"   U24F0	# NEGATIVE CIRCLED NUMBER SIXTEEN
-<Multi_key>  <parenleft> <B> <1> <7> <parenright> :  "⓱"   U24F1	# NEGATIVE CIRCLED NUMBER SEVENTEEN
-<Multi_key>  <parenleft> <B> <1> <8> <parenright> :  "⓲"   U24F2	# NEGATIVE CIRCLED NUMBER EIGHTEEN
-<Multi_key>  <parenleft> <B> <1> <9> <parenright> :  "⓳"   U24F3	# NEGATIVE CIRCLED NUMBER NINETEEN
-<Multi_key>  <parenleft> <B> <2> <0> <parenright> :  "⓴"   U24F4	# NEGATIVE CIRCLED NUMBER TWENTY
+
+
+# inverted dark/black circled serif numbers
+
 <Multi_key>  <parenleft> <B> <0> <parenright> :  "⓿"   U24FF	# NEGATIVE CIRCLED DIGIT ZERO
 <Multi_key>  <parenleft> <B> <1> <parenright> :  "❶"   U2776	# DINGBAT NEGATIVE CIRCLED DIGIT ONE
 <Multi_key>  <parenleft> <B> <2> <parenright> :  "❷"   U2777	# DINGBAT NEGATIVE CIRCLED DIGIT TWO
@@ -628,6 +629,19 @@
 <Multi_key>  <parenleft> <B> <8> <parenright> :  "❽"   U277D	# DINGBAT NEGATIVE CIRCLED DIGIT EIGHT
 <Multi_key>  <parenleft> <B> <9> <parenright> :  "❾"   U277E	# DINGBAT NEGATIVE CIRCLED DIGIT NINE
 <Multi_key>  <parenleft> <B> <1> <0> <parenright> :  "❿"   U277F	# DINGBAT NEGATIVE CIRCLED NUMBER TEN
+<Multi_key>  <parenleft> <B> <1> <1> <parenright> :  "⓫"   U24EB	# NEGATIVE CIRCLED NUMBER ELEVEN
+<Multi_key>  <parenleft> <B> <1> <2> <parenright> :  "⓬"   U24EC	# NEGATIVE CIRCLED NUMBER TWELVE
+<Multi_key>  <parenleft> <B> <1> <3> <parenright> :  "⓭"   U24ED	# NEGATIVE CIRCLED NUMBER THIRTEEN
+<Multi_key>  <parenleft> <B> <1> <4> <parenright> :  "⓮"   U24EE	# NEGATIVE CIRCLED NUMBER FOURTEEN
+<Multi_key>  <parenleft> <B> <1> <5> <parenright> :  "⓯"   U24EF	# NEGATIVE CIRCLED NUMBER FIFTEEN
+<Multi_key>  <parenleft> <B> <1> <6> <parenright> :  "⓰"   U24F0	# NEGATIVE CIRCLED NUMBER SIXTEEN
+<Multi_key>  <parenleft> <B> <1> <7> <parenright> :  "⓱"   U24F1	# NEGATIVE CIRCLED NUMBER SEVENTEEN
+<Multi_key>  <parenleft> <B> <1> <8> <parenright> :  "⓲"   U24F2	# NEGATIVE CIRCLED NUMBER EIGHTEEN
+<Multi_key>  <parenleft> <B> <1> <9> <parenright> :  "⓳"   U24F3	# NEGATIVE CIRCLED NUMBER NINETEEN
+<Multi_key>  <parenleft> <B> <2> <0> <parenright> :  "⓴"   U24F4	# NEGATIVE CIRCLED NUMBER TWENTY
+
+# inverted dark/black circled abcs
+
 <Multi_key>  <parenleft> <B> <A> <parenright> :  "🅐"   U1F150	# NEGATIVE CIRCLED LATIN CAPITAL LETTER A
 <Multi_key>  <parenleft> <B> <B> <parenright> :  "🅑"   U1F151	# NEGATIVE CIRCLED LATIN CAPITAL LETTER B
 <Multi_key>  <parenleft> <B> <C> <parenright> :  "🅒"   U1F152	# NEGATIVE CIRCLED LATIN CAPITAL LETTER C
@@ -654,6 +668,8 @@
 <Multi_key>  <parenleft> <B> <X> <parenright> :  "🅧"   U1F167	# NEGATIVE CIRCLED LATIN CAPITAL LETTER X
 <Multi_key>  <parenleft> <B> <Y> <parenright> :  "🅨"   U1F168	# NEGATIVE CIRCLED LATIN CAPITAL LETTER Y
 <Multi_key>  <parenleft> <B> <Z> <parenright> :  "🅩"   U1F169	# NEGATIVE CIRCLED LATIN CAPITAL LETTER Z
+
+#now rectangular
 <Multi_key>  <bracketleft> <B> <a> <bracketright> :  "🅰"   U1F170	# NEGATIVE SQUARED LATIN CAPITAL LETTER A
 <Multi_key>  <bracketleft> <B> <b> <bracketright> :  "🅱"   U1F171	# NEGATIVE SQUARED LATIN CAPITAL LETTER B
 <Multi_key>  <bracketleft> <B> <c> <bracketright> :  "🅲"   U1F172	# NEGATIVE SQUARED LATIN CAPITAL LETTER C
@@ -681,6 +697,8 @@
 <Multi_key>  <bracketleft> <B> <y> <bracketright> :  "🆈"   U1F188	# NEGATIVE SQUARED LATIN CAPITAL LETTER Y
 <Multi_key>  <bracketleft> <B> <z> <bracketright> :  "🆉"   U1F189	# NEGATIVE SQUARED LATIN CAPITAL LETTER Z
 <Multi_key>  <bracketleft> <B> <W> <C> <bracketright> :  "🆏"   U1F18F	# NEGATIVE SQUARED WC
+
+# double circled numbers
 ### Using <parenleft> <parenleft> ... <parenright> <parenright> conflicts
 ### with system entries.  Using the *letter* O.
 <Multi_key> <parenleft> <O> <1> <parenright> :  "⓵"   U24F5	# DOUBLE CIRCLED DIGIT ONE
@@ -710,4 +728,6 @@
 <Multi_key> <parenleft> <b> <8> <parenright>    :   "➑"    U2791 # DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT EIGHT
 <Multi_key> <parenleft> <b> <9> <parenright>    :   "➒"    U2792 # DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT NINE
 <Multi_key> <parenleft> <b> <1> <0> <parenright>:   "➓"    U2793 # DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT TEN
+
+
 

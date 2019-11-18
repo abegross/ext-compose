@@ -258,6 +258,8 @@
 <Multi_key> <q> <ampersand> <p>	:	"ȹ"	U0239	# LATIN SMALL LETTER QP DIGRAPH
 <Multi_key> <w> <y>	    	:	"ƿ"	U01BF	# LATIN LETTER WYNN
 <Multi_key> <W> <Y>		:	"Ƿ"	U01F7	# LATIN CAPITAL LETTER WYNN
+<Multi_key> <H> <W>                         		:	"Ƕ"	U01F6	# LATIN CAPITAL LETTER HWAIR  
+<Multi_key> <h> <w>                         		:	"ƕ"	U0195	# LATIN SMALL LETTER HV
 <Multi_key> <O> <U>		:	"Ȣ"	U0222	# LATIN CAPITAL LETTER OU
 <Multi_key> <o> <u>		:	"ȣ"	U0223	# LATIN SMALL LETTER OU
 <Multi_key> <y> <r>		:	"Ʀ"	U01A6	# LATIN LETTER YR

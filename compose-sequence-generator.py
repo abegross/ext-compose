@@ -73,31 +73,21 @@ def replace(sequence):
 sequence = replace(sequence)
 
 if len(regular) == len(composed):
-    text = ""
-    sequences=[[],[]]
-    length=0
+    sequences=[]
     for position in range(len(regular)):
         current_sequence = sequence.replace("<★>", replace(regular[position])).strip()
-        if len(current_sequence) > length:
-            length = len(current_sequence)
-        sequences.append(current_sequence)
-        sequences.append('\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata2.name(composed[position]))#+'\n')
-        # add extra tabs if the finished compose sequence is too short (so that it lines up right)
+        sequences.append([])
+        sequences[position].append(current_sequence)
+        sequences[position].append('\t\t:\t"'+composed[position]+'"\t'+str('U%04X' % ord(composed[position])) +'\t# '+ unicodedata2.name(composed[position]))#+'\n')
     
+    text = ""
+    # add extra tabs if the finished compose sequence is too short (so that it lines up right)
     col_width = max(len(word) for row in sequences for word in row) + 2  # padding
     for row in sequences:
-        print("".join(word.ljust(col_width) for word in row))
-
-
-
-    # Print each row using the computed format
-    # for row in sequences:
-      # print(row+"|")
-
-
+        text += ("".join(word.ljust(col_width) for word in row)+"\n")
 
     print(text.strip())
-    pyperclip.copy(text)
+    pyperclip.copy(text.strip())
 else:
     print("regular ("+ str(len(regular))+ ") is not equal to composed ("+str(len(composed))+ ")")
 

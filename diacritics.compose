@@ -1,35 +1,75 @@
 # for all sorts of diacritics
 
-<Multi_key> <plus> <apostrophe> <grave>  			:	"̀"	U0300	# COMBINING GRAVE ACCENT
-<Multi_key> <plus> <apostrophe> <apostrophe>  		:	"́"	U0301	# COMBINING ACUTE ACCENT
-<Multi_key> <plus> <apostrophe> <asciicircum>  		:	"̂"	U0302	# COMBINING CIRCUMFLEX ACCENT
-<Multi_key> <plus> <apostrophe> <asciitilde>  		:	"̃"	U0303	# COMBINING TILDE
-<Multi_key> <plus> <apostrophe> <minus>  			:	"̄"	U0304	# COMBINING MACRON
-<Multi_key> <plus> <apostrophe> <u>  		:	"̆"	U0306	# COMBINING BREVE
-<Multi_key> <plus> <apostrophe> <period>  			:	"̇"	U0307	# COMBINING DOT ABOVE
-<Multi_key> <plus> <apostrophe> <2> <period>  		:	"̈"	U0308	# COMBINING DIAERESIS
-<Multi_key> <plus> <apostrophe> <question>  		:	"̉"	U0309	# COMBINING HOOK ABOVE
-<Multi_key> <plus> <apostrophe> <o>  				:	"̊"	U030A	# COMBINING RING ABOVE
-<Multi_key> <plus> <apostrophe> <2> <apostrophe> 	:	"̋"	U030B	# COMBINING DOUBLE ACUTE ACCENT
-<Multi_key> <plus> <apostrophe> <v>  				:	"̌"	U030C	# COMBINING CARON
-<Multi_key> <plus> <apostrophe> <bar>  				:	"̍"	U030D	# COMBINING VERTICAL LINE ABOVE
-<Multi_key> <plus> <apostrophe> <2> <bar>  			:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE
-<Multi_key> <plus> <apostrophe> <2> <grave>  		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
+# the mnemonic is "+" cuz u 𝓪𝓭𝓭 the diacritic to the previous character.
 
-<Multi_key> <plus> <apostrophe> <grave>				:	"̀"	U0300	# COMBINING GRAVE ACCENT
-<Multi_key> <plus> <apostrophe> <apostrophe>		:	"́"	U0301	# COMBINING ACUTE ACCENT
-<Multi_key> <plus> <apostrophe> <asciicircum>		:	"̂"	U0302	# COMBINING CIRCUMFLEX ACCENT
-<Multi_key> <plus> <apostrophe> <asciitilde>		:	"̃"	U0303	# COMBINING TILDE
-<Multi_key> <plus> <apostrophe> <minus>				:	"̄"	U0304	# COMBINING MACRON
-<Multi_key> <plus> <apostrophe> <u>				:	"̆"	U0306	# COMBINING BREVE
-<Multi_key> <plus> <apostrophe> <period>			:	"̇"	U0307	# COMBINING DOT ABOVE
-<Multi_key> <plus> <apostrophe> <2> <period>		:	"̈"	U0308	# COMBINING DIAERESIS
-<Multi_key> <plus> <apostrophe> <question>		:	"̉"	U0309	# COMBINING HOOK ABOVE
-<Multi_key> <plus> <apostrophe> <o>				:	"̊"	U030A	# COMBINING RING ABOVE
-<Multi_key> <plus> <apostrophe> <2> <apostrophe>		:	"̋"	U030B	# COMBINING DOUBLE ACUTE ACCENT
-<Multi_key> <plus> <apostrophe> <v>				:	"̌"	U030C	# COMBINING CARON
-<Multi_key> <plus> <apostrophe> <bar>				:	"̍"	U030D	# COMBINING VERTICAL LINE ABOVE
-<Multi_key> <plus> <apostrophe> <2> <bar>		:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE
-<Multi_key> <plus> <apostrophe> <2> <grave>		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
+######
+# diacritics from above
+# the "'" (apostrophe) represents the diacritic going above the letter as opposed to below ("," - comma)
+
+<Multi_key> <plus> <apostrophe> <grave>               		:	"̀"	U0300	# COMBINING GRAVE ACCENT                
+<Multi_key> <plus> <apostrophe> <apostrophe>          		:	"́"	U0301	# COMBINING ACUTE ACCENT                
+<Multi_key> <plus> <apostrophe> <asciicircum>         		:	"̂"	U0302	# COMBINING CIRCUMFLEX ACCENT           
+<Multi_key> <plus> <apostrophe> <asciitilde>          		:	"̃"	U0303	# COMBINING TILDE                       
+<Multi_key> <plus> <apostrophe> <minus>               		:	"̄"	U0304	# COMBINING MACRON                      
+<Multi_key> <plus> <apostrophe> <u>                   		:	"̆"	U0306	# COMBINING BREVE                       
+<Multi_key> <plus> <apostrophe> <period>              		:	"̇"	U0307	# COMBINING DOT ABOVE                   
+<Multi_key> <plus> <apostrophe> <2> <period>          		:	"̈"	U0308	# COMBINING DIAERESIS                   
+<Multi_key> <plus> <apostrophe> <question>            		:	"̉"	U0309	# COMBINING HOOK ABOVE                  
+<Multi_key> <plus> <apostrophe> <o>                   		:	"̊"	U030A	# COMBINING RING ABOVE                  
+<Multi_key> <plus> <apostrophe> <2> <apostrophe>      		:	"̋"	U030B	# COMBINING DOUBLE ACUTE ACCENT         
+<Multi_key> <plus> <apostrophe> <v>                   		:	"̌"	U030C	# COMBINING CARON                       
+<Multi_key> <plus> <apostrophe> <bar>                 		:	"̍"	U030D	# COMBINING VERTICAL LINE ABOVE         
+<Multi_key> <plus> <apostrophe> <2> <bar>             		:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE  
+<Multi_key> <plus> <apostrophe> <2> <grave>           		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
+<Multi_key> <plus> <apostrophe> <parenleft>           		:	"͡"	U0361	# COMBINING DOUBLE INVERTED BREVE
+<Multi_key> <plus> <apostrophe> <bracketleft>       		:	"͆"	U0346	# COMBINING BRIDGE ABOVE             
+<Multi_key> <plus> <apostrophe> <2> <asciitilde>    		:	"͠"	U0360	# COMBINING DOUBLE TILDE             
+<Multi_key> <plus> <apostrophe> <A>                 		:	"ͣ"	U0363	# COMBINING LATIN SMALL LETTER A     
+<Multi_key> <plus> <apostrophe> <E>                 		:	"ͤ"	U0364	# COMBINING LATIN SMALL LETTER E     
+<Multi_key> <plus> <apostrophe> <I>                 		:	"ͥ"	U0365	# COMBINING LATIN SMALL LETTER I     
+<Multi_key> <plus> <apostrophe> <O>                 		:	"ͦ"	U0366	# COMBINING LATIN SMALL LETTER O     
+<Multi_key> <plus> <apostrophe> <U>                 		:	"ͧ"	U0367	# COMBINING LATIN SMALL LETTER U     
+<Multi_key> <plus> <apostrophe> <C>                 		:	"ͨ"	U0368	# COMBINING LATIN SMALL LETTER C     
+<Multi_key> <plus> <apostrophe> <D>                 		:	"ͩ"	U0369	# COMBINING LATIN SMALL LETTER D     
+<Multi_key> <plus> <apostrophe> <H>                 		:	"ͪ"	U036A	# COMBINING LATIN SMALL LETTER H     
+<Multi_key> <plus> <apostrophe> <M>                 		:	"ͫ"	U036B	# COMBINING LATIN SMALL LETTER M     
+<Multi_key> <plus> <apostrophe> <R>                 		:	"ͬ"	U036C	# COMBINING LATIN SMALL LETTER R     
+<Multi_key> <plus> <apostrophe> <T>                 		:	"ͭ"	U036D	# COMBINING LATIN SMALL LETTER T     
+<Multi_key> <plus> <apostrophe> <V>                 		:	"ͮ"	U036E	# COMBINING LATIN SMALL LETTER V     
+<Multi_key> <plus> <apostrophe> <X>                 		:	"ͯ"	U036F	# COMBINING LATIN SMALL LETTER X     
+<Multi_key> <plus> <apostrophe> <colon>             		:	"᪴"	U1AB4	# COMBINING TRIPLE DOT               
+<Multi_key> <plus> <apostrophe> <numbersign>        		:	"᷋"	U1DCB	# COMBINING BREVE-MACRON             
+<Multi_key> <plus> <apostrophe> <numbersign>        		:	"᷌"	U1DCC	# COMBINING MACRON-BREVE             
+<Multi_key> <plus> <apostrophe> <2> <asciicircum>   		:	"᷍"	U1DCD	# COMBINING DOUBLE CIRCUMFLEX ABOVE  
+<Multi_key> <plus> <apostrophe> <comma>             		:	"᷎"	U1DCE	# COMBINING OGONEK ABOVE             
+<Multi_key> <plus> <apostrophe> <asterisk>          		:	"⃰"	U20F0	# COMBINING ASTERISK ABOVE
 
 
+######
+# diacritics from above
+# the "," (comma) represents the diacritic going below the letter as opposed to above ("'" - apostrophe)
+
+<Multi_key> <plus> <comma> <grave> 							:	"̖"	U0316	# COMBINING GRAVE ACCENT BELOW                      
+<Multi_key> <plus> <comma> <Left> 							:	"̘"	U0318	# COMBINING LEFT TACK BELOW                         
+<Multi_key> <plus> <comma> <Right> 							:	"̙"	U0319	# COMBINING RIGHT TACK BELOW                        
+<Multi_key> <plus> <comma> <Up> 							:	"̝"	U031D	# COMBINING UP TACK BELOW                           
+<Multi_key> <plus> <comma> <Down> 							:	"̞"	U031E	# COMBINING DOWN TACK BELOW                         
+<Multi_key> <plus> <comma> <plus>                     		:	"̟"	U031F	# COMBINING PLUS SIGN BELOW                         
+<Multi_key> <plus> <comma> <minus>                    		:	"̠"	U0320	# COMBINING MINUS SIGN BELOW                        
+<Multi_key> <plus> <comma> <period>                   		:	"̣"	U0323	# COMBINING DOT BELOW                               
+<Multi_key> <plus> <comma> <2> <period>               		:	"̤"	U0324	# COMBINING DIAERESIS BELOW                         
+<Multi_key> <plus> <comma> <o>                        		:	"̥"	U0325	# COMBINING RING BELOW                              
+<Multi_key> <plus> <comma> <comma>                    		:	"̦"	U0326	# COMBINING COMMA BELOW                             
+<Multi_key> <plus> <comma> <c>                        		:	"̧"	U0327	# COMBINING CEDILLA                                 
+<Multi_key> <plus> <comma> <bar>                      		:	"̩"	U0329	# COMBINING VERTICAL LINE BELOW                     
+<Multi_key> <plus> <comma> <bracketleft>              		:	"̪"	U032A	# COMBINING BRIDGE BELOW                            
+<Multi_key> <plus> <comma> <w>                        		:	"̫"	U032B	# COMBINING INVERTED DOUBLE ARCH BELOW              
+<Multi_key> <plus> <comma> <asciitilde>               		:	"̰"	U0330	# COMBINING TILDE BELOW                             
+<Multi_key> <plus> <comma> <m>                        		:	"̼"	U033C	# COMBINING SEAGULL BELOW                           
+<Multi_key> <plus> <comma> <g>                        		:	"͉"	U0349	# COMBINING LEFT ANGLE BELOW                        
+<Multi_key> <plus> <comma> <less>                     		:	"͔"	U0354	# COMBINING LEFT ARROWHEAD BELOW                    
+<Multi_key> <plus> <comma> <greater>                  		:	"͕"	U0355	# COMBINING RIGHT ARROWHEAD BELOW                   
+<Multi_key> <plus> <comma> <2> <greater>              		:	"͖"	U0356	# COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW  
+<Multi_key> <plus> <comma> <parenright>               		:	"͜"	U035C	# COMBINING DOUBLE BREVE BELOW                      
+<Multi_key> <plus> <comma> <2> <asciitilde>           		:	"᪶"	U1AB6	# COMBINING WIGGLY LINE BELOW                       
+<Multi_key> <plus> <comma> <s>                        		:	"᷏"	U1DCF	# COMBINING ZIGZAG BELOW
