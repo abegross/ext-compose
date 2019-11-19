@@ -73,3 +73,9 @@
 <Multi_key> <plus> <comma> <parenright>               		:	"͜"	U035C	# COMBINING DOUBLE BREVE BELOW                      
 <Multi_key> <plus> <comma> <2> <asciitilde>           		:	"᪶"	U1AB6	# COMBINING WIGGLY LINE BELOW                       
 <Multi_key> <plus> <comma> <s>                        		:	"᷏"	U1DCF	# COMBINING ZIGZAG BELOW
+<Multi_key> <plus> <comma> <underscore>						:  "̲"  	U0332	# COMBINING LOW LINE
+
+#####
+# diacritics ontop of the letter (right in the middle)
+
+<Multi_key> <plus> <period> <minus>	 						:	"̶ "		U0336	# COMBINING LONG STROKE OVERLAY

@@ -52,7 +52,7 @@
 <Multi_key> <H> <w> <u>			: "𛄪" #WU this one is unused now
 <Multi_key> <H> <w> <e>			: "ゑ" #WE same as above
 <Multi_key> <H> <w> <o>			: "を" #WO
-<Multi_key>     <n> <h>     	: "ん" #N
+<Multi_key> <H> <n> <n>			: "ん" #N
                
                
 # 濁点         
@@ -162,7 +162,7 @@
 <Multi_key> <K> <w> <u>			: "𛄮" #WU
 <Multi_key> <K> <w> <e>			: "ヱ" #WE same as above
 <Multi_key> <K> <w> <o>			: "ヲ" #WO
-<Multi_key> <K> <n>				: "ン" #N
+<Multi_key> <K> <n> <n>			: "ン" #N
                
                
                

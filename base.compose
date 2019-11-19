@@ -132,6 +132,8 @@
 <Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
 <Multi_key> <Up> <ampersand> <Down>     : "⇵"	U21F5		# DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW
 <Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
+<Multi_key> <greater> <bar>             : "↳"   U21B3           # DOWNWARDS ARROW WITH TIP RIGHTWARDS
+<Multi_key> <Down> <Right>              : "↳"   U21B3           # DOWNWARDS ARROW WITH TIP RIGHTWARDS
 <Multi_key> <Left> <o>			: "⟲"	U27F2		# ANTICLOCKWISE GAPPED CIRCLE ARROW
 <Multi_key> <Right> <o>			: "⟳"	U27F3		# CLOCKWISE GAPPED CIRCLE ARROW
 <Multi_key> <Left> <c>			: "↺"	U21BA		# ANTICLOCKWISE OPEN CIRCLE ARROW
@@ -902,7 +904,7 @@
 # How are these keystrokes?
 <Multi_key> <apostrophe> <bar>		: "ˈ"	U02C8		# MODIFIER LETTER VERTICAL LINE
 <Multi_key> <comma> <bar>		: "ˌ"	U02CC		# MODIFIER LETTER LOW VERTICAL LINE
-<Multi_key> <underscore> <bar>		: "̩"	U0329		# COMBINING VERTICAL LINE BELOW
+#<Multi_key> <underscore> <bar>		: "̩"	U0329		# COMBINING VERTICAL LINE BELOW
 # Harmonize with other combiners.
 <Multi_key> <backslash> <underscore> <bar>	: "̩"	U0329		# COMBINING VERTICAL LINE BELOW
 <Multi_key> <r> <r>                     : "ɹ"   U0279           # LATIN SMALL LETTER TURNED R: voiced alveolar approximant (American English (at least) R)
