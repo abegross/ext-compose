@@ -45,6 +45,7 @@
 
 
 # Quotation marks.
+<Multi_key> <backslash> <grave>                      :  "´" 	U00B4   #ACUTE ACCENT
 <Multi_key> <comma> <space>		: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK
 <Multi_key> <comma> <comma>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
 <Multi_key> <less> <comma> <comma>	: "⹂"	U2E42		# DOUBLE LOW-REVERSED-9 QUOTATION MARK
@@ -190,6 +191,8 @@
 <Multi_key> <F> <l>		: "ﬄ"	   UFB04   # LATIN SMALL LIGATURE FFL
 <Multi_key> <s> <t>		: "ﬆ"  UFB06	   # LATIN SMALL LIGATURE ST
 <Multi_key> <f> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
+<Multi_key> <d> <b>                                  :  "ȸ" 	U0238   # D AND B LIGATURE
+<Multi_key> <c> <h>                                  :  "ꕈ" 	UA548   # C+H LIGATURE (VAI SYLLABLE NYI)
 # allow me still to use my ſ key, okay?
 <Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
@@ -349,6 +352,8 @@
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+<Multi_key> <parenleft> <period> <parenright>        :  "○" 	U25BC   # WHITE CIRCLE
+<Multi_key> <parenleft> <b> <period> <parenright>    :  "●" 	U25CF   # BLACK CIRCLE
 # )- conflicts with system for }.
 <Multi_key> <parenright> <underscore>    : "⟌"   	U27CC		# LONG DIVISION
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
@@ -433,6 +438,10 @@
 <Multi_key> <bar> <bracketright>:   "⟧"	U27E7	# MATHEMATICAL RIGHT WHITE SQUARE BRACKET
 <Multi_key> <2> <less> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
 <Multi_key> <2> <greater> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+<Multi_key> <parenleft> <parenleft>                  :  "❨" 	U2768   # MEDIUM LEFT PARENTHESIS ORNAMENT
+<Multi_key> <parenright> <parenright>                :  "❩" 	U2769   # MEDIUM RIGHT PARENTHESIS ORNAMENT 
+<Multi_key> <slash> <quotedbl>                     	 :  "ᔇ" 	U1507   # EXACT QUOTE OPENING QUOTATION (CANADIAN SYLLABICS SW)
+<Multi_key> <quotedbl> <slash>                     	 :  "ᔅ" 	U1505   # EXACT QUOTE CLOSING QUOTATION (CANADIAN SYLLABICS S)
 # Keystrokes inconsistent.
 <Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
 <Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
@@ -882,6 +891,7 @@
 <Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
+<Multi_key> <colon> <colon>                          :  "ː"     U02D0   # MODIFIER LETTER TRIANGULAR COLON
 <Multi_key> <p> <h>			: "ɸ"	U0278		# LATIN SMALL LETTER PHI
 <Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <I> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
@@ -1285,3 +1295,6 @@
 
 <Multi_key> <bracketleft>  <parenleft> <bracketright> <parenright> 		:	"⎄"	U2384	# COMPOSITION SYMBOL
 
+<Multi_key> <b> <z>	                         	     :	"⌬"		U232C	# benzene with three double bonds
+<Multi_key> <o> <c>                                  :  "◷" 	U25F7   # O'CLOCK SYMBOL (WHITE CIRCLE WITH UPPER RIGHT QUADRANT)
+<Multi_key> <j> <i>                                  :	"時"	U6642	# Ideograph time, season; era, age, period CJK

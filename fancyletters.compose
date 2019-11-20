@@ -2,60 +2,60 @@
 # aren't important enough for the real dotXcompose, but if you want them,
 # you can always include them using the include directive.
 
-<Multi_key> <asterisk> <A>	:	"𝕬"	U1D56C	# MATHEMATICAL BOLD FRAKTUR CAPITAL A
-<Multi_key> <asterisk> <B>	:	"𝕭"	U1D56D	# MATHEMATICAL BOLD FRAKTUR CAPITAL B
-<Multi_key> <asterisk> <C>	:	"𝕮"	U1D56E	# MATHEMATICAL BOLD FRAKTUR CAPITAL C
-<Multi_key> <asterisk> <D>	:	"𝕯"	U1D56F	# MATHEMATICAL BOLD FRAKTUR CAPITAL D
-<Multi_key> <asterisk> <E>	:	"𝕰"	U1D570	# MATHEMATICAL BOLD FRAKTUR CAPITAL E
-<Multi_key> <asterisk> <F>	:	"𝕱"	U1D571	# MATHEMATICAL BOLD FRAKTUR CAPITAL F
-<Multi_key> <asterisk> <G>	:	"𝕲"	U1D572	# MATHEMATICAL BOLD FRAKTUR CAPITAL G
-<Multi_key> <asterisk> <H>	:	"𝕳"	U1D573	# MATHEMATICAL BOLD FRAKTUR CAPITAL H
-<Multi_key> <asterisk> <I>	:	"𝕴"	U1D574	# MATHEMATICAL BOLD FRAKTUR CAPITAL I
-<Multi_key> <asterisk> <J>	:	"𝕵"	U1D575	# MATHEMATICAL BOLD FRAKTUR CAPITAL J
-<Multi_key> <asterisk> <K>	:	"𝕶"	U1D576	# MATHEMATICAL BOLD FRAKTUR CAPITAL K
-<Multi_key> <asterisk> <L>	:	"𝕷"	U1D577	# MATHEMATICAL BOLD FRAKTUR CAPITAL L
-<Multi_key> <asterisk> <M>	:	"𝕸"	U1D578	# MATHEMATICAL BOLD FRAKTUR CAPITAL M
-<Multi_key> <asterisk> <N>	:	"𝕹"	U1D579	# MATHEMATICAL BOLD FRAKTUR CAPITAL N
-<Multi_key> <asterisk> <O>	:	"𝕺"	U1D57A	# MATHEMATICAL BOLD FRAKTUR CAPITAL O
-<Multi_key> <asterisk> <P>	:	"𝕻"	U1D57B	# MATHEMATICAL BOLD FRAKTUR CAPITAL P
-<Multi_key> <asterisk> <Q>	:	"𝕼"	U1D57C	# MATHEMATICAL BOLD FRAKTUR CAPITAL Q
-<Multi_key> <asterisk> <R>	:	"𝕽"	U1D57D	# MATHEMATICAL BOLD FRAKTUR CAPITAL R
-<Multi_key> <asterisk> <S>	:	"𝕾"	U1D57E	# MATHEMATICAL BOLD FRAKTUR CAPITAL S
-<Multi_key> <asterisk> <T>	:	"𝕿"	U1D57F	# MATHEMATICAL BOLD FRAKTUR CAPITAL T
-<Multi_key> <asterisk> <U>	:	"𝖀"	U1D580	# MATHEMATICAL BOLD FRAKTUR CAPITAL U
-<Multi_key> <asterisk> <V>	:	"𝖁"	U1D581	# MATHEMATICAL BOLD FRAKTUR CAPITAL V
-<Multi_key> <asterisk> <W>	:	"𝖂"	U1D582	# MATHEMATICAL BOLD FRAKTUR CAPITAL W
-<Multi_key> <asterisk> <X>	:	"𝖃"	U1D583	# MATHEMATICAL BOLD FRAKTUR CAPITAL X
-<Multi_key> <asterisk> <Y>	:	"𝖄"	U1D584	# MATHEMATICAL BOLD FRAKTUR CAPITAL Y
-<Multi_key> <asterisk> <Z>	:	"𝖅"	U1D585	# MATHEMATICAL BOLD FRAKTUR CAPITAL Z
-                      
-                      
-<Multi_key> <asterisk> <a>	:	"𝖆"	U1D586	# MATHEMATICAL BOLD FRAKTUR SMALL A
-<Multi_key> <asterisk> <b>	:	"𝖇"	U1D587	# MATHEMATICAL BOLD FRAKTUR SMALL B
-<Multi_key> <asterisk> <c>	:	"𝖈"	U1D588	# MATHEMATICAL BOLD FRAKTUR SMALL C
-<Multi_key> <asterisk> <d>	:	"𝖉"	U1D589	# MATHEMATICAL BOLD FRAKTUR SMALL D
-<Multi_key> <asterisk> <e>	:	"𝖊"	U1D58A	# MATHEMATICAL BOLD FRAKTUR SMALL E
-<Multi_key> <asterisk> <f>	:	"𝖋"	U1D58B	# MATHEMATICAL BOLD FRAKTUR SMALL F
-<Multi_key> <asterisk> <g>	:	"𝖌"	U1D58C	# MATHEMATICAL BOLD FRAKTUR SMALL G
-<Multi_key> <asterisk> <h>	:	"𝖍"	U1D58D	# MATHEMATICAL BOLD FRAKTUR SMALL H
-<Multi_key> <asterisk> <i>	:	"𝖎"	U1D58E	# MATHEMATICAL BOLD FRAKTUR SMALL I
-<Multi_key> <asterisk> <j>	:	"𝖏"	U1D58F	# MATHEMATICAL BOLD FRAKTUR SMALL J
-<Multi_key> <asterisk> <k>	:	"𝖐"	U1D590	# MATHEMATICAL BOLD FRAKTUR SMALL K
-<Multi_key> <asterisk> <l>	:	"𝖑"	U1D591	# MATHEMATICAL BOLD FRAKTUR SMALL L
-<Multi_key> <asterisk> <m>	:	"𝖒"	U1D592	# MATHEMATICAL BOLD FRAKTUR SMALL M
-<Multi_key> <asterisk> <n>	:	"𝖓"	U1D593	# MATHEMATICAL BOLD FRAKTUR SMALL N
-<Multi_key> <asterisk> <o>	:	"𝖔"	U1D594	# MATHEMATICAL BOLD FRAKTUR SMALL O
-<Multi_key> <asterisk> <p>	:	"𝖕"	U1D595	# MATHEMATICAL BOLD FRAKTUR SMALL P
-<Multi_key> <asterisk> <q>	:	"𝖖"	U1D596	# MATHEMATICAL BOLD FRAKTUR SMALL Q
-<Multi_key> <asterisk> <r>	:	"𝖗"	U1D597	# MATHEMATICAL BOLD FRAKTUR SMALL R
-<Multi_key> <asterisk> <s>	:	"𝖘"	U1D598	# MATHEMATICAL BOLD FRAKTUR SMALL S
-<Multi_key> <asterisk> <t>	:	"𝖙"	U1D599	# MATHEMATICAL BOLD FRAKTUR SMALL T
-<Multi_key> <asterisk> <u>	:	"𝖚"	U1D59A	# MATHEMATICAL BOLD FRAKTUR SMALL U
-<Multi_key> <asterisk> <v>	:	"𝖛"	U1D59B	# MATHEMATICAL BOLD FRAKTUR SMALL V
-<Multi_key> <asterisk> <w>	:	"𝖜"	U1D59C	# MATHEMATICAL BOLD FRAKTUR SMALL W
-<Multi_key> <asterisk> <x>	:	"𝖝"	U1D59D	# MATHEMATICAL BOLD FRAKTUR SMALL X
-<Multi_key> <asterisk> <y>	:	"𝖞"	U1D59E	# MATHEMATICAL BOLD FRAKTUR SMALL Y
-<Multi_key> <asterisk> <z>	:	"𝖟"	U1D59F	# MATHEMATICAL BOLD FRAKTUR SMALL Z
+<Multi_key> <asterisk> <asterisk> <A>	:	"𝕬"	U1D56C	# MATHEMATICAL BOLD FRAKTUR CAPITAL A
+<Multi_key> <asterisk> <asterisk> <B>	:	"𝕭"	U1D56D	# MATHEMATICAL BOLD FRAKTUR CAPITAL B
+<Multi_key> <asterisk> <asterisk> <C>	:	"𝕮"	U1D56E	# MATHEMATICAL BOLD FRAKTUR CAPITAL C
+<Multi_key> <asterisk> <asterisk> <D>	:	"𝕯"	U1D56F	# MATHEMATICAL BOLD FRAKTUR CAPITAL D
+<Multi_key> <asterisk> <asterisk> <E>	:	"𝕰"	U1D570	# MATHEMATICAL BOLD FRAKTUR CAPITAL E
+<Multi_key> <asterisk> <asterisk> <F>	:	"𝕱"	U1D571	# MATHEMATICAL BOLD FRAKTUR CAPITAL F
+<Multi_key> <asterisk> <asterisk> <G>	:	"𝕲"	U1D572	# MATHEMATICAL BOLD FRAKTUR CAPITAL G
+<Multi_key> <asterisk> <asterisk> <H>	:	"𝕳"	U1D573	# MATHEMATICAL BOLD FRAKTUR CAPITAL H
+<Multi_key> <asterisk> <asterisk> <I>	:	"𝕴"	U1D574	# MATHEMATICAL BOLD FRAKTUR CAPITAL I
+<Multi_key> <asterisk> <asterisk> <J>	:	"𝕵"	U1D575	# MATHEMATICAL BOLD FRAKTUR CAPITAL J
+<Multi_key> <asterisk> <asterisk> <K>	:	"𝕶"	U1D576	# MATHEMATICAL BOLD FRAKTUR CAPITAL K
+<Multi_key> <asterisk> <asterisk> <L>	:	"𝕷"	U1D577	# MATHEMATICAL BOLD FRAKTUR CAPITAL L
+<Multi_key> <asterisk> <asterisk> <M>	:	"𝕸"	U1D578	# MATHEMATICAL BOLD FRAKTUR CAPITAL M
+<Multi_key> <asterisk> <asterisk> <N>	:	"𝕹"	U1D579	# MATHEMATICAL BOLD FRAKTUR CAPITAL N
+<Multi_key> <asterisk> <asterisk> <O>	:	"𝕺"	U1D57A	# MATHEMATICAL BOLD FRAKTUR CAPITAL O
+<Multi_key> <asterisk> <asterisk> <P>	:	"𝕻"	U1D57B	# MATHEMATICAL BOLD FRAKTUR CAPITAL P
+<Multi_key> <asterisk> <asterisk> <Q>	:	"𝕼"	U1D57C	# MATHEMATICAL BOLD FRAKTUR CAPITAL Q
+<Multi_key> <asterisk> <asterisk> <R>	:	"𝕽"	U1D57D	# MATHEMATICAL BOLD FRAKTUR CAPITAL R
+<Multi_key> <asterisk> <asterisk> <S>	:	"𝕾"	U1D57E	# MATHEMATICAL BOLD FRAKTUR CAPITAL S
+<Multi_key> <asterisk> <asterisk> <T>	:	"𝕿"	U1D57F	# MATHEMATICAL BOLD FRAKTUR CAPITAL T
+<Multi_key> <asterisk> <asterisk> <U>	:	"𝖀"	U1D580	# MATHEMATICAL BOLD FRAKTUR CAPITAL U
+<Multi_key> <asterisk> <asterisk> <V>	:	"𝖁"	U1D581	# MATHEMATICAL BOLD FRAKTUR CAPITAL V
+<Multi_key> <asterisk> <asterisk> <W>	:	"𝖂"	U1D582	# MATHEMATICAL BOLD FRAKTUR CAPITAL W
+<Multi_key> <asterisk> <asterisk> <X>	:	"𝖃"	U1D583	# MATHEMATICAL BOLD FRAKTUR CAPITAL X
+<Multi_key> <asterisk> <asterisk> <Y>	:	"𝖄"	U1D584	# MATHEMATICAL BOLD FRAKTUR CAPITAL Y
+<Multi_key> <asterisk> <asterisk> <Z>	:	"𝖅"	U1D585	# MATHEMATICAL BOLD FRAKTUR CAPITAL Z
+                                 
+                                 
+<Multi_key> <asterisk> <asterisk> <a>	:	"𝖆"	U1D586	# MATHEMATICAL BOLD FRAKTUR SMALL A
+<Multi_key> <asterisk> <asterisk> <b>	:	"𝖇"	U1D587	# MATHEMATICAL BOLD FRAKTUR SMALL B
+<Multi_key> <asterisk> <asterisk> <c>	:	"𝖈"	U1D588	# MATHEMATICAL BOLD FRAKTUR SMALL C
+<Multi_key> <asterisk> <asterisk> <d>	:	"𝖉"	U1D589	# MATHEMATICAL BOLD FRAKTUR SMALL D
+<Multi_key> <asterisk> <asterisk> <e>	:	"𝖊"	U1D58A	# MATHEMATICAL BOLD FRAKTUR SMALL E
+<Multi_key> <asterisk> <asterisk> <f>	:	"𝖋"	U1D58B	# MATHEMATICAL BOLD FRAKTUR SMALL F
+<Multi_key> <asterisk> <asterisk> <g>	:	"𝖌"	U1D58C	# MATHEMATICAL BOLD FRAKTUR SMALL G
+<Multi_key> <asterisk> <asterisk> <h>	:	"𝖍"	U1D58D	# MATHEMATICAL BOLD FRAKTUR SMALL H
+<Multi_key> <asterisk> <asterisk> <i>	:	"𝖎"	U1D58E	# MATHEMATICAL BOLD FRAKTUR SMALL I
+<Multi_key> <asterisk> <asterisk> <j>	:	"𝖏"	U1D58F	# MATHEMATICAL BOLD FRAKTUR SMALL J
+<Multi_key> <asterisk> <asterisk> <k>	:	"𝖐"	U1D590	# MATHEMATICAL BOLD FRAKTUR SMALL K
+<Multi_key> <asterisk> <asterisk> <l>	:	"𝖑"	U1D591	# MATHEMATICAL BOLD FRAKTUR SMALL L
+<Multi_key> <asterisk> <asterisk> <m>	:	"𝖒"	U1D592	# MATHEMATICAL BOLD FRAKTUR SMALL M
+<Multi_key> <asterisk> <asterisk> <n>	:	"𝖓"	U1D593	# MATHEMATICAL BOLD FRAKTUR SMALL N
+<Multi_key> <asterisk> <asterisk> <o>	:	"𝖔"	U1D594	# MATHEMATICAL BOLD FRAKTUR SMALL O
+<Multi_key> <asterisk> <asterisk> <p>	:	"𝖕"	U1D595	# MATHEMATICAL BOLD FRAKTUR SMALL P
+<Multi_key> <asterisk> <asterisk> <q>	:	"𝖖"	U1D596	# MATHEMATICAL BOLD FRAKTUR SMALL Q
+<Multi_key> <asterisk> <asterisk> <r>	:	"𝖗"	U1D597	# MATHEMATICAL BOLD FRAKTUR SMALL R
+<Multi_key> <asterisk> <asterisk> <s>	:	"𝖘"	U1D598	# MATHEMATICAL BOLD FRAKTUR SMALL S
+<Multi_key> <asterisk> <asterisk> <t>	:	"𝖙"	U1D599	# MATHEMATICAL BOLD FRAKTUR SMALL T
+<Multi_key> <asterisk> <asterisk> <u>	:	"𝖚"	U1D59A	# MATHEMATICAL BOLD FRAKTUR SMALL U
+<Multi_key> <asterisk> <asterisk> <v>	:	"𝖛"	U1D59B	# MATHEMATICAL BOLD FRAKTUR SMALL V
+<Multi_key> <asterisk> <asterisk> <w>	:	"𝖜"	U1D59C	# MATHEMATICAL BOLD FRAKTUR SMALL W
+<Multi_key> <asterisk> <asterisk> <x>	:	"𝖝"	U1D59D	# MATHEMATICAL BOLD FRAKTUR SMALL X
+<Multi_key> <asterisk> <asterisk> <y>	:	"𝖞"	U1D59E	# MATHEMATICAL BOLD FRAKTUR SMALL Y
+<Multi_key> <asterisk> <asterisk> <z>	:	"𝖟"	U1D59F	# MATHEMATICAL BOLD FRAKTUR SMALL Z
 
 ########
 # Non-bold ones?  Which is correct for, say, the Masoretic text/Majority
