@@ -718,6 +718,8 @@
 <Multi_key> <f> <less> <3>              : "❦"  U2766            # FLORAL HEART
 <Multi_key> <Left> <f> <less> <3>       : "❧"  U2767            # ROTATED FLORAL HEART BULLET
 <Multi_key> <Right> <f> <less> <3>      : "☙"  U2619            # REVERSED ROTATED FLORAL HEART BULLET
+<Multi_key> <at> <r>                                  		:	"🙟"	U1F65F	# HEAVY SOUTH EAST POINTING VINE LEAF
+<Multi_key> <at> <l>                                  		:	"🙜"	U1F65C	# HEAVY NORTH WEST POINTING VINE LEAF
 <Multi_key> <Multi_key> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
 <Multi_key> <Multi_key> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
 # These last two bother me less, though they can still be improved.
