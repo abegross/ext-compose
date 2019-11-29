@@ -237,7 +237,7 @@
 <Multi_key> <K> <l> <w> <u>		 :    "𛅣" #small wu
 <Multi_key> <K> <l> <w> <e>		 :    "𛅥" #small we
 <Multi_key> <K> <l> <w> <o>		 :    "𛅦" #small wo
-<Multi_key> <K> <l> <n>		 	 :    "𛅧" #small n
+<Multi_key> <K> <l> <n> <n>	 	 :    "𛅧" #small n
 
 
 
