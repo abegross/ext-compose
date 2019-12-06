@@ -279,7 +279,7 @@
 <Multi_key> <backslash> <x>    :   "𝔁"    U1D501 #  MATHEMATICAL BOLD SCRIPT SMALL X
 <Multi_key> <backslash> <y>    :   "𝔂"    U1D502 #  MATHEMATICAL BOLD SCRIPT SMALL Y
 <Multi_key> <backslash> <z>    :   "𝔃"    U1D503 #  MATHEMATICAL BOLD SCRIPT SMALL Z
-             back      
+
 <Multi_key> <backslash> <A>    :   "𝓐"    U1D4D0 #  MATHEMATICAL BOLD SCRIPT CAPITAL A
 <Multi_key> <backslash> <B>    :   "𝓑"    U1D4D1 #  MATHEMATICAL BOLD SCRIPT CAPITAL B
 <Multi_key> <backslash> <C>    :   "𝓒"    U1D4D2 #  MATHEMATICAL BOLD SCRIPT CAPITAL C
