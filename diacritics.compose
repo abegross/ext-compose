@@ -43,6 +43,7 @@
 <Multi_key> <plus> <apostrophe> <2> <asciicircum>   		:	"᷍"	U1DCD	# COMBINING DOUBLE CIRCUMFLEX ABOVE  
 <Multi_key> <plus> <apostrophe> <comma>             		:	"᷎"	U1DCE	# COMBINING OGONEK ABOVE             
 <Multi_key> <plus> <apostrophe> <asterisk>          		:	"⃰"	U20F0	# COMBINING ASTERISK ABOVE
+<Multi_key> <plus> <apostrophe> <k>         		        :	"̚"	U031A	# COMBINING LEFT ANGLE ABOVE (no audible release mark | k cuz it looks like the korean ㄱ k)
 
 
 ######
@@ -62,6 +63,7 @@
 <Multi_key> <plus> <comma> <comma>                    		:	"̦"	U0326	# COMBINING COMMA BELOW                             
 <Multi_key> <plus> <comma> <c>                        		:	"̧"	U0327	# COMBINING CEDILLA                                 
 <Multi_key> <plus> <comma> <bar>                      		:	"̩"	U0329	# COMBINING VERTICAL LINE BELOW                     
+<Multi_key> <plus> <comma> <2> <bar>             	    	:	"͈"	U0348	# COMBINING DOUBLE VERTICAL LINE BELOW (gemination mark)
 <Multi_key> <plus> <comma> <bracketleft>              		:	"̪"	U032A	# COMBINING BRIDGE BELOW                            
 <Multi_key> <plus> <comma> <w>                        		:	"̫"	U032B	# COMBINING INVERTED DOUBLE ARCH BELOW              
 <Multi_key> <plus> <comma> <asciitilde>               		:	"̰"	U0330	# COMBINING TILDE BELOW                             
