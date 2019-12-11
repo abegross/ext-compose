@@ -476,37 +476,65 @@
 <Multi_key> <comma> <asterisk> <x> : "ᵪ"  U1D6A     # GREEK SUBSCRIPT SMALL LETTER CHI
 
 
-# How about some small-caps?  We normally use a special character as a prefix,
-# but why not a suffix?  It won't interfere with things that way.
+#############
+# small-caps
 # Several of these are also IPA, which is handy.  And so a few have multiple
 # entries.  Whatever.
+#
+# the mnemonic is "S" cuz it both means "down" in "wasd" (for squeezing the capital letter
+# down to lowercase height), and because S looks the same in both capital and lowercase
 
-<Multi_key> <Down> <a>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
-<Multi_key> <Down> <b>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
-<Multi_key> <Down> <c>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
-<Multi_key> <Down> <d>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
-<Multi_key> <Down> <e>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
-<Multi_key> <Down> <f>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
-<Multi_key> <Down> <g>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
-<Multi_key> <Down> <h>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
-<Multi_key> <Down> <i>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
-<Multi_key> <Down> <j>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
-<Multi_key> <Down> <k>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
-<Multi_key> <Down> <l>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
-<Multi_key> <Down> <m>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
-<Multi_key> <Down> <n>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
-<Multi_key> <Down> <o>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
-<Multi_key> <Down> <p>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
-<Multi_key> <Down> <q>	    	  : "ꞯ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
-<Multi_key> <Down> <r>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
-<Multi_key> <Down> <s>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
-<Multi_key> <Down> <t>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
-<Multi_key> <Down> <u>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
-<Multi_key> <Down> <v>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
-<Multi_key> <Down> <w>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
-# There is no SMALL CAPITAL X (yet). use a regular lowercase x. it looks the exact same
-<Multi_key> <Down> <y>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
-<Multi_key> <Down> <z>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z
+<Multi_key> <S> <A>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <S> <a>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <S> <B>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <S> <b>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <S> <C>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <S> <c>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <S> <D>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <S> <d>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <S> <E>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <S> <e>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <S> <F>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <S> <f>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <S> <G>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <S> <g>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <S> <H>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <S> <h>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <S> <I>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <S> <i>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <S> <J>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <S> <j>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <S> <K>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <S> <k>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <S> <L>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <S> <l>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <S> <M>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <S> <m>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <S> <N>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <S> <n>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <S> <O>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <S> <o>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <S> <P>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <S> <p>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <S> <Q>	    	  : "ꞯ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <S> <q>	    	  : "ꞯ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <S> <R>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <S> <r>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <S> <S>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <S> <s>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <S> <T>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <S> <t>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <S> <U>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <S> <u>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <S> <V>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <S> <v>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <S> <W>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
+<Multi_key> <S> <w>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
+# There is No SMALL CAPITAL X (yet). use a regular lowercase x. it looks the exact same
+<Multi_key> <S> <y>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <S> <Y>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <S> <Z>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z
+<Multi_key> <S> <z>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z
 
 
 
