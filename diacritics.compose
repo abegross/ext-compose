@@ -22,6 +22,7 @@
 <Multi_key> <plus> <apostrophe> <2> <bar>             		:	"̎"	U030E	# COMBINING DOUBLE VERTICAL LINE ABOVE  
 <Multi_key> <plus> <apostrophe> <2> <grave>           		:	"̏"	U030F	# COMBINING DOUBLE GRAVE ACCENT
 <Multi_key> <plus> <apostrophe> <parenleft>           		:	"͡"	U0361	# COMBINING DOUBLE INVERTED BREVE
+<Multi_key> <plus> <apostrophe> <parenright>           		:	"͝"	U035D	# COMBINING DOUBLE BREVE
 <Multi_key> <plus> <apostrophe> <bracketleft>       		:	"͆"	U0346	# COMBINING BRIDGE ABOVE             
 <Multi_key> <plus> <apostrophe> <2> <asciitilde>    		:	"͠"	U0360	# COMBINING DOUBLE TILDE             
 <Multi_key> <plus> <apostrophe> <A>                 		:	"ͣ"	U0363	# COMBINING LATIN SMALL LETTER A     
@@ -73,6 +74,7 @@
 <Multi_key> <plus> <comma> <greater>                  		:	"͕"	U0355	# COMBINING RIGHT ARROWHEAD BELOW                   
 <Multi_key> <plus> <comma> <2> <greater>              		:	"͖"	U0356	# COMBINING RIGHT ARROWHEAD AND UP ARROWHEAD BELOW  
 <Multi_key> <plus> <comma> <parenright>               		:	"͜"	U035C	# COMBINING DOUBLE BREVE BELOW                      
+<Multi_key> <plus> <comma> <parenleft>            		:	"᷼"	U1DFC	# COMBINING DOUBLE INVERTED BREVE BELOW
 <Multi_key> <plus> <comma> <2> <asciitilde>           		:	"᪶"	U1AB6	# COMBINING WIGGLY LINE BELOW                       
 <Multi_key> <plus> <comma> <s>                        		:	"᷏"	U1DCF	# COMBINING ZIGZAG BELOW
 <Multi_key> <plus> <comma> <underscore>						:  "̲"  	U0332	# COMBINING LOW LINE
