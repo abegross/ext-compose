@@ -894,6 +894,7 @@
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
 <Multi_key> <colon> <colon>                          :  "ː"     U02D0   # MODIFIER LETTER TRIANGULAR COLON
+<Multi_key> <1> <colon> <colon>                 	 :	"ˑ"	U02D1	# MODIFIER LETTER HALF TRIANGULAR COLON
 <Multi_key> <p> <h>			: "ɸ"	U0278		# LATIN SMALL LETTER PHI
 <Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <I> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
