@@ -308,6 +308,118 @@
 <Multi_key> <backslash> <Z>	   :   "𝓩"    U1D4E9 # MATHEMATICAL BOLD SCRIPT CAPITAL Z
 
 
+#######
+# Actual script letters
+# mnemonic is \ from scrip, and following the "alternate selector" ; from fraktur
+
+<Multi_key> <backslash> <semicolon> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
+<Multi_key> <backslash> <semicolon> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
+<Multi_key> <backslash> <semicolon> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
+<Multi_key> <backslash> <semicolon> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
+<Multi_key> <backslash> <semicolon> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
+<Multi_key> <backslash> <semicolon> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
+<Multi_key> <backslash> <semicolon> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
+<Multi_key> <backslash> <semicolon> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
+<Multi_key> <backslash> <semicolon> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
+<Multi_key> <backslash> <semicolon> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
+<Multi_key> <backslash> <semicolon> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
+<Multi_key> <backslash> <semicolon> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
+<Multi_key> <backslash> <semicolon> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
+<Multi_key> <backslash> <semicolon> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
+<Multi_key> <backslash> <semicolon> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
+<Multi_key> <backslash> <semicolon> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
+<Multi_key> <backslash> <semicolon> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
+<Multi_key> <backslash> <semicolon> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
+<Multi_key> <backslash> <semicolon> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
+<Multi_key> <backslash> <semicolon> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
+<Multi_key> <backslash> <semicolon> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
+<Multi_key> <backslash> <semicolon> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
+<Multi_key> <backslash> <semicolon> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
+<Multi_key> <backslash> <semicolon> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
+<Multi_key> <backslash> <semicolon> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
+<Multi_key> <backslash> <semicolon> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
+<Multi_key> <backslash> <semicolon> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
+<Multi_key> <backslash> <semicolon> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
+<Multi_key> <backslash> <semicolon> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
+<Multi_key> <backslash> <semicolon> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
+<Multi_key> <backslash> <semicolon> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
+<Multi_key> <backslash> <semicolon> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
+<Multi_key> <backslash> <semicolon> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
+<Multi_key> <backslash> <semicolon> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
+<Multi_key> <backslash> <semicolon> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
+<Multi_key> <backslash> <semicolon> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
+<Multi_key> <backslash> <semicolon> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
+<Multi_key> <backslash> <semicolon> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
+<Multi_key> <backslash> <semicolon> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
+<Multi_key> <backslash> <semicolon> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
+<Multi_key> <backslash> <semicolon> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
+<Multi_key> <backslash> <semicolon> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
+<Multi_key> <backslash> <semicolon> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
+<Multi_key> <backslash> <semicolon> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
+<Multi_key> <backslash> <semicolon> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
+<Multi_key> <backslash> <semicolon> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
+<Multi_key> <backslash> <semicolon> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
+<Multi_key> <backslash> <semicolon> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
+<Multi_key> <backslash> <semicolon> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
+<Multi_key> <backslash> <semicolon> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
+<Multi_key> <backslash> <semicolon> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
+<Multi_key> <backslash> <semicolon> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
+<Multi_key> <backslash> <semicolon> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
+<Multi_key> <backslash> <semicolon> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
+<Multi_key> <backslash> <semicolon> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
+<Multi_key> <backslash> <semicolon> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
+<Multi_key> <backslash> <semicolon> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
+<Multi_key> <backslash> <semicolon> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
+<Multi_key> <backslash> <semicolon> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
+<Multi_key> <backslash> <semicolon> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
+<Multi_key> <backslash> <semicolon> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
+<Multi_key> <backslash> <semicolon> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
+<Multi_key> <backslash> <semicolon> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
+<Multi_key> <backslash> <semicolon> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
+<Multi_key> <backslash> <semicolon> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
+<Multi_key> <backslash> <semicolon> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
+<Multi_key> <backslash> <semicolon> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
+<Multi_key> <backslash> <semicolon> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
+<Multi_key> <backslash> <semicolon> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
+<Multi_key> <backslash> <semicolon> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
+<Multi_key> <backslash> <semicolon> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
+<Multi_key> <backslash> <semicolon> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
+<Multi_key> <backslash> <semicolon> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
+<Multi_key> <backslash> <semicolon> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
+<Multi_key> <backslash> <semicolon> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
+<Multi_key> <backslash> <semicolon> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
+<Multi_key> <backslash> <semicolon> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
+<Multi_key> <backslash> <semicolon> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
+
+<Multi_key> <backslash> <semicolon> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
+<Multi_key> <backslash> <semicolon> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
+<Multi_key> <backslash> <semicolon> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
+<Multi_key> <backslash> <semicolon> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
+<Multi_key> <backslash> <semicolon> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
+<Multi_key> <backslash> <semicolon> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
+<Multi_key> <backslash> <semicolon> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
+<Multi_key> <backslash> <semicolon> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
+<Multi_key> <backslash> <semicolon> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
+<Multi_key> <backslash> <semicolon> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
+<Multi_key> <backslash> <semicolon> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
+<Multi_key> <backslash> <semicolon> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
+<Multi_key> <backslash> <semicolon> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
+<Multi_key> <backslash> <semicolon> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
+<Multi_key> <backslash> <semicolon> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
+<Multi_key> <backslash> <semicolon> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
+<Multi_key> <backslash> <semicolon> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
+<Multi_key> <backslash> <semicolon> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
+<Multi_key> <backslash> <semicolon> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
+<Multi_key> <backslash> <semicolon> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
+<Multi_key> <backslash> <semicolon> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
+<Multi_key> <backslash> <semicolon> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
+<Multi_key> <backslash> <semicolon> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
+<Multi_key> <backslash> <semicolon> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
+<Multi_key> <backslash> <semicolon> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
+<Multi_key> <backslash> <semicolon> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
+
+
+
 ######
 # all italic letters
 # mnemonic = "/" cuz italics are diagonal like the slash
