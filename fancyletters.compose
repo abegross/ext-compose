@@ -536,6 +536,8 @@
 <Multi_key> <apostrophe> <X>    :   "ˣ"    U02E3 #  MATHEMATICAL BOLD SCRIPT CAPITAL X
 <Multi_key> <apostrophe> <Y>    :   "ʸ"    U02B8 #  MATHEMATICAL BOLD SCRIPT CAPITAL Y
 <Multi_key> <apostrophe> <Z>    :   "ᶻ"    U1DBB #  MATHEMATICAL BOLD SCRIPT CAPITAL Z
+<Multi_key> <apostrophe> <period> : "·"   periodcentered # MIDDLE DOT
+
 
 ######
 # all subscript characters unicode currently has
