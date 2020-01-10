@@ -993,7 +993,7 @@
 <Multi_key> <backslash> <period>	: "̇"	U0307	# COMBINING DOT ABOVE
 <Multi_key> <backslash> <quotedbl>	: "̈"	U0308	# COMBINING DIAERESIS
 <Multi_key> <backslash> <question>	: "̉"	U0309	# COMBINING HOOK ABOVE
-<Multi_key> <backslash> <o>		: "̊"	U030a	# COMBINING RING ABOVE
+#<Multi_key> <backslash> <o>		: "̊"	U030a	# COMBINING RING ABOVE
 # That now conflicts with the new 🙌 in the system xcompose.  Alternative:
 <Multi_key> <backslash> <0>   	       	: "̊"	U030a	# COMBINING RING ABOVE
 <Multi_key> <backslash> <backslash> <apostrophe>	: "̋"	U030b	# COMBINING DOUBLE ACUTE ACCENT -- ??
