@@ -447,8 +447,8 @@
 <Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
 <Multi_key> <underscore> <underscore> <parenleft> :   "⟮"  U27EE	# MATHEMATICAL LEFT FLATTENED PARENTHESIS
 <Multi_key> <underscore> <underscore> <parenright>:   "⟯"  U27EF	# MATHEMATICAL RIGHT FLATTENED PARENTHESIS
-<Multi_key> <parenleft> <bracketleft>	:   "⦗"	U2997	# LEFT BLACK TORTOISE SHELL BRACKET
-<Multi_key> <parenright> <bracketright> :   "⦘"	U2998	# RIGHT BLACK TORTOISE SHELL BRACKET
+<Multi_key> <at> <bracketleft> <parenleft> :   "⦗"	U2997	# LEFT BLACK TORTOISE SHELL BRACKET
+<Multi_key> <at> <bracketright> <parenright> :   "⦘"	U2998	# RIGHT BLACK TORTOISE SHELL BRACKET
 # Do the underlined brackets, ones with ticks, dots, etc?
 <Multi_key> <percent> <parenleft>:  "⧘"	U29D8	# LEFT WIGGLY FENCE
 <Multi_key> <percent> <parenright>: "⧙"	U29D9	# RIGHT WIGGLY FENCE
@@ -643,8 +643,8 @@
 # U276E&F ❮❯ ?  Angle quotation mark ornaments?
 <Multi_key> <at> <at> <less>    :       "❰"     U2770   # HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT
 <Multi_key> <at> <at> <greater> :       "❱"     U2771   # HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT
-<Multi_key> <at> <bracketleft> <parenleft> :    "❲"     U2772   # LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
-<Multi_key> <at> <bracketright> <parenright> :  "❳"     U2773   # LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
+<Multi_key> <parenleft> <bracketleft>	:    "❲"     U2772   # LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
+<Multi_key> <parenright> <bracketright> :  "❳"     U2773   # LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
 <Multi_key> <at> <braceleft>    :       "❴"     U2774   # MEDIUM LEFT CURLY BRACKET ORNAMENT
 <Multi_key> <at> <braceright>   :       "❵"     U2775   # MEDIUM RIGHT CURLY BRACKET ORNAMENT
 # Will I want <at> <at> for something else?

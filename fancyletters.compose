@@ -662,33 +662,41 @@
 <Multi_key> <comma> <6>  	       : "₆"  U2086   	  # SUBSCRIPT SIX
 <Multi_key> <comma> <7>  	       : "₇"  U2087   	  # SUBSCRIPT SEVEN
 <Multi_key> <comma> <8>  	       : "₈"  U2088   	  # SUBSCRIPT EIGHT
-<Multi_key> <comma> <9>  	       : "₉"  U2089   	  # SUBSCRIPT NONE
+<Multi_key> <comma> <9>  	       : "₉"  U2089   	  # SUBSCRIPT NINE
 <Multi_key> <comma> <plus>	       : "₊"  U208A	  # SUBSCRIPT PLUS
 <Multi_key> <comma> <minus>       : "₋"  U208B	  # SUBSCRIPT MINUS
 <Multi_key> <comma> <equal>           : "₌"  U208C	  # SUBSCRIPT EQUALS SIGN
 <Multi_key> <comma> <parenleft>           : "₍"  U208D	  # SUBSCRIPT LEFT PARENTHESIS
 <Multi_key> <comma> <parenright>           : "₎"  U208E	  # SUBSCRIPT RIGHT PARENTHESIS
 
-# block U+209x
-<Multi_key> <comma> <a>	       : "ₐ"  U2090	  # LATIN SUBSCRIPT SMALL LETTER A
-<Multi_key> <comma> <e>	       : "ₑ"  U2091	  # LATIN SUBSCRIPT SMALL LETTER E
-<Multi_key> <comma> <o>	       : "ₒ"  U2092	  # LATIN SUBSCRIPT SMALL LETTER O
-<Multi_key> <comma> <x>	       : "ₓ"  U2093	  # LATIN SUBSCRIPT SMALL LETTER X
-<Multi_key> <comma> <h>	       : "ₕ"  U2095	  # LATIN SUBSCRIPT SMALL LETTER H
-<Multi_key> <comma> <k>           : "ₖ"  U2096	  # LATIN SUBSCRIPT SMALL LETTER K
-<Multi_key> <comma> <l>           : "ₗ"  U2097	  # LATIN SUBSCRIPT SMALL LETTER L
-<Multi_key> <comma> <m>	       : "ₘ"  U2098	  # LATIN SUBSCRIPT SMALL LETTER M
-<Multi_key> <comma> <n>	       : "ₙ"  U2099	  # LATIN SUBSCRIPT SMALL LETTER N
-<Multi_key> <comma> <p>	       : "ₚ"  U209A	  # LATIN SUBSCRIPT SMALL LETTER P
-<Multi_key> <comma> <s>	       : "ₛ"  U209B	  # LATIN SUBSCRIPT SMALL LETTER S
-<Multi_key> <comma> <t>	       : "ₜ"  U209C	  # LATIN SUBSCRIPT SMALL LETTER T
+<Multi_key> <comma> <a>                                		:	"ₐ"	U2090	# LATIN SUBSCRIPT SMALL LETTER A         
+<Multi_key> <comma> <b>                                		:	"₆"	U2086	# SUBSCRIPT SIX                          
+<Multi_key> <comma> <c>                                		:	"꜀"	UA700	# MODIFIER LETTER CHINESE TONE YIN PING  
+<Multi_key> <comma> <d>                                		:	"ₔ"	U2094	# LATIN SUBSCRIPT SMALL LETTER SCHWA     
+<Multi_key> <comma> <e>                                		:	"ₑ"	U2091	# LATIN SUBSCRIPT SMALL LETTER E         
+<Multi_key> <comma> <f>                                		:	"բ"	U0562	# ARMENIAN SMALL LETTER BEN              
+<Multi_key> <comma> <g>                                		:	"₉"	U2089	# SUBSCRIPT NINE                         
+<Multi_key> <comma> <h>                                		:	"ₕ"	U2095	# LATIN SUBSCRIPT SMALL LETTER H         
+<Multi_key> <comma> <i>                                		:	"ᵢ"	U1D62	# LATIN SUBSCRIPT SMALL LETTER I         
+<Multi_key> <comma> <j>                                		:	"ⱼ"	U2C7C	# LATIN SUBSCRIPT SMALL LETTER J         
+<Multi_key> <comma> <k>                                		:	"ₖ"	U2096	# LATIN SUBSCRIPT SMALL LETTER K         
+<Multi_key> <comma> <l>                                		:	"ₗ"	U2097	# LATIN SUBSCRIPT SMALL LETTER L         
+<Multi_key> <comma> <m>                                		:	"ₘ"	U2098	# LATIN SUBSCRIPT SMALL LETTER M         
+<Multi_key> <comma> <n>                                		:	"ₙ"	U2099	# LATIN SUBSCRIPT SMALL LETTER N         
+<Multi_key> <comma> <o>                                		:	"ₒ"	U2092	# LATIN SUBSCRIPT SMALL LETTER O         
+<Multi_key> <comma> <p>                                		:	"ₚ"	U209A	# LATIN SUBSCRIPT SMALL LETTER P         
+# no "q"… ̯◔̯︵◔ 😢
+<Multi_key> <comma> <r>                                		:	"ᵣ"	U1D63	# LATIN SUBSCRIPT SMALL LETTER R         
+<Multi_key> <comma> <s>                                		:	"ₛ"	U209B	# LATIN SUBSCRIPT SMALL LETTER S         
+<Multi_key> <comma> <t>                                		:	"ₜ"	U209C	# LATIN SUBSCRIPT SMALL LETTER T         
+<Multi_key> <comma> <u>                                		:	"ᵤ"	U1D64	# LATIN SUBSCRIPT SMALL LETTER U         
+<Multi_key> <comma> <v>                                		:	"ᵥ"	U1D65	# LATIN SUBSCRIPT SMALL LETTER V         
+# use 2 v's for "w"
+<Multi_key> <comma> <x>                                		:	"ₓ"	U2093	# LATIN SUBSCRIPT SMALL LETTER X         
+<Multi_key> <comma> <y>                                		:	"ᵧ"	U1D67	# GREEK SUBSCRIPT SMALL LETTER GAMMA     
+<Multi_key> <comma> <z>                                		:	"₂"	U2082	# SUBSCRIPT TWO
 
 # subscripts in other blocks
-<Multi_key> <comma> <i>  	       : "ᵢ"  U1D62   	  # LATIN SUBSCRIPT SMALL LETTER I
-<Multi_key> <comma> <j>           : "ⱼ"  U2C7C	  # LATIN SUBSCRIPT SMALL LETTER J
-<Multi_key> <comma> <r>           : "ᵣ"  U1D63       # LATIN SUBSCRIPT SMALL LETTER R
-<Multi_key> <comma> <u>           : "ᵤ"  U1D64       # LATIN SUBSCRIPT SMALL LETTER U
-<Multi_key> <comma> <v>           : "ᵥ"  U1D65       # LATIN SUBSCRIPT SMALL LETTER V
 <Multi_key> <comma> <G> <b> : "ᵦ"  U1D66     # GREEK SUBSCRIPT SMALL LETTER BETA
 <Multi_key> <comma> <G> <g> : "ᵧ"  U1D67     # GREEK SUBSCRIPT SMALL LETTER GAMMA
 <Multi_key> <comma> <G> <r> : "ᵨ"  U1D68     # GREEK SUBSCRIPT SMALL LETTER RHO

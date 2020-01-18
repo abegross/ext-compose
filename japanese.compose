@@ -38,7 +38,7 @@
 <Multi_key> <H> <m> <e>			: "め" #ME
 <Multi_key> <H> <m> <o>			: "も" #MO
 <Multi_key> <H> <y> <a>			: "や" #YA
-<Multi_key> <H> <y> <i>			: "𛄩" #YI
+<Multi_key> <H> <y> <i>			: "𛀆" #YI
 <Multi_key> <H> <y> <u>			: "ゆ" #YU
 <Multi_key> <H> <y> <e>			: "𛀁" #YE
 <Multi_key> <H> <y> <o>			: "よ" #YO
@@ -49,7 +49,7 @@
 <Multi_key> <H> <r> <o>			: "ろ" #RO
 <Multi_key> <H> <w> <a>			: "わ" #WA
 <Multi_key> <H> <w> <i>			: "ゐ" #WI this one is unused now
-<Multi_key> <H> <w> <u>			: "𛄪" #WU this one is unused now
+<Multi_key> <H> <w> <u>			: "𛄟" #WU this one is unused now
 <Multi_key> <H> <w> <e>			: "ゑ" #WE same as above
 <Multi_key> <H> <w> <o>			: "を" #WO
 <Multi_key> <H> <n> <n>			: "ん" #N
@@ -97,7 +97,7 @@
 <Multi_key> <H> <l> <y> <o>		: "ょ" #small YO
 <Multi_key> <H> <l> <w> <a>		: "ゎ" #small wa
 <Multi_key> <H> <l> <w> <i>		: "𛅐" #small wi
-<Multi_key> <H> <l> <w> <u>		: "𛅏" #small wu
+#<Multi_key> <H> <l> <w> <u>		: "𛄢" #small wu
 <Multi_key> <H> <l> <w> <e>		: "𛅑" #small we
 <Multi_key> <H> <l> <w> <o>		: "𛅒" #small wo
 
@@ -149,9 +149,9 @@
 <Multi_key> <K> <m> <e>			: "メ" #ME
 <Multi_key> <K> <m> <o>			: "モ" #MO
 <Multi_key> <K> <y> <a>			: "ヤ" #YA
-<Multi_key> <K> <y> <i>			: "𛄬" #YI
+<Multi_key> <K> <y> <i>			: "𛄠" #YI
 <Multi_key> <K> <y> <u>			: "ユ" #YU
-<Multi_key> <K> <y> <e>			: "𛄭" #YE
+<Multi_key> <K> <y> <e>			: "𛄡" #YE
 <Multi_key> <K> <y> <o>			: "ヨ" #YO
 <Multi_key> <K> <r> <a>			: "ラ" #RA
 <Multi_key> <K> <r> <i>			: "リ" #RI
@@ -160,7 +160,7 @@
 <Multi_key> <K> <r> <o>			: "ロ" #RO
 <Multi_key> <K> <w> <a>			: "ワ" #WA
 <Multi_key> <K> <w> <i>			: "ヰ" #WI this one is unused now
-<Multi_key> <K> <w> <u>			: "𛄮" #WU
+<Multi_key> <K> <w> <u>			: "𛄢" #WU
 <Multi_key> <K> <w> <e>			: "ヱ" #WE same as above
 <Multi_key> <K> <w> <o>			: "ヲ" #WO
 <Multi_key> <K> <n> <n>			: "ン" #N
