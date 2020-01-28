@@ -100,7 +100,8 @@
 # Narrow no-break space, needed for some Latin languages like French
 <Multi_key> <space> <n> : " "    U202f # NARROW NO-BREAK SPACE
 # space that works even by text boxes that dont allow white space!
-<Multi_key> <b> <space>  		:	"⠀"	U2800	# BRAILLE PATTERN BLANK
+#<Multi_key> <b> <space>  		:	"⠀"	U2800	# BRAILLE PATTERN BLANK
+<Multi_key> <b> <space>  		:	"ᅠ"	U1160   # HANGUL JUNGSEONG FILLER
 # Do we want/need these?
 <Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
