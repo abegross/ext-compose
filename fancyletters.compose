@@ -589,60 +589,77 @@
 # all superscript letters
 # the mnemonic here is "'" (apostrophe) cuz its high up
 
-<Multi_key> <apostrophe> <a>    :   "ᵃ"    U1D43 #  MATHEMATICAL BOLD SCRIPT SMALL A
-<Multi_key> <apostrophe> <b>    :   "ᵇ"    U1D47 #  MATHEMATICAL BOLD SCRIPT SMALL B
-<Multi_key> <apostrophe> <c>    :   "ᶜ"    U1D9C #  MATHEMATICAL BOLD SCRIPT SMALL C
-<Multi_key> <apostrophe> <d>    :   "ᵈ"    U1D48 #  MATHEMATICAL BOLD SCRIPT SMALL D
-<Multi_key> <apostrophe> <e>    :   "ᵉ"    U1D49 #  MATHEMATICAL BOLD SCRIPT SMALL E
-<Multi_key> <apostrophe> <f>    :   "ᶠ"    U1DA0 #  MATHEMATICAL BOLD SCRIPT SMALL F
-<Multi_key> <apostrophe> <g>    :   "ᵍ"    U1D4D #  MATHEMATICAL BOLD SCRIPT SMALL G
-<Multi_key> <apostrophe> <h>    :   "ʰ"    U02B0 #  MATHEMATICAL BOLD SCRIPT SMALL H
-<Multi_key> <apostrophe> <i>    :   "ⁱ"    U2071 #  MATHEMATICAL BOLD SCRIPT SMALL I
-<Multi_key> <apostrophe> <j>    :   "ʲ"    U02B2 #  MATHEMATICAL BOLD SCRIPT SMALL J
-<Multi_key> <apostrophe> <k>    :   "ᵏ"    U1D4F #  MATHEMATICAL BOLD SCRIPT SMALL K
-<Multi_key> <apostrophe> <l>    :   "ˡ"    U02E1 #  MATHEMATICAL BOLD SCRIPT SMALL L
-<Multi_key> <apostrophe> <m>    :   "ᵐ"    U1D50 #  MATHEMATICAL BOLD SCRIPT SMALL M
-<Multi_key> <apostrophe> <n>    :   "ⁿ"    U207F #  MATHEMATICAL BOLD SCRIPT SMALL N
-<Multi_key> <apostrophe> <o>    :   "ᵒ"    U1D52 #  MATHEMATICAL BOLD SCRIPT SMALL O
-<Multi_key> <apostrophe> <p>    :   "ᵖ"    U1D56 #  MATHEMATICAL BOLD SCRIPT SMALL P
-<Multi_key> <apostrophe> <q>    :   "ᑫ"    U146B #  MATHEMATICAL BOLD SCRIPT SMALL Q
-<Multi_key> <apostrophe> <r>    :   "ʳ"    U02B3 #  MATHEMATICAL BOLD SCRIPT SMALL R
-<Multi_key> <apostrophe> <s>    :   "ˢ"    U02E2 #  MATHEMATICAL BOLD SCRIPT SMALL S
-<Multi_key> <apostrophe> <t>    :   "ᵗ"    U1D57 #  MATHEMATICAL BOLD SCRIPT SMALL T
-<Multi_key> <apostrophe> <u>    :   "ᵘ"    U1D58 #  MATHEMATICAL BOLD SCRIPT SMALL U
-<Multi_key> <apostrophe> <v>    :   "ᵛ"    U1D5B #  MATHEMATICAL BOLD SCRIPT SMALL V
-<Multi_key> <apostrophe> <w>    :   "ʷ"    U02B7 #  MATHEMATICAL BOLD SCRIPT SMALL W
-<Multi_key> <apostrophe> <x>    :   "ˣ"    U02E3 #  MATHEMATICAL BOLD SCRIPT SMALL X
-<Multi_key> <apostrophe> <y>    :   "ʸ"    U02B8 #  MATHEMATICAL BOLD SCRIPT SMALL Y
-<Multi_key> <apostrophe> <z>    :   "ᶻ"    U1DBB #  MATHEMATICAL BOLD SCRIPT SMALL Z
+<Multi_key> <apostrophe> <a>         		:	"ᵃ"	U1D43	# MODIFIER LETTER SMALL A           
+<Multi_key> <apostrophe> <b>         		:	"ᵇ"	U1D47	# MODIFIER LETTER SMALL B           
+<Multi_key> <apostrophe> <c>         		:	"ᶜ"	U1D9C	# MODIFIER LETTER SMALL C           
+<Multi_key> <apostrophe> <d>         		:	"ᵈ"	U1D48	# MODIFIER LETTER SMALL D           
+<Multi_key> <apostrophe> <e>         		:	"ᵉ"	U1D49	# MODIFIER LETTER SMALL E           
+<Multi_key> <apostrophe> <f>         		:	"ᶠ"	U1DA0	# MODIFIER LETTER SMALL F           
+<Multi_key> <apostrophe> <g>         		:	"ᵍ"	U1D4D	# MODIFIER LETTER SMALL G           
+<Multi_key> <apostrophe> <h>         		:	"ʰ"	U02B0	# MODIFIER LETTER SMALL H           
+<Multi_key> <apostrophe> <i>         		:	"ⁱ"	U2071	# SUPERSCRIPT LATIN SMALL LETTER I  
+<Multi_key> <apostrophe> <j>         		:	"ʲ"	U02B2	# MODIFIER LETTER SMALL J           
+<Multi_key> <apostrophe> <k>         		:	"ᵏ"	U1D4F	# MODIFIER LETTER SMALL K           
+<Multi_key> <apostrophe> <l>         		:	"ˡ"	U02E1	# MODIFIER LETTER SMALL L           
+<Multi_key> <apostrophe> <m>         		:	"ᵐ"	U1D50	# MODIFIER LETTER SMALL M           
+<Multi_key> <apostrophe> <n>         		:	"ⁿ"	U207F	# SUPERSCRIPT LATIN SMALL LETTER N  
+<Multi_key> <apostrophe> <o>         		:	"ᵒ"	U1D52	# MODIFIER LETTER SMALL O           
+<Multi_key> <apostrophe> <p>         		:	"ᵖ"	U1D56	# MODIFIER LETTER SMALL P           
+<Multi_key> <apostrophe> <q>         		:	"ᑫ"	U146B	# CANADIAN SYLLABICS KE             
+<Multi_key> <apostrophe> <r>         		:	"ʳ"	U02B3	# MODIFIER LETTER SMALL R           
+<Multi_key> <apostrophe> <s>         		:	"ˢ"	U02E2	# MODIFIER LETTER SMALL S           
+<Multi_key> <apostrophe> <t>         		:	"ᵗ"	U1D57	# MODIFIER LETTER SMALL T           
+<Multi_key> <apostrophe> <u>         		:	"ᵘ"	U1D58	# MODIFIER LETTER SMALL U           
+<Multi_key> <apostrophe> <v>         		:	"ᵛ"	U1D5B	# MODIFIER LETTER SMALL V           
+<Multi_key> <apostrophe> <w>         		:	"ʷ"	U02B7	# MODIFIER LETTER SMALL W           
+<Multi_key> <apostrophe> <x>         		:	"ˣ"	U02E3	# MODIFIER LETTER SMALL X           
+<Multi_key> <apostrophe> <y>         		:	"ʸ"	U02B8	# MODIFIER LETTER SMALL Y           
+<Multi_key> <apostrophe> <z>         		:	"ᶻ"	U1DBB	# MODIFIER LETTER SMALL Z           
 
-<Multi_key> <apostrophe> <A>    :   "ᴬ"    U1D2C #  MATHEMATICAL BOLD SCRIPT CAPITAL A
-<Multi_key> <apostrophe> <B>    :   "ᴮ"    U1D2E #  MATHEMATICAL BOLD SCRIPT CAPITAL B
-<Multi_key> <apostrophe> <C>    :   "ᶜ"    U1D9C #  MATHEMATICAL BOLD SCRIPT CAPITAL C
-<Multi_key> <apostrophe> <D>    :   "ᴰ"    U1D30 #  MATHEMATICAL BOLD SCRIPT CAPITAL D
-<Multi_key> <apostrophe> <E>    :   "ᴱ"    U1D31 #  MATHEMATICAL BOLD SCRIPT CAPITAL E
-<Multi_key> <apostrophe> <F>    :   "ᶠ"    U1DA0 #  MATHEMATICAL BOLD SCRIPT CAPITAL F
-<Multi_key> <apostrophe> <G>    :   "ᴳ"    U1D33 #  MATHEMATICAL BOLD SCRIPT CAPITAL G
-<Multi_key> <apostrophe> <E>    :   "ᴴ"    U1D34 #  MATHEMATICAL BOLD SCRIPT CAPITAL H
-<Multi_key> <apostrophe> <I>    :   "ᴵ"    U1D35 #  MATHEMATICAL BOLD SCRIPT CAPITAL I
-<Multi_key> <apostrophe> <J>    :   "ᴶ"    U1D36 #  MATHEMATICAL BOLD SCRIPT CAPITAL J
-<Multi_key> <apostrophe> <K>    :   "ᴷ"    U1D37 #  MATHEMATICAL BOLD SCRIPT CAPITAL K
-<Multi_key> <apostrophe> <L>    :   "ᴸ"    U1D38 #  MATHEMATICAL BOLD SCRIPT CAPITAL L
-<Multi_key> <apostrophe> <M>    :   "ᴹ"    U1D39 #  MATHEMATICAL BOLD SCRIPT CAPITAL M
-<Multi_key> <apostrophe> <N>    :   "ᴺ"    U1D3A #  MATHEMATICAL BOLD SCRIPT CAPITAL N
-<Multi_key> <apostrophe> <O>    :   "ᴼ"    U1D3C #  MATHEMATICAL BOLD SCRIPT CAPITAL O
-<Multi_key> <apostrophe> <P>    :   "ᴾ"    U1D3E #  MATHEMATICAL BOLD SCRIPT CAPITAL P
-<Multi_key> <apostrophe> <Q>    :   "Q"    U0051 #  MATHEMATICAL BOLD SCRIPT CAPITAL Q
-<Multi_key> <apostrophe> <R>    :   "ᴿ"    U1D3F #  MATHEMATICAL BOLD SCRIPT CAPITAL R
-<Multi_key> <apostrophe> <S>    :   "ˢ"    U02E2 #  MATHEMATICAL BOLD SCRIPT CAPITAL S
-<Multi_key> <apostrophe> <T>    :   "ᵀ"    U1D40 #  MATHEMATICAL BOLD SCRIPT CAPITAL T
-<Multi_key> <apostrophe> <U>    :   "ᵁ"    U1D41 #  MATHEMATICAL BOLD SCRIPT CAPITAL U
-<Multi_key> <apostrophe> <V>    :   "ⱽ"    U2C7D #  MATHEMATICAL BOLD SCRIPT CAPITAL V
-<Multi_key> <apostrophe> <W>    :   "ᵂ"    U1D42 #  MATHEMATICAL BOLD SCRIPT CAPITAL W
-<Multi_key> <apostrophe> <X>    :   "ˣ"    U02E3 #  MATHEMATICAL BOLD SCRIPT CAPITAL X
-<Multi_key> <apostrophe> <Y>    :   "ʸ"    U02B8 #  MATHEMATICAL BOLD SCRIPT CAPITAL Y
-<Multi_key> <apostrophe> <Z>    :   "ᶻ"    U1DBB #  MATHEMATICAL BOLD SCRIPT CAPITAL Z
-<Multi_key> <apostrophe> <period> : "·"   periodcentered # MIDDLE DOT
+<Multi_key> <apostrophe> <A>         		:	"ᴬ"	U1D2C	# MODIFIER LETTER CAPITAL A         
+<Multi_key> <apostrophe> <B>         		:	"ᴮ"	U1D2E	# MODIFIER LETTER CAPITAL B         
+<Multi_key> <apostrophe> <C>         		:	"ᶜ"	U1D9C	# MODIFIER LETTER SMALL C           
+<Multi_key> <apostrophe> <D>         		:	"ᴰ"	U1D30	# MODIFIER LETTER CAPITAL D         
+<Multi_key> <apostrophe> <E>         		:	"ᴱ"	U1D31	# MODIFIER LETTER CAPITAL E         
+<Multi_key> <apostrophe> <F>         		:	"ᶠ"	U1DA0	# MODIFIER LETTER SMALL F           
+<Multi_key> <apostrophe> <G>         		:	"ᴳ"	U1D33	# MODIFIER LETTER CAPITAL G         
+<Multi_key> <apostrophe> <H>         		:	"ᴴ"	U1D34	# MODIFIER LETTER CAPITAL H         
+<Multi_key> <apostrophe> <I>         		:	"ᴵ"	U1D35	# MODIFIER LETTER CAPITAL I         
+<Multi_key> <apostrophe> <J>         		:	"ᴶ"	U1D36	# MODIFIER LETTER CAPITAL J         
+<Multi_key> <apostrophe> <K>         		:	"ᴷ"	U1D37	# MODIFIER LETTER CAPITAL K         
+<Multi_key> <apostrophe> <L>         		:	"ᴸ"	U1D38	# MODIFIER LETTER CAPITAL L         
+<Multi_key> <apostrophe> <M>         		:	"ᴹ"	U1D39	# MODIFIER LETTER CAPITAL M         
+<Multi_key> <apostrophe> <N>         		:	"ᴺ"	U1D3A	# MODIFIER LETTER CAPITAL N         
+<Multi_key> <apostrophe> <O>         		:	"ᴼ"	U1D3C	# MODIFIER LETTER CAPITAL O         
+<Multi_key> <apostrophe> <P>         		:	"ᴾ"	U1D3E	# MODIFIER LETTER CAPITAL P         
+<Multi_key> <apostrophe> <Q>         		:	"Q"	U0051	# LATIN CAPITAL LETTER Q            
+<Multi_key> <apostrophe> <R>         		:	"ᴿ"	U1D3F	# MODIFIER LETTER CAPITAL R         
+<Multi_key> <apostrophe> <S>         		:	"ˢ"	U02E2	# MODIFIER LETTER SMALL S           
+<Multi_key> <apostrophe> <T>         		:	"ᵀ"	U1D40	# MODIFIER LETTER CAPITAL T         
+<Multi_key> <apostrophe> <U>         		:	"ᵁ"	U1D41	# MODIFIER LETTER CAPITAL U         
+<Multi_key> <apostrophe> <V>         		:	"ⱽ"	U2C7D	# MODIFIER LETTER CAPITAL V         
+<Multi_key> <apostrophe> <W>         		:	"ᵂ"	U1D42	# MODIFIER LETTER CAPITAL W         
+<Multi_key> <apostrophe> <X>         		:	"ˣ"	U02E3	# MODIFIER LETTER SMALL X           
+<Multi_key> <apostrophe> <Y>         		:	"ʸ"	U02B8	# MODIFIER LETTER SMALL Y           
+<Multi_key> <apostrophe> <Z>         		:	"ᶻ"	U1DBB	# MODIFIER LETTER SMALL Z           
+
+<Multi_key> <apostrophe> <period>    		:	"·"	U00B7	# MIDDLE DOT                        
+<Multi_key> <apostrophe> <0>         		:	"⁰"	U2070	# SUPERSCRIPT ZERO                  
+<Multi_key> <apostrophe> <1>         		:	"¹"	U00B9	# SUPERSCRIPT ONE                   
+<Multi_key> <apostrophe> <2>         		:	"²"	U00B2	# SUPERSCRIPT TWO                   
+<Multi_key> <apostrophe> <3>         		:	"³"	U00B3	# SUPERSCRIPT THREE                 
+<Multi_key> <apostrophe> <4>         		:	"⁴"	U2074	# SUPERSCRIPT FOUR                  
+<Multi_key> <apostrophe> <5>         		:	"⁵"	U2075	# SUPERSCRIPT FIVE                  
+<Multi_key> <apostrophe> <6>         		:	"⁶"	U2076	# SUPERSCRIPT SIX                   
+<Multi_key> <apostrophe> <7>         		:	"⁷"	U2077	# SUPERSCRIPT SEVEN                 
+<Multi_key> <apostrophe> <8>         		:	"⁸"	U2078	# SUPERSCRIPT EIGHT                 
+<Multi_key> <apostrophe> <9>         		:	"⁹"	U2079	# SUPERSCRIPT NINE                  
+<Multi_key> <apostrophe> <plus>      		:	"⁺"	U207A	# SUPERSCRIPT PLUS SIGN             
+<Multi_key> <apostrophe> <minus>     		:	"⁻"	U207B	# SUPERSCRIPT MINUS                 
+<Multi_key> <apostrophe> <equal>     		:	"⁼"	U207C	# SUPERSCRIPT EQUALS SIGN           
+<Multi_key> <apostrophe> <parenleft> 		:	"⁽"	U207D	# SUPERSCRIPT LEFT PARENTHESIS      
+<Multi_key> <apostrophe> <parenright>		:	"⁾"	U207E	# SUPERSCRIPT RIGHT PARENTHESIS
+
 
 
 ######

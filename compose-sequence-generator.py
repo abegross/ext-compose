@@ -8,25 +8,46 @@ def isevaluable(s):
     except ValueError:
         return False
 
-# usage: compose-sequence-generator.py 'regular' 'composed' 'sequence'
-# 'regular', 'composed', and 'sequence' are defined below.
+if sys.argv[1] == "help":
+    print(
+    """
+     usage: compose-sequence-generator.py 'regular' 'composed' 'sequence'
+
+
+     regular:
+    the regular abcs or wtvr that will be typed out
+    each letter in 'regular' corresponds to the respective letter in 'composed'
+    example: regular = "0123456789"
+
+     composed:
+    the characters that compose spits out
+    example: composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
+
+     sequence:
+    the sequence ull type out using the compose key.
+    "<M_>" means the compose key.
+    <MM> means compose key twice
+    ★ is what will be replaced with whats in regular
+    example: sequence = "<M_> ★|"
+     """)
+    quit()
 
 # the regular abcs or wtvr that will be typed out
 # each letter in 'regular' corresponds to the respective letter in 'composed'
 # regular = "0123456789"
 regular = ["0123456789"] if not sys.argv[1] else \
-         (eval(sys.argv[1]) if isevaluable(sys.argv[1]) else sys.argv[1])
+         (eval(sys.argv[1]) if isevaluable(sys.argv[1]) else str(sys.argv[1]))
 
 # the characters that compose spits out
 # composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡" if not sys.argv[2] else sys.argv[2]
+composed = "𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡" if not sys.argv[2] else str(sys.argv[2])
 
 # the sequence u type out.
 # "<M_>" means the compose key.
 # <MM> means compose key twice
 # ★ is what will be replaced with whats in regular
 # sequence = "<M_> ★|"
-sequence = "<M_> ★k" if not sys.argv[3] else sys.argv[3]
+sequence = "<M_> ★k" if not sys.argv[3] else str(sys.argv[3])
 
 
 
