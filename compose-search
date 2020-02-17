@@ -1,14 +1,17 @@
 #!/usr/bin/bash
 
+# find all the files that ~/.XCompose links to, and add them to a list of files that should be searched
+files=$(sed '/^include/!d'";s/include //;s|%H|${HOME}|;s|%L|/usr/share/X11/locale/en_US.UTF-8/Compose|;s/\"//g" ~/.XCompose)
+
 if [ "$1" = "-h" ];then
    echo lets you search through all your compose sequences for a match
-   echo USAGE: compose_search sequence/symbol
+   echo USAGE: compose-search sequence/symbol
 elif command -v rg >/dev/null 2>&1 ; then
-    rg -i "$1" /home/nitsi/documents/xcompose/*
-    found=$(rg -i "$1" /home/nitsi/documents/xcompose/*)
+    rg -i "$1" $files
+    found=$(rg -i "$1" $files)
 else
-    grep -inT "$1" /home/nitsi/documents/xcompose/*
-    found=$(grep -inT "$1" /home/nitsi/documents/xcompose/*)
+    grep -inT "$1" $files
+    found=$(grep -inT "$1" $files)
 fi
 
 if [ -z "$found" ]; then
