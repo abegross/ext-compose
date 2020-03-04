@@ -104,8 +104,9 @@
 
 # 合字
 # plus indicates combining
-<Multi_key> <H> <plus> <y> <o> <r> <i> 		:	"ゟ"	U309F	# HIRAGANA DIGRAPH YORI
-<Multi_key> <H> <plus> <m> <a> <s> <u> 		:	"升"	U5347	# CJK UNIFIED IDEOGRAPH-5347
+<Multi_key> <H> <plus> <y> <o> <r> <i>		:	"ゟ"	U309F	# HIRAGANA DIGRAPH YORI
+<Multi_key> <H> <plus> <m> <a> <s> <u>		:	"升"	U5347	# CJK UNIFIED IDEOGRAPH-5347
+<Multi_key> <H> <plus> <s> <i> <m> <e>		:	"乄"	U4E44	# CJK UNIFIED IDEOGRAPH-4E44
 
 
 
