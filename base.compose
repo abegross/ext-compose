@@ -737,6 +737,8 @@
 # Using backslash-minus-slash etc. conflicts with combining accents.
 <Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
 <Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
+<Multi_key> <braceright>  <minus>  		:	"🗦"	U1F5E6	# THREE RAYS LEFT   
+<Multi_key> <braceleft>  <minus>   		:	"🗧"	U1F5E7	# THREE RAYS RIGHT
 <Multi_key> <Multi_key> <B> <e> <l> <l> <s> <y> <m>	: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
 # Other monstery characters... ѪꙚ (alien abductions?)
 # ඏൠഋ & others from Kannada et al...?
