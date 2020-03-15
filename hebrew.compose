@@ -30,7 +30,38 @@
 # <Multi_key> <I> <r>        :   "ר"    U05E8 # HEBREW LETTER RESH
 # <Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 # <Multi_key> <I> <comma>        :   "ת"    U05EA # HEBREW LETTER TAV
-#<Multi_key> <I>  <plus> <t> <k>             		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+
+#<Multi_key> <I>  <plus> <t> <k>   		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+#<Multi_key> <I>  <plus> <plus> <h>		:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
+#<Multi_key> <I> <plus> <u> <u>                             :  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
+#<Multi_key> <I> <plus> <u> <h>                             :  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
+#<Multi_key> <I> <plus> <h> <h>                             :  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
+#<Multi_key> <I> <plus> <h> <period>                        :  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
+#<Multi_key> <I> <plus> <h> <minus> <h>                     :  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
+#<Multi_key> <I> <plus> <u> <apostrophe>                             :  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
+#<Multi_key> <I> <plus> <u> <minus>                         :  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
+ backspace reverses latin letters too
+#<Multi_key> <I> <backspace> <b>                                    :  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+ minus is a dash, and these letters have a dash in them (so theyre wider)
+#<Multi_key> <I> <minus> <t>                                :  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
+#<Multi_key> <I> <minus> <s>                                :  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
+#<Multi_key> <I> <minus> <v>                                :  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
+#<Multi_key> <I> <minus> <f>                                :  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
+#<Multi_key> <I> <minus> <k>                                :  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
+#<Multi_key> <I> <minus> <o>                                :  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
+#<Multi_key> <I> <minus> <r>                                :  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
+#<Multi_key> <I> <minus> <comma>                                :  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
+#<Multi_key> <I> <quotedbl>                                 :  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+#<Multi_key> <I> <apostrophe>                                        :  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+#<Multi_key> <I> <plus> <comma>                             :  "ָ"  U05B8  # HEBREW POINT QAMATS
+#<Multi_key> <I> <plus> <underscore>                        :  "ַ"  U05B7  # HEBREW POINT PATAH
+#<Multi_key> <I> <plus> <quotedbl>                          :  "ֵ"  U05B5  # HEBREW POINT TSERE
+#<Multi_key> <I> <plus> <asterisk>                          :  "ֶ"  U05B6  # HEBREW POINT SEGOL
+#<Multi_key> <I> <plus> <colon>                             :  "ְ"  U05B0  # HEBREW POINT SHEVA
+#<Multi_key> <I> <plus> <apostrophe>                                 :  "ֹ"  U05B9  # HEBREW POINT HOLAM
+#<Multi_key> <I> <plus> <period>                            :  "ִ"  U05B4  # HEBREW POINT HIRIQ
+#<Multi_key> <I> <plus> <backslash>                         :  "ֻ"  U05BB  # HEBREW POINT QUBUTS
+#<Multi_key> <I> <plus> <minus>                             :  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
 
 # this is the dvorak version:
 <Multi_key> <I> <y>        :   "א"    U05D0 # HEBREW LETTER ALEF
@@ -60,7 +91,38 @@
 <Multi_key> <I> <p>        :   "ר"    U05E8 # HEBREW LETTER RESH
 <Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 <Multi_key> <I> <w>        :   "ת"    U05EA # HEBREW LETTER TAV
-<Multi_key> <I>  <plus> <y> <t>             		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+
+<Multi_key> <I>  <plus> <y> <t>   		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+<Multi_key> <I>  <plus> <plus> <d>		:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
+<Multi_key> <I> <plus> <g> <g>                             :  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
+<Multi_key> <I> <plus> <g> <d>                             :  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
+<Multi_key> <I> <plus> <d> <d>                             :  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
+<Multi_key> <I> <plus> <d> <period>                        :  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
+<Multi_key> <I> <plus> <d> <minus> <d>                     :  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
+<Multi_key> <I> <plus> <g> <apostrophe>                             :  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
+<Multi_key> <I> <plus> <g> <minus>                         :  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
+# backspace reverses latin letters too
+<Multi_key> <I> <backspace> <x>                                    :  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+# minus is a dash, and these letters have a dash in them (so theyre wider)
+<Multi_key> <I> <minus> <y>                                :  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
+<Multi_key> <I> <minus> <e>                                :  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
+<Multi_key> <I> <minus> <k>                                :  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
+<Multi_key> <I> <minus> <u>                                :  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
+<Multi_key> <I> <minus> <t>                                :  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
+<Multi_key> <I> <minus> <r>                                :  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
+<Multi_key> <I> <minus> <p>                                :  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
+<Multi_key> <I> <minus> <w>                                :  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
+<Multi_key> <I> <quotedbl>                                 :  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+<Multi_key> <I> <apostrophe>                                        :  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+<Multi_key> <I> <plus> <comma>                             :  "ָ"  U05B8  # HEBREW POINT QAMATS
+<Multi_key> <I> <plus> <underscore>                        :  "ַ"  U05B7  # HEBREW POINT PATAH
+<Multi_key> <I> <plus> <quotedbl>                          :  "ֵ"  U05B5  # HEBREW POINT TSERE
+<Multi_key> <I> <plus> <asterisk>                          :  "ֶ"  U05B6  # HEBREW POINT SEGOL
+<Multi_key> <I> <plus> <colon>                             :  "ְ"  U05B0  # HEBREW POINT SHEVA
+<Multi_key> <I> <plus> <apostrophe>                                 :  "ֹ"  U05B9  # HEBREW POINT HOLAM
+<Multi_key> <I> <plus> <period>                            :  "ִ"  U05B4  # HEBREW POINT HIRIQ
+<Multi_key> <I> <plus> <backslash>                         :  "ֻ"  U05BB  # HEBREW POINT QUBUTS
+<Multi_key> <I> <plus> <minus>                             :  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
 
 # Palmyrene gets a capital P not to interfere with regular hebrew (u dont wanna type a פ)
 # again, i put the qwerty version first
