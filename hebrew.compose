@@ -30,6 +30,7 @@
 # <Multi_key> <I> <r>        :   "ר"    U05E8 # HEBREW LETTER RESH
 # <Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 # <Multi_key> <I> <comma>        :   "ת"    U05EA # HEBREW LETTER TAV
+#<Multi_key> <I>  <plus> <t> <k>             		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
 
 # this is the dvorak version:
 <Multi_key> <I> <y>        :   "א"    U05D0 # HEBREW LETTER ALEF
@@ -59,6 +60,7 @@
 <Multi_key> <I> <p>        :   "ר"    U05E8 # HEBREW LETTER RESH
 <Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 <Multi_key> <I> <w>        :   "ת"    U05EA # HEBREW LETTER TAV
+<Multi_key> <I>  <plus> <y> <t>             		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
 
 # Palmyrene gets a capital P not to interfere with regular hebrew (u dont wanna type a פ)
 # again, i put the qwerty version first
