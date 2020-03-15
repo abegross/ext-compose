@@ -3,174 +3,180 @@
 # the abcs are the positions the letters take in the hebrew keyboard
 # this is the qwerty version:
 
-# <Multi_key> <I> <t>        :   "א"    U05D0 # HEBREW LETTER ALEF
-# <Multi_key> <I> <c>        :   "ב"    U05D1 # HEBREW LETTER BET
-# <Multi_key> <I> <d>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
-# <Multi_key> <I> <s>        :   "ד"    U05D3 # HEBREW LETTER DALET
-# <Multi_key> <I> <v>        :   "ה"    U05D4 # HEBREW LETTER HE
-# <Multi_key> <I> <u>        :   "ו"    U05D5 # HEBREW LETTER VAV
-# <Multi_key> <I> <z>        :   "ז"    U05D6 # HEBREW LETTER ZAYIN
-# <Multi_key> <I> <j>        :   "ח"    U05D7 # HEBREW LETTER HET
-# <Multi_key> <I> <y>        :   "ט"    U05D8 # HEBREW LETTER TET
-# <Multi_key> <I> <h>        :   "י"    U05D9 # HEBREW LETTER YOD
-# <Multi_key> <I> <f>        :   "כ"    U05DB # HEBREW LETTER KAF
-# <Multi_key> <I> <l>        :   "ך"    U05DA # HEBREW LETTER FINAL KAF
-# <Multi_key> <I> <k>        :   "ל"    U05DC # HEBREW LETTER LAMED
-# <Multi_key> <I> <n>        :   "מ"    U05DE # HEBREW LETTER MEM
-# <Multi_key> <I> <o>        :   "ם"    U05DD # HEBREW LETTER FINAL MEM
-# <Multi_key> <I> <b>        :   "נ"    U05E0 # HEBREW LETTER NUN
-# <Multi_key> <I> <i>        :   "ן"    U05DF # HEBREW LETTER FINAL NUN
-# <Multi_key> <I> <x>        :   "ס"    U05E1 # HEBREW LETTER SAMEKH
-# <Multi_key> <I> <g>        :   "ע"    U05E2 # HEBREW LETTER AYIN
-# <Multi_key> <I> <p>        :   "פ"    U05E4 # HEBREW LETTER PE
-# <Multi_key> <I> <semicolon>        :   "ף"    U05E3 # HEBREW LETTER FINAL PE
-# <Multi_key> <I> <m>        :   "צ"    U05E6 # HEBREW LETTER TSADI
-# <Multi_key> <I> <period>        :   "ץ"    U05E5 # HEBREW LETTER FINAL TSADI
-# <Multi_key> <I> <e>        :   "ק"    U05E7 # HEBREW LETTER QOF
-# <Multi_key> <I> <r>        :   "ר"    U05E8 # HEBREW LETTER RESH
-# <Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
-# <Multi_key> <I> <comma>        :   "ת"    U05EA # HEBREW LETTER TAV
+# <Multi_key> <I> <t>		:   "א"	U05D0 # HEBREW LETTER ALEF
+# <Multi_key> <I> <c>		:   "ב"	U05D1 # HEBREW LETTER BET
+# <Multi_key> <I> <d>		:   "ג"	U05D2 # HEBREW LETTER GIMEL
+# <Multi_key> <I> <s>		:   "ד"	U05D3 # HEBREW LETTER DALET
+# <Multi_key> <I> <v>		:   "ה"	U05D4 # HEBREW LETTER HE
+# <Multi_key> <I> <u>		:   "ו"	U05D5 # HEBREW LETTER VAV
+# <Multi_key> <I> <z>		:   "ז"	U05D6 # HEBREW LETTER ZAYIN
+# <Multi_key> <I> <j>		:   "ח"	U05D7 # HEBREW LETTER HET
+# <Multi_key> <I> <y>		:   "ט"	U05D8 # HEBREW LETTER TET
+# <Multi_key> <I> <h>		:   "י"	U05D9 # HEBREW LETTER YOD
+# <Multi_key> <I> <f>		:   "כ"	U05DB # HEBREW LETTER KAF
+# <Multi_key> <I> <l>		:   "ך"	U05DA # HEBREW LETTER FINAL KAF
+# <Multi_key> <I> <k>		:   "ל"	U05DC # HEBREW LETTER LAMED
+# <Multi_key> <I> <n>		:   "מ"	U05DE # HEBREW LETTER MEM
+# <Multi_key> <I> <o>		:   "ם"	U05DD # HEBREW LETTER FINAL MEM
+# <Multi_key> <I> <b>		:   "נ"	U05E0 # HEBREW LETTER NUN
+# <Multi_key> <I> <i>		:   "ן"	U05DF # HEBREW LETTER FINAL NUN
+# <Multi_key> <I> <x>		:   "ס"	U05E1 # HEBREW LETTER SAMEKH
+# <Multi_key> <I> <g>		:   "ע"	U05E2 # HEBREW LETTER AYIN
+# <Multi_key> <I> <p>		:   "פ"	U05E4 # HEBREW LETTER PE
+# <Multi_key> <I> <semicolon>		:   "ף"	U05E3 # HEBREW LETTER FINAL PE
+# <Multi_key> <I> <m>		:   "צ"	U05E6 # HEBREW LETTER TSADI
+# <Multi_key> <I> <period>		:   "ץ"	U05E5 # HEBREW LETTER FINAL TSADI
+# <Multi_key> <I> <e>		:   "ק"	U05E7 # HEBREW LETTER QOF
+# <Multi_key> <I> <r>		:   "ר"	U05E8 # HEBREW LETTER RESH
+# <Multi_key> <I> <a>		:   "ש"	U05E9 # HEBREW LETTER SHIN
+# <Multi_key> <I> <comma>		:   "ת"	U05EA # HEBREW LETTER TAV
 
-#<Multi_key> <I>  <plus> <t> <k>   		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
-#<Multi_key> <I>  <plus> <plus> <h>		:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
-#<Multi_key> <I> <plus> <u> <u>                             :  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
-#<Multi_key> <I> <plus> <u> <h>                             :  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
-#<Multi_key> <I> <plus> <h> <h>                             :  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
-#<Multi_key> <I> <plus> <h> <period>                        :  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
-#<Multi_key> <I> <plus> <h> <minus> <h>                     :  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
-#<Multi_key> <I> <plus> <u> <apostrophe>                             :  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
-#<Multi_key> <I> <plus> <u> <minus>                         :  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
- backspace reverses latin letters too
-#<Multi_key> <I> <backspace> <b>                                    :  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
- minus is a dash, and these letters have a dash in them (so theyre wider)
-#<Multi_key> <I> <minus> <t>                                :  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
-#<Multi_key> <I> <minus> <s>                                :  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
-#<Multi_key> <I> <minus> <v>                                :  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
-#<Multi_key> <I> <minus> <f>                                :  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
-#<Multi_key> <I> <minus> <k>                                :  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
-#<Multi_key> <I> <minus> <o>                                :  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
-#<Multi_key> <I> <minus> <r>                                :  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
-#<Multi_key> <I> <minus> <comma>                                :  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
-#<Multi_key> <I> <quotedbl>                                 :  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
-#<Multi_key> <I> <apostrophe>                                        :  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
-#<Multi_key> <I> <plus> <comma>                             :  "ָ"  U05B8  # HEBREW POINT QAMATS
-#<Multi_key> <I> <plus> <underscore>                        :  "ַ"  U05B7  # HEBREW POINT PATAH
-#<Multi_key> <I> <plus> <quotedbl>                          :  "ֵ"  U05B5  # HEBREW POINT TSERE
-#<Multi_key> <I> <plus> <asterisk>                          :  "ֶ"  U05B6  # HEBREW POINT SEGOL
-#<Multi_key> <I> <plus> <colon>                             :  "ְ"  U05B0  # HEBREW POINT SHEVA
-#<Multi_key> <I> <plus> <apostrophe>                                 :  "ֹ"  U05B9  # HEBREW POINT HOLAM
-#<Multi_key> <I> <plus> <period>                            :  "ִ"  U05B4  # HEBREW POINT HIRIQ
-#<Multi_key> <I> <plus> <backslash>                         :  "ֻ"  U05BB  # HEBREW POINT QUBUTS
-#<Multi_key> <I> <plus> <minus>                             :  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
+### Hebrew ligatures and other letters
+#<Multi_key> <I>  <plus> <t> <k>   						:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+#<Multi_key> <I>  <plus> <plus> <h>						:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
+#<Multi_key> <I> <plus> <u> <u>							:  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
+#<Multi_key> <I> <plus> <u> <h>							:  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
+#<Multi_key> <I> <plus> <h> <h>							:  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
+#<Multi_key> <I> <plus> <h> <period>					:  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
+#<Multi_key> <I> <plus> <h> <minus> <h>					:  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
+#<Multi_key> <I> <plus> <u> <apostrophe>				:  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
+#<Multi_key> <I> <plus> <u> <minus>						:  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
+## backspace reverses latin letters too
+#<Multi_key> <I> <backspace> <b>						:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+## minus is a dash, and these letters have a dash in them (so theyre wider)
+#<Multi_key> <I> <minus> <t>							:  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
+#<Multi_key> <I> <minus> <s>							:  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
+#<Multi_key> <I> <minus> <v>							:  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
+#<Multi_key> <I> <minus> <f>							:  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
+#<Multi_key> <I> <minus> <k>							:  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
+#<Multi_key> <I> <minus> <o>							:  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
+#<Multi_key> <I> <minus> <r>							:  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
+#<Multi_key> <I> <minus> <comma>						:  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
+#<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+#<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+
+### Hebrew combining diacritics (nykidys)
+#<Multi_key> <I> <plus> <comma>							:  "ָ"  U05B8  # HEBREW POINT QAMATS
+#<Multi_key> <I> <plus> <underscore>					:  "ַ"  U05B7  # HEBREW POINT PATAH
+#<Multi_key> <I> <plus> <quotedbl>						:  "ֵ"  U05B5  # HEBREW POINT TSERE
+#<Multi_key> <I> <plus> <asterisk>						:  "ֶ"  U05B6  # HEBREW POINT SEGOL
+#<Multi_key> <I> <plus> <colon>							:  "ְ"  U05B0  # HEBREW POINT SHEVA
+#<Multi_key> <I> <plus> <apostrophe>					:  "ֹ"  U05B9  # HEBREW POINT HOLAM
+#<Multi_key> <I> <plus> <period>						:  "ִ"  U05B4  # HEBREW POINT HIRIQ
+#<Multi_key> <I> <plus> <backslash>						:  "ֻ"  U05BB  # HEBREW POINT QUBUTS
+#<Multi_key> <I> <plus> <minus>							:  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
 
 # this is the dvorak version:
-<Multi_key> <I> <y>        :   "א"    U05D0 # HEBREW LETTER ALEF
-<Multi_key> <I> <j>        :   "ב"    U05D1 # HEBREW LETTER BET
-<Multi_key> <I> <e>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
-<Multi_key> <I> <o>        :   "ד"    U05D3 # HEBREW LETTER DALET
-<Multi_key> <I> <k>        :   "ה"    U05D4 # HEBREW LETTER HE
-<Multi_key> <I> <g>        :   "ו"    U05D5 # HEBREW LETTER VAV
-<Multi_key> <I> <colon>    :   "ז"    U05D6 # HEBREW LETTER ZAYIN
-<Multi_key> <I> <h>        :   "ח"    U05D7 # HEBREW LETTER HET
-<Multi_key> <I> <f>        :   "ט"    U05D8 # HEBREW LETTER TET
-<Multi_key> <I> <d>        :   "י"    U05D9 # HEBREW LETTER YOD
-<Multi_key> <I> <u>        :   "כ"    U05DB # HEBREW LETTER KAF
-<Multi_key> <I> <n>        :   "ך"    U05DA # HEBREW LETTER FINAL KAF
-<Multi_key> <I> <t>        :   "ל"    U05DC # HEBREW LETTER LAMED
-<Multi_key> <I> <b>        :   "מ"    U05DE # HEBREW LETTER MEM
-<Multi_key> <I> <r>        :   "ם"    U05DD # HEBREW LETTER FINAL MEM
-<Multi_key> <I> <x>        :   "נ"    U05E0 # HEBREW LETTER NUN
-<Multi_key> <I> <c>        :   "ן"    U05DF # HEBREW LETTER FINAL NUN
-<Multi_key> <I> <q>        :   "ס"    U05E1 # HEBREW LETTER SAMEKH
-<Multi_key> <I> <i>        :   "ע"    U05E2 # HEBREW LETTER AYIN
-<Multi_key> <I> <l>        :   "פ"    U05E4 # HEBREW LETTER PE
-<Multi_key> <I> <s>        :   "ף"    U05E3 # HEBREW LETTER FINAL PE
-<Multi_key> <I> <m>        :   "צ"    U05E6 # HEBREW LETTER TSADI
-<Multi_key> <I> <v>        :   "ץ"    U05E5 # HEBREW LETTER FINAL TSADI
-<Multi_key> <I> <period>   :   "ק"    U05E7 # HEBREW LETTER QOF
-<Multi_key> <I> <p>        :   "ר"    U05E8 # HEBREW LETTER RESH
-<Multi_key> <I> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
-<Multi_key> <I> <w>        :   "ת"    U05EA # HEBREW LETTER TAV
+<Multi_key> <I> <y>		:   "א"	U05D0 # HEBREW LETTER ALEF
+<Multi_key> <I> <j>		:   "ב"	U05D1 # HEBREW LETTER BET
+<Multi_key> <I> <e>		:   "ג"	U05D2 # HEBREW LETTER GIMEL
+<Multi_key> <I> <o>		:   "ד"	U05D3 # HEBREW LETTER DALET
+<Multi_key> <I> <k>		:   "ה"	U05D4 # HEBREW LETTER HE
+<Multi_key> <I> <g>		:   "ו"	U05D5 # HEBREW LETTER VAV
+<Multi_key> <I> <colon>	:   "ז"	U05D6 # HEBREW LETTER ZAYIN
+<Multi_key> <I> <h>		:   "ח"	U05D7 # HEBREW LETTER HET
+<Multi_key> <I> <f>		:   "ט"	U05D8 # HEBREW LETTER TET
+<Multi_key> <I> <d>		:   "י"	U05D9 # HEBREW LETTER YOD
+<Multi_key> <I> <u>		:   "כ"	U05DB # HEBREW LETTER KAF
+<Multi_key> <I> <n>		:   "ך"	U05DA # HEBREW LETTER FINAL KAF
+<Multi_key> <I> <t>		:   "ל"	U05DC # HEBREW LETTER LAMED
+<Multi_key> <I> <b>		:   "מ"	U05DE # HEBREW LETTER MEM
+<Multi_key> <I> <r>		:   "ם"	U05DD # HEBREW LETTER FINAL MEM
+<Multi_key> <I> <x>		:   "נ"	U05E0 # HEBREW LETTER NUN
+<Multi_key> <I> <c>		:   "ן"	U05DF # HEBREW LETTER FINAL NUN
+<Multi_key> <I> <q>		:   "ס"	U05E1 # HEBREW LETTER SAMEKH
+<Multi_key> <I> <i>		:   "ע"	U05E2 # HEBREW LETTER AYIN
+<Multi_key> <I> <l>		:   "פ"	U05E4 # HEBREW LETTER PE
+<Multi_key> <I> <s>		:   "ף"	U05E3 # HEBREW LETTER FINAL PE
+<Multi_key> <I> <m>		:   "צ"	U05E6 # HEBREW LETTER TSADI
+<Multi_key> <I> <v>		:   "ץ"	U05E5 # HEBREW LETTER FINAL TSADI
+<Multi_key> <I> <period>   :   "ק"	U05E7 # HEBREW LETTER QOF
+<Multi_key> <I> <p>		:   "ר"	U05E8 # HEBREW LETTER RESH
+<Multi_key> <I> <a>		:   "ש"	U05E9 # HEBREW LETTER SHIN
+<Multi_key> <I> <w>		:   "ת"	U05EA # HEBREW LETTER TAV
 
-<Multi_key> <I>  <plus> <y> <t>   		:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
-<Multi_key> <I>  <plus> <plus> <d>		:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
-<Multi_key> <I> <plus> <g> <g>                             :  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
-<Multi_key> <I> <plus> <g> <d>                             :  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
-<Multi_key> <I> <plus> <d> <d>                             :  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
-<Multi_key> <I> <plus> <d> <period>                        :  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
-<Multi_key> <I> <plus> <d> <minus> <d>                     :  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
-<Multi_key> <I> <plus> <g> <apostrophe>                             :  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
-<Multi_key> <I> <plus> <g> <minus>                         :  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
+## Hebrew ligatures and other letters
+<Multi_key> <I>  <plus> <y> <t>   						:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
+<Multi_key> <I>  <plus> <plus> <d>						:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
+<Multi_key> <I> <plus> <g> <g>							:  "װ"  U05F0  # HEBREW LIGATURE YIDDISH DOUBLE VAV
+<Multi_key> <I> <plus> <g> <d>							:  "ױ"  U05F1  # HEBREW LIGATURE YIDDISH VAV YOD
+<Multi_key> <I> <plus> <d> <d>							:  "ײ"  U05F2  # HEBREW LIGATURE YIDDISH DOUBLE YOD
+<Multi_key> <I> <plus> <d> <period>						:  "יִ"  UFB1D  # HEBREW LETTER YOD WITH HIRIQ
+<Multi_key> <I> <plus> <d> <minus> <d>					:  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
+<Multi_key> <I> <plus> <g> <apostrophe>					:  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
+<Multi_key> <I> <plus> <g> <minus>						:  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
 # backspace reverses latin letters too
-<Multi_key> <I> <backspace> <x>                                    :  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+<Multi_key> <I> <backspace> <x>							:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
 # minus is a dash, and these letters have a dash in them (so theyre wider)
-<Multi_key> <I> <minus> <y>                                :  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
-<Multi_key> <I> <minus> <e>                                :  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
-<Multi_key> <I> <minus> <k>                                :  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
-<Multi_key> <I> <minus> <u>                                :  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
-<Multi_key> <I> <minus> <t>                                :  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
-<Multi_key> <I> <minus> <r>                                :  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
-<Multi_key> <I> <minus> <p>                                :  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
-<Multi_key> <I> <minus> <w>                                :  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
-<Multi_key> <I> <quotedbl>                                 :  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
-<Multi_key> <I> <apostrophe>                                        :  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
-<Multi_key> <I> <plus> <comma>                             :  "ָ"  U05B8  # HEBREW POINT QAMATS
-<Multi_key> <I> <plus> <underscore>                        :  "ַ"  U05B7  # HEBREW POINT PATAH
-<Multi_key> <I> <plus> <quotedbl>                          :  "ֵ"  U05B5  # HEBREW POINT TSERE
-<Multi_key> <I> <plus> <asterisk>                          :  "ֶ"  U05B6  # HEBREW POINT SEGOL
-<Multi_key> <I> <plus> <colon>                             :  "ְ"  U05B0  # HEBREW POINT SHEVA
-<Multi_key> <I> <plus> <apostrophe>                                 :  "ֹ"  U05B9  # HEBREW POINT HOLAM
-<Multi_key> <I> <plus> <period>                            :  "ִ"  U05B4  # HEBREW POINT HIRIQ
-<Multi_key> <I> <plus> <backslash>                         :  "ֻ"  U05BB  # HEBREW POINT QUBUTS
-<Multi_key> <I> <plus> <minus>                             :  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
+<Multi_key> <I> <minus> <y>								:  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
+<Multi_key> <I> <minus> <e>								:  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
+<Multi_key> <I> <minus> <k>								:  "ﬣ"  UFB23  # HEBREW LETTER WIDE HE
+<Multi_key> <I> <minus> <u>								:  "ﬤ"  UFB24  # HEBREW LETTER WIDE KAF
+<Multi_key> <I> <minus> <t>								:  "ﬥ"  UFB25  # HEBREW LETTER WIDE LAMED
+<Multi_key> <I> <minus> <r>								:  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
+<Multi_key> <I> <minus> <p>								:  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
+<Multi_key> <I> <minus> <w>								:  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
+<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+
+## Hebrew combining diacritics (nykidys)
+<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+<Multi_key> <I> <plus> <comma>							:  "ָ"  U05B8  # HEBREW POINT QAMATS
+<Multi_key> <I> <plus> <underscore>						:  "ַ"  U05B7  # HEBREW POINT PATAH
+<Multi_key> <I> <plus> <quotedbl>						:  "ֵ"  U05B5  # HEBREW POINT TSERE
+<Multi_key> <I> <plus> <asterisk>						:  "ֶ"  U05B6  # HEBREW POINT SEGOL
+<Multi_key> <I> <plus> <colon>							:  "ְ"  U05B0  # HEBREW POINT SHEVA
+<Multi_key> <I> <plus> <apostrophe>						:  "ֹ"  U05B9  # HEBREW POINT HOLAM
+<Multi_key> <I> <plus> <period>							:  "ִ"  U05B4  # HEBREW POINT HIRIQ
+<Multi_key> <I> <plus> <backslash>						:  "ֻ"  U05BB  # HEBREW POINT QUBUTS
+<Multi_key> <I> <plus> <minus>							:  "ּ"  U05BC  # HEBREW POINT DAGESH OR MAPIQ
 
 # Palmyrene gets a capital P not to interfere with regular hebrew (u dont wanna type a פ)
 # again, i put the qwerty version first
-# <Multi_key> <I> <P> <t>         :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
-# <Multi_key> <I> <P> <c>         :   "𐡡" U10861  # PALMYRENE LETTER BETH
-# <Multi_key> <I> <P> <d>         :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
-# <Multi_key> <I> <P> <s>         :   "𐡣" U10863  # PALMYRENE LETTER DALETH
-# <Multi_key> <I> <P> <v>         :   "𐡤" U10864  # PALMYRENE LETTER HE
-# <Multi_key> <I> <P> <u>         :   "𐡥" U10865  # PALMYRENE LETTER WAW
-# <Multi_key> <I> <P> <z>         :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
-# <Multi_key> <I> <P> <j>         :   "𐡧" U10867  # PALMYRENE LETTER HETH
-# <Multi_key> <I> <P> <y>         :   "𐡨" U10868  # PALMYRENE LETTER TETH
-# <Multi_key> <I> <P> <h>         :   "𐡩" U10869  # PALMYRENE LETTER YODH
-# <Multi_key> <I> <P> <f>         :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
-# <Multi_key> <I> <P> <k>         :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
-# <Multi_key> <I> <P> <n>         :   "𐡬" U1086C  # PALMYRENE LETTER MEM
-# <Multi_key> <I> <P> <b>         :   "𐡮" U1086E  # PALMYRENE LETTER NUN
-# <Multi_key> <I> <P> <i>         :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
-# <Multi_key> <I> <P> <x>         :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
-# <Multi_key> <I> <P> <g>         :   "𐡰" U10870  # PALMYRENE LETTER AYIN
-# <Multi_key> <I> <P> <p>         :   "𐡱" U10871  # PALMYRENE LETTER PE
-# <Multi_key> <I> <P> <m>         :   "𐡲" U10872  # PALMYRENE LETTER SADHE
-# <Multi_key> <I> <P> <e>         :   "𐡳" U10873  # PALMYRENE LETTER QOPH
-# <Multi_key> <I> <P> <r>         :   "𐡴" U10874  # PALMYRENE LETTER RESH
-# <Multi_key> <I> <P> <a>         :   "𐡵" U10875  # PALMYRENE LETTER SHIN
-# <Multi_key> <I> <P> <comma>         :   "𐡶" U10876  # PALMYRENE LETTER TAW
+# <Multi_key> <I> <P> <t>		 :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
+# <Multi_key> <I> <P> <c>		 :   "𐡡" U10861  # PALMYRENE LETTER BETH
+# <Multi_key> <I> <P> <d>		 :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
+# <Multi_key> <I> <P> <s>		 :   "𐡣" U10863  # PALMYRENE LETTER DALETH
+# <Multi_key> <I> <P> <v>		 :   "𐡤" U10864  # PALMYRENE LETTER HE
+# <Multi_key> <I> <P> <u>		 :   "𐡥" U10865  # PALMYRENE LETTER WAW
+# <Multi_key> <I> <P> <z>		 :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
+# <Multi_key> <I> <P> <j>		 :   "𐡧" U10867  # PALMYRENE LETTER HETH
+# <Multi_key> <I> <P> <y>		 :   "𐡨" U10868  # PALMYRENE LETTER TETH
+# <Multi_key> <I> <P> <h>		 :   "𐡩" U10869  # PALMYRENE LETTER YODH
+# <Multi_key> <I> <P> <f>		 :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
+# <Multi_key> <I> <P> <k>		 :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
+# <Multi_key> <I> <P> <n>		 :   "𐡬" U1086C  # PALMYRENE LETTER MEM
+# <Multi_key> <I> <P> <b>		 :   "𐡮" U1086E  # PALMYRENE LETTER NUN
+# <Multi_key> <I> <P> <i>		 :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
+# <Multi_key> <I> <P> <x>		 :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
+# <Multi_key> <I> <P> <g>		 :   "𐡰" U10870  # PALMYRENE LETTER AYIN
+# <Multi_key> <I> <P> <p>		 :   "𐡱" U10871  # PALMYRENE LETTER PE
+# <Multi_key> <I> <P> <m>		 :   "𐡲" U10872  # PALMYRENE LETTER SADHE
+# <Multi_key> <I> <P> <e>		 :   "𐡳" U10873  # PALMYRENE LETTER QOPH
+# <Multi_key> <I> <P> <r>		 :   "𐡴" U10874  # PALMYRENE LETTER RESH
+# <Multi_key> <I> <P> <a>		 :   "𐡵" U10875  # PALMYRENE LETTER SHIN
+# <Multi_key> <I> <P> <comma>		 :   "𐡶" U10876  # PALMYRENE LETTER TAW
 
 # the Palmyrene dvorak version:
-<Multi_key> <I> <P> <y>          :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
-<Multi_key> <I> <P> <j>          :   "𐡡" U10861  # PALMYRENE LETTER BETH
-<Multi_key> <I> <P> <e>          :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
-<Multi_key> <I> <P> <o>          :   "𐡣" U10863  # PALMYRENE LETTER DALETH
-<Multi_key> <I> <P> <k>          :   "𐡤" U10864  # PALMYRENE LETTER HE
-<Multi_key> <I> <P> <g>          :   "𐡥" U10865  # PALMYRENE LETTER WAW
-<Multi_key> <I> <P> <colon>      :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
-<Multi_key> <I> <P> <h>          :   "𐡧" U10867  # PALMYRENE LETTER HETH
-<Multi_key> <I> <P> <f>          :   "𐡨" U10868  # PALMYRENE LETTER TETH
-<Multi_key> <I> <P> <d>          :   "𐡩" U10869  # PALMYRENE LETTER YODH
-<Multi_key> <I> <P> <u>          :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
-<Multi_key> <I> <P> <t>          :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
-<Multi_key> <I> <P> <b>          :   "𐡬" U1086C  # PALMYRENE LETTER MEM
-<Multi_key> <I> <P> <x>          :   "𐡮" U1086E  # PALMYRENE LETTER NUN
-<Multi_key> <I> <P> <c>          :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
-<Multi_key> <I> <P> <q>          :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
-<Multi_key> <I> <P> <i>          :   "𐡰" U10870  # PALMYRENE LETTER AYIN
-<Multi_key> <I> <P> <l>          :   "𐡱" U10871  # PALMYRENE LETTER PE
-<Multi_key> <I> <P> <m>          :   "𐡲" U10872  # PALMYRENE LETTER SADHE
-<Multi_key> <I> <P> <period>          :   "𐡳" U10873  # PALMYRENE LETTER QOPH
-<Multi_key> <I> <P> <p>          :   "𐡴" U10874  # PALMYRENE LETTER RESH
-<Multi_key> <I> <P> <a>          :   "𐡵" U10875  # PALMYRENE LETTER SHIN
-<Multi_key> <I> <P> <w>              :   "𐡶" U10876  # PALMYRENE LETTER TAW
+<Multi_key> <I> <P> <y>		  :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
+<Multi_key> <I> <P> <j>		  :   "𐡡" U10861  # PALMYRENE LETTER BETH
+<Multi_key> <I> <P> <e>		  :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
+<Multi_key> <I> <P> <o>		  :   "𐡣" U10863  # PALMYRENE LETTER DALETH
+<Multi_key> <I> <P> <k>		  :   "𐡤" U10864  # PALMYRENE LETTER HE
+<Multi_key> <I> <P> <g>		  :   "𐡥" U10865  # PALMYRENE LETTER WAW
+<Multi_key> <I> <P> <colon>	  :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
+<Multi_key> <I> <P> <h>		  :   "𐡧" U10867  # PALMYRENE LETTER HETH
+<Multi_key> <I> <P> <f>		  :   "𐡨" U10868  # PALMYRENE LETTER TETH
+<Multi_key> <I> <P> <d>		  :   "𐡩" U10869  # PALMYRENE LETTER YODH
+<Multi_key> <I> <P> <u>		  :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
+<Multi_key> <I> <P> <t>		  :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
+<Multi_key> <I> <P> <b>		  :   "𐡬" U1086C  # PALMYRENE LETTER MEM
+<Multi_key> <I> <P> <x>		  :   "𐡮" U1086E  # PALMYRENE LETTER NUN
+<Multi_key> <I> <P> <c>		  :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
+<Multi_key> <I> <P> <q>		  :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
+<Multi_key> <I> <P> <i>		  :   "𐡰" U10870  # PALMYRENE LETTER AYIN
+<Multi_key> <I> <P> <l>		  :   "𐡱" U10871  # PALMYRENE LETTER PE
+<Multi_key> <I> <P> <m>		  :   "𐡲" U10872  # PALMYRENE LETTER SADHE
+<Multi_key> <I> <P> <period>		  :   "𐡳" U10873  # PALMYRENE LETTER QOPH
+<Multi_key> <I> <P> <p>		  :   "𐡴" U10874  # PALMYRENE LETTER RESH
+<Multi_key> <I> <P> <a>		  :   "𐡵" U10875  # PALMYRENE LETTER SHIN
+<Multi_key> <I> <P> <w>			  :   "𐡶" U10876  # PALMYRENE LETTER TAW
