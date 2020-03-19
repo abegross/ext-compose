@@ -31,6 +31,12 @@
 # <Multi_key> <I> <a>		:   "ש"	U05E9 # HEBREW LETTER SHIN
 # <Multi_key> <I> <comma>		:   "ת"	U05EA # HEBREW LETTER TAV
 
+#hebrew punctuation
+#<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+#<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+#<Multi_key> <I> <minus> <minus>               		:	"־"	U05BE	# HEBREW PUNCTUATION MAQAF
+#<Multi_key> <I> <colon>           		:	"׃"	U05C3	# HEBREW PUNCTUATION SOF PASUQ
+
 ### Hebrew ligatures and other letters
 #<Multi_key> <I>  <plus> <t> <k>   						:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
 #<Multi_key> <I>  <plus> <plus> <h>						:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
@@ -52,8 +58,6 @@
 #<Multi_key> <I> <minus> <o>							:  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
 #<Multi_key> <I> <minus> <r>							:  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
 #<Multi_key> <I> <minus> <comma>						:  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
-#<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
-#<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
 
 ### Hebrew combining diacritics (nykidys)
 #<Multi_key> <I> <plus> <comma>							:  "ָ"  U05B8  # HEBREW POINT QAMATS
@@ -95,6 +99,12 @@
 <Multi_key> <I> <a>		:   "ש"	U05E9 # HEBREW LETTER SHIN
 <Multi_key> <I> <w>		:   "ת"	U05EA # HEBREW LETTER TAV
 
+#hebrew punctuation
+<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
+<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
+<Multi_key> <I> <minus> <minus>               		:	"־"	U05BE	# HEBREW PUNCTUATION MAQAF
+<Multi_key> <I> <semicolon>           		:	"׃"	U05C3	# HEBREW PUNCTUATION SOF PASUQ
+
 ## Hebrew ligatures and other letters
 <Multi_key> <I>  <plus> <y> <t>   						:	"ﭏ"	UFB4F	# HEBREW LIGATURE ALEF LAMED
 <Multi_key> <I>  <plus> <plus> <d>						:	"ׯ"	U05EF	# HEBREW YOD TRIANGLE
@@ -116,10 +126,8 @@
 <Multi_key> <I> <minus> <r>								:  "ﬦ"  UFB26  # HEBREW LETTER WIDE FINAL MEM
 <Multi_key> <I> <minus> <p>								:  "ﬧ"  UFB27  # HEBREW LETTER WIDE RESH
 <Multi_key> <I> <minus> <w>								:  "ﬨ"  UFB28  # HEBREW LETTER WIDE TAV
-<Multi_key> <I> <quotedbl>								:  "״"  U05F4  # HEBREW PUNCTUATION GERSHAYIM
 
 ## Hebrew combining diacritics (nykidys)
-<Multi_key> <I> <apostrophe>							:  "׳"  U05F3  # HEBREW PUNCTUATION GERESH
 <Multi_key> <I> <plus> <comma>							:  "ָ"  U05B8  # HEBREW POINT QAMATS
 <Multi_key> <I> <plus> <underscore>						:  "ַ"  U05B7  # HEBREW POINT PATAH
 <Multi_key> <I> <plus> <quotedbl>						:  "ֵ"  U05B5  # HEBREW POINT TSERE
