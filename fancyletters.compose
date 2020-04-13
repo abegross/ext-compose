@@ -727,7 +727,7 @@
 # entries.  Whatever.
 #
 # the mnemonic is "S" cuz it both means "down" in "wasd" (for squeezing the capital letter
-# down to lowercase height), and because S looks the same in both capital and lowercase
+# down to lowercase height), and because S stands for 𝐒mall
 
 <Multi_key> <S> <A>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
 <Multi_key> <S> <a>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
