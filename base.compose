@@ -281,7 +281,7 @@
 <Multi_key> <R> <0>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
 
 # Custom additions: Mathematical symbols
-<Multi_key> <asciitilde>  <asciitilde>  		:	"≈"	U2248	# ALMOST EQUAL TO
+<Multi_key> <asciitilde> <asciitilde>  		:	"≈"	U2248	# ALMOST EQUAL TO
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
