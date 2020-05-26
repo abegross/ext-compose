@@ -102,14 +102,6 @@
 <Multi_key> <H> <l> <w> <o>		: "𛅒" #small wo
 
 
-# 合字
-# plus indicates combining
-<Multi_key> <H> <plus> <y> <o> <r> <i>		:	"ゟ"	U309F	# HIRAGANA DIGRAPH YORI
-<Multi_key> <H> <plus> <m> <a> <s> <u>		:	"升"	U5347	# CJK UNIFIED IDEOGRAPH-5347
-<Multi_key> <H> <plus> <s> <i> <m> <e>		:	"乄"	U4E44	# CJK UNIFIED IDEOGRAPH-4E44
-<Multi_key> <H> <plus> <n> <a> <r> <i>		:	"𬻿"	U2CEFF	# CJK UNIFIED IDEOGRAPH-2CEFF
-
-
 
 #implementation of katakana as compose characters
 
@@ -225,9 +217,9 @@
 <Multi_key> <K> <l> <h> <o> 	 :    "ㇹ"    U31F9    # KATAKANA LETTER SMALL HO (oh)
 <Multi_key> <K> <l> <m> <u> 	 :    "ㇺ"    U31FA    # KATAKANA LETTER SMALL MU (final m)
 <Multi_key> <K> <l> <y> <a>		 :    "ャ" #small YA
-<Multi_key> <K> <l> <y> <i>		 :    "𛅡" #small YI
+#<Multi_key> <K> <l> <y> <i>		 :    "𛅡" #small YI
 <Multi_key> <K> <l> <y> <u>		 :    "ュ" #small YU
-<Multi_key> <K> <l> <y> <e>		 :    "𛅢" #small YE
+#<Multi_key> <K> <l> <y> <e>		 :    "𛅢" #small YE
 <Multi_key> <K> <l> <y> <o>		 :    "ョ" #small YO
 <Multi_key> <K> <l> <r> <a> 	 :    "ㇻ"    U31FB    # KATAKANA LETTER SMALL RA (ar)
 <Multi_key> <K> <l> <r> <i> 	 :    "ㇼ"    U31FC    # KATAKANA LETTER SMALL RI (ir)
@@ -236,26 +228,57 @@
 <Multi_key> <K> <l> <r> <o> 	 :    "ㇿ"    U31FF    # KATAKANA LETTER SMALL RO (or)
 <Multi_key> <K> <l> <w> <a>		 :    "ヮ" #small wa
 <Multi_key> <K> <l> <w> <i>		 :    "𛅤" #small wi
-<Multi_key> <K> <l> <w> <u>		 :    "𛅣" #small wu
+#<Multi_key> <K> <l> <w> <u>		 :    "𛅣" #small wu
 <Multi_key> <K> <l> <w> <e>		 :    "𛅥" #small we
 <Multi_key> <K> <l> <w> <o>		 :    "𛅦" #small wo
 <Multi_key> <K> <l> <n> <n>	 	 :    "𛅧" #small n
 
 
+<Multi_key> <K> <space> 						:	"　"	U3000	# IDEOGRAPHIC SPACE
+<Multi_key> <K> <comma> 						:	"、"	U3001	# IDEOGRAPHIC COMMA
+<Multi_key> <K> <period>						:	"。"	U3002	# IDEOGRAPHIC FULL STOP
+<Multi_key> <K> <bracketleft> 					:	"「"	U300C	# LEFT CORNER BRACKET
+<Multi_key> <K> <bracketright> 					:	"」"	U300D	# RIGHT CORNER BRACKET
+<Multi_key> <K> <asciitilde>					:	"〰"	U3030	# WAVY DASH
+<Multi_key> <K> <slash>							:	"・"	U30FB	# KATAKANA MIDDLE DOT
+<Multi_key> <K> <minus> 						:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
 
-<Multi_key> <K> <space> 		:	"　"	U3000	# IDEOGRAPHIC SPACE
-<Multi_key> <K> <comma> 		:	"、"	U3001	# IDEOGRAPHIC COMMA
-<Multi_key> <K> <period>		:	"。"	U3002	# IDEOGRAPHIC FULL STOP
-<Multi_key> <K> <bracketleft> 	:	"「"	U300C	# LEFT CORNER BRACKET
-<Multi_key> <K> <bracketright> 	:	"」"	U300D	# RIGHT CORNER BRACKET
-<Multi_key> <K> <asciitilde>	:	"〰"	U3030	# WAVY DASH
-<Multi_key> <K> <slash>			:	"・"	U30FB	# KATAKANA MIDDLE DOT
-<Multi_key> <K> <minus> 		:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
+<Multi_key> <H> <apostrophe>           			:	"ゝ"	U309D	# HIRAGANA ITERATION MARK         
+<Multi_key> <H> <quotedbl> <apostrophe>			:	"ゞ"	U309E	# HIRAGANA VOICED ITERATION MARK  
+<Multi_key> <K> <apostrophe>           			:	"ヽ"	U30FD	# KATAKANA ITERATION MARK         
+<Multi_key> <K> <quotedbl> <apostrophe>			:	"ヾ"	U30FE	# KATAKANA VOICED ITERATION MARK
 
-<Multi_key> <d> <t>                                  :  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
-<Multi_key> <h> <d> <t>                              :  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)
+<Multi_key> <d> <t>    							:  "゙"  	U3099   # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK (dt stands for dakten - 濁点)
+<Multi_key> <h> <d> <t>							:  "゚" 		U309A   # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK (hdt stands for handakten - 半濁点)
+
+
 
 # 合字
-<Multi_key> <K> <plus> <t> <o> <m> <o>  		:	"𪜈"	U2A708	# CJK UNIFIED IDEOGRAPH-2A708
-<Multi_key> <K> <plus> <s> <i> <t> <e>  		:	"𬼀"	U2CF00	# CJK UNIFIED IDEOGRAPH-2CF00
+# "+" indicates combining
+<Multi_key> <H> <plus> <y> <o> <r> <i>			:	"ゟ"	U309F	# HIRAGANA DIGRAPH YORI
+<Multi_key> <H> <plus> <m> <a> <s> <u>			:	"升"	U5347	# CJK UNIFIED IDEOGRAPH-5347
+#<Multi_key> <H> <plus> <s> <i> <m> <e>			:	"乄"	U4E44	# CJK UNIFIED IDEOGRAPH-4E44
+<Multi_key> <H> <plus> <s> <i> <m> <e>    		:	"〆"	U3006	# IDEOGRAPHIC CLOSING MARK
+<Multi_key> <H> <plus> <n> <a> <r> <i>			:	"𬻿"	U2CEFF	# CJK UNIFIED IDEOGRAPH-2CEFF
+
+<Multi_key> <K> <plus> <t> <o> <m> <o>			:	"𪜈"	U2A708	# CJK UNIFIED IDEOGRAPH-2A708
+<Multi_key> <K> <plus> <s> <i> <t> <e>			:	"𬼀"	U2CF00	# CJK UNIFIED IDEOGRAPH-2CF00
 <Multi_key> <K> <plus> <k> <o> <t> <o>			:	"ヿ"	U30FF	# KATAKANA DIGRAPH KOTO
+# not a ligature, but still a useful character to be able to type
+<Multi_key> <K> <plus> <n> <o> <m> <a>      		:	"々"	U3005	# IDEOGRAPHIC ITERATION MARK
+
+
+# IDEOGRAPHIC DESCRIPTION CHARACTERS
+# "[" is the selector cuz its a square, like all the IDS symbols
+<Multi_key> <bracketleft> <l> <r>    			:	"⿰"	U2FF0	# IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT              
+<Multi_key> <bracketleft> <t> <b>    			:	"⿱"	U2FF1	# IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW             
+<Multi_key> <bracketleft> <l> <c> <r>			:	"⿲"	U2FF2	# IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO MIDDLE AND RIGHT   
+<Multi_key> <bracketleft> <t> <c> <b>			:	"⿳"	U2FF3	# IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW  
+<Multi_key> <bracketleft> <e> <a>    			:	"⿴"	U2FF4	# IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND              
+<Multi_key> <bracketleft> <e> <t>    			:	"⿵"	U2FF5	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE        
+<Multi_key> <bracketleft> <e> <b>    			:	"⿶"	U2FF6	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM BELOW        
+<Multi_key> <bracketleft> <e> <l>    			:	"⿷"	U2FF7	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT         
+<Multi_key> <bracketleft> <w> <t> <l>			:	"⿸"	U2FF8	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT   
+<Multi_key> <bracketleft> <w> <t> <r>			:	"⿹"	U2FF9	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT  
+<Multi_key> <bracketleft> <w> <l>    			:	"⿺"	U2FFA	# IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT   
+<Multi_key> <bracketleft> <o> <l>    			:	"⿻"	U2FFB	# IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID
