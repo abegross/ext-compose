@@ -47,8 +47,8 @@
 #<Multi_key> <I> <plus> <h> <minus> <h>					:  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
 #<Multi_key> <I> <plus> <u> <apostrophe>				:  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
 #<Multi_key> <I> <plus> <u> <minus>						:  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
-## backspace reverses latin letters too
-#<Multi_key> <I> <backspace> <b>						:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+## BackSpace reverses latin letters too
+#<Multi_key> <I> <BackSpace> <b>						:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
 ## minus is a dash, and these letters have a dash in them (so theyre wider)
 #<Multi_key> <I> <minus> <t>							:  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
 #<Multi_key> <I> <minus> <s>							:  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
@@ -115,8 +115,8 @@
 <Multi_key> <I> <plus> <d> <minus> <d>					:  "ײַ"  UFB1F  # HEBREW LIGATURE YIDDISH YOD YOD PATAH
 <Multi_key> <I> <plus> <g> <apostrophe>					:  "וֹ"  UFB4B  # HEBREW LETTER VAV WITH HOLAM
 <Multi_key> <I> <plus> <g> <minus>						:  "וּ"  UFB35  # HEBREW LETTER VAV WITH DAGESH
-# backspace reverses latin letters too
-<Multi_key> <I> <backspace> <x>							:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
+# BackSpace reverses latin letters too
+<Multi_key> <I> <BackSpace> <x>							:  "׆"  U05C6  # HEBREW PUNCTUATION NUN HAFUKHA
 # minus is a dash, and these letters have a dash in them (so theyre wider)
 <Multi_key> <I> <minus> <y>								:  "ﬡ"  UFB21  # HEBREW LETTER WIDE ALEF
 <Multi_key> <I> <minus> <e>								:  "ﬢ"  UFB22  # HEBREW LETTER WIDE DALET
