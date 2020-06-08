@@ -9,8 +9,10 @@
 # for num, word in zip(range(1, 21), words):
 #     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
 
-# sadly, it doesnt work…
-<Multi_key> <Multi_key> <t> <a> <b> : "	"	# HORIZONTAL TABULATION
+#Control characters
+<Multi_key> <Return> <Return>: "" # CARRIAGE RETURN
+<Multi_key> <Tab> <Tab> : "	" # HORIZONTAL TABULATION
+
 # Custom additions: Typography
 <Multi_key> <period> <period>		: "…"	U2026		# HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
