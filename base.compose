@@ -830,6 +830,7 @@
 <Multi_key> <r> <d>                     : "ɾ"   U027E           # LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
 <Multi_key> <v> <v>                     : "ʌ"   U028C           # LATIN SMALL LETTER TURNED V
 <Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
+<Multi_key> <u>  <l>		:	"ɰ"	U0270	# LATIN SMALL LETTER TURNED M WITH LONG LEG
 # doubling a letter seems to be mostly used for turning
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
 <Multi_key> <y> <y>			: "ʎ"	U028E		# LATIN SMALL LETTER TURNED Y
