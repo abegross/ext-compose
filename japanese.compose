@@ -239,6 +239,8 @@
 <Multi_key> <K> <period>						:	"。"	U3002	# IDEOGRAPHIC FULL STOP
 <Multi_key> <K> <bracketleft> 					:	"「"	U300C	# LEFT CORNER BRACKET
 <Multi_key> <K> <bracketright> 					:	"」"	U300D	# RIGHT CORNER BRACKET
+<Multi_key> <H> <bracketleft> 					:	"｢"	UFF62	# HALFWIDTH LEFT CORNER BRACKET # H for halfwidth
+<Multi_key> <H> <bracketright>					:	"｣"	UFF63	# HALFWIDTH RIGHT CORNER BRACKET
 <Multi_key> <K> <asciitilde>					:	"〰"	U3030	# WAVY DASH
 <Multi_key> <K> <slash>							:	"・"	U30FB	# KATAKANA MIDDLE DOT
 <Multi_key> <K> <minus> 						:	"ー"	U30FC	# KATAKANA-HIRAGANA PROLONGED SOUND MARK
