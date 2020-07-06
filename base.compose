@@ -303,7 +303,7 @@
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
 <Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
 #<Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
-# <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
+<Multi_key> <exclam> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
@@ -341,8 +341,14 @@
 <Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
 <Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <exclam> <braceleft> <equal> <parenleft> : "⊈"	2288	# NEITHER A SUBSET OF NOR EQUAL TO
+<Multi_key> <slash> <braceleft> <equal> <parenleft> : "⊈"	2288	# NEITHER A SUBSET OF NOR EQUAL TO
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
 <Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
+<Multi_key> <exclam> <braceleft> <parenright> : "⊅"	2285	NOT A SUPERSET OF
+<Multi_key> <slash> <braceleft> <parenright>  : "⊅"	2285	NOT A SUPERSET OF
+<Multi_key> <exclam> <braceleft> <equal> <parenright> : "⊉"	2289	NEITHER A SUPERSET OF NOR EQUAL TO
+<Multi_key> <slash> <braceleft> <equal> <parenright> : "⊉"	2289	NEITHER A SUPERSET OF NOR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
