@@ -299,10 +299,12 @@
 <Multi_key> <3> <greater> 		: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <3> <less>			: "⋘"	U22D8		# VERY MUCH LESS-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
-<Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
+# cant use a ! cuz it conflicts with ị, so i use the non-shift version of ! (1)
+<Multi_key> <1> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
 <Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
-<Multi_key> <exclam> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
+# cant use a ! cuz it conflicts with ṇ, so i use the non-shift version of ! (1)
+<Multi_key> <1> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
