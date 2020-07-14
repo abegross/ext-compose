@@ -746,6 +746,9 @@
 <Multi_key> <asterisk> <exclam>	:"✱" U2731 # HEAVY ASTERISK
 <Multi_key> <less> <X> <greater> :  "❖"	U2756	# BLACK DIAMOND MINUS WHITE X
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
+<Multi_key> <bracketleft>  <parenleft> <bracketright> <parenright> 		:	"⎄"	U2384	# COMPOSITION SYMBOL
+<Multi_key> <0> <X> 	: "⎈" U2388	# HELM SYMBOL = control
+<Multi_key> <
 # Using backslash-minus-slash etc. conflicts with combining accents.
 <Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
 <Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
@@ -1213,7 +1216,6 @@
 <Multi_key> <m>  <b> 		:	"㎆"	U3386	# SQUARE MB
 <Multi_key> <b>  <b> 		:	"㎇"	U3387	# SQUARE GB
 
-<Multi_key> <bracketleft>  <parenleft> <bracketright> <parenright> 		:	"⎄"	U2384	# COMPOSITION SYMBOL
 
 <Multi_key> <b> <z>	                         	     :	"⌬"		U232C	# benzene with three double bonds
 <Multi_key> <o> <c>                                  :  "◷" 	U25F7   # O'CLOCK SYMBOL (WHITE CIRCLE WITH UPPER RIGHT QUADRANT)
