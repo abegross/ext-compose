@@ -62,59 +62,59 @@
 # Text?  𝕸 or 𝔐?  Unicode seems to say the latter, actually.
 # Should these be the primary, unmarked ones?
 
-<Multi_key> <asterisk> <period> <A>	:	"𝔄"	U1D504	# MATHEMATICAL FRAKTUR CAPITAL A
-<Multi_key> <asterisk> <period> <B>	:	"𝔅"	U1D505	# MATHEMATICAL FRAKTUR CAPITAL B
-<Multi_key> <asterisk> <period> <C>	:	"ℭ"	U212D	# BLACK-LETTER CAPITAL C
-<Multi_key> <asterisk> <period> <D>	:	"𝔇"	U1D507	# MATHEMATICAL FRAKTUR CAPITAL D
-<Multi_key> <asterisk> <period> <E>	:	"𝔈"	U1D508	# MATHEMATICAL FRAKTUR CAPITAL E
-<Multi_key> <asterisk> <period> <F>	:	"𝔉"	U1D509	# MATHEMATICAL FRAKTUR CAPITAL F
-<Multi_key> <asterisk> <period> <G>	:	"𝔊"	U1D50A	# MATHEMATICAL FRAKTUR CAPITAL G
-<Multi_key> <asterisk> <period> <H>	:	"ℌ"	U210C	# BLACK-LETTER CAPITAL H
-<Multi_key> <asterisk> <period> <I>	:	"ℑ"	U2111	# BLACK-LETTER CAPITAL I
-<Multi_key> <asterisk> <period> <J>	:	"𝔍"	U1D50D	# MATHEMATICAL FRAKTUR CAPITAL J
-<Multi_key> <asterisk> <period> <K>	:	"𝔎"	U1D50E	# MATHEMATICAL FRAKTUR CAPITAL K
-<Multi_key> <asterisk> <period> <L>	:	"𝔏"	U1D50F	# MATHEMATICAL FRAKTUR CAPITAL L
-<Multi_key> <asterisk> <period> <M>	:	"𝔐"	U1D510	# MATHEMATICAL FRAKTUR CAPITAL M
-<Multi_key> <asterisk> <period> <N>	:	"𝔑"	U1D511	# MATHEMATICAL FRAKTUR CAPITAL N
-<Multi_key> <asterisk> <period> <O>	:	"𝔒"	U1D512	# MATHEMATICAL FRAKTUR CAPITAL O
-<Multi_key> <asterisk> <period> <P>	:	"𝔓"	U1D513	# MATHEMATICAL FRAKTUR CAPITAL P
-<Multi_key> <asterisk> <period> <Q>	:	"𝔔"	U1D514	# MATHEMATICAL FRAKTUR CAPITAL Q
-<Multi_key> <asterisk> <period> <R>	:	"ℜ"	U211C	# BLACK-LETTER CAPITAL R
-<Multi_key> <asterisk> <period> <S>	:	"𝔖"	U1D516	# MATHEMATICAL FRAKTUR CAPITAL S
-<Multi_key> <asterisk> <period> <T>	:	"𝔗"	U1D517	# MATHEMATICAL FRAKTUR CAPITAL T
-<Multi_key> <asterisk> <period> <U>	:	"𝔘"	U1D518	# MATHEMATICAL FRAKTUR CAPITAL U
-<Multi_key> <asterisk> <period> <V>	:	"𝔙"	U1D519	# MATHEMATICAL FRAKTUR CAPITAL V
-<Multi_key> <asterisk> <period> <W>	:	"𝔚"	U1D51A	# MATHEMATICAL FRAKTUR CAPITAL W
-<Multi_key> <asterisk> <period> <X>	:	"𝔛"	U1D51B	# MATHEMATICAL FRAKTUR CAPITAL X
-<Multi_key> <asterisk> <period> <Y>	:	"𝔜"	U1D51C	# MATHEMATICAL FRAKTUR CAPITAL Y
-<Multi_key> <asterisk> <period> <Z>	:	"ℨ"	U2128	# BLACK-LETTER CAPITAL Z
+<Multi_key> <asterisk> <space> <A>	:	"𝔄"	U1D504	# MATHEMATICAL FRAKTUR CAPITAL A
+<Multi_key> <asterisk> <space> <B>	:	"𝔅"	U1D505	# MATHEMATICAL FRAKTUR CAPITAL B
+<Multi_key> <asterisk> <space> <C>	:	"ℭ"	U212D	# BLACK-LETTER CAPITAL C
+<Multi_key> <asterisk> <space> <D>	:	"𝔇"	U1D507	# MATHEMATICAL FRAKTUR CAPITAL D
+<Multi_key> <asterisk> <space> <E>	:	"𝔈"	U1D508	# MATHEMATICAL FRAKTUR CAPITAL E
+<Multi_key> <asterisk> <space> <F>	:	"𝔉"	U1D509	# MATHEMATICAL FRAKTUR CAPITAL F
+<Multi_key> <asterisk> <space> <G>	:	"𝔊"	U1D50A	# MATHEMATICAL FRAKTUR CAPITAL G
+<Multi_key> <asterisk> <space> <H>	:	"ℌ"	U210C	# BLACK-LETTER CAPITAL H
+<Multi_key> <asterisk> <space> <I>	:	"ℑ"	U2111	# BLACK-LETTER CAPITAL I
+<Multi_key> <asterisk> <space> <J>	:	"𝔍"	U1D50D	# MATHEMATICAL FRAKTUR CAPITAL J
+<Multi_key> <asterisk> <space> <K>	:	"𝔎"	U1D50E	# MATHEMATICAL FRAKTUR CAPITAL K
+<Multi_key> <asterisk> <space> <L>	:	"𝔏"	U1D50F	# MATHEMATICAL FRAKTUR CAPITAL L
+<Multi_key> <asterisk> <space> <M>	:	"𝔐"	U1D510	# MATHEMATICAL FRAKTUR CAPITAL M
+<Multi_key> <asterisk> <space> <N>	:	"𝔑"	U1D511	# MATHEMATICAL FRAKTUR CAPITAL N
+<Multi_key> <asterisk> <space> <O>	:	"𝔒"	U1D512	# MATHEMATICAL FRAKTUR CAPITAL O
+<Multi_key> <asterisk> <space> <P>	:	"𝔓"	U1D513	# MATHEMATICAL FRAKTUR CAPITAL P
+<Multi_key> <asterisk> <space> <Q>	:	"𝔔"	U1D514	# MATHEMATICAL FRAKTUR CAPITAL Q
+<Multi_key> <asterisk> <space> <R>	:	"ℜ"	U211C	# BLACK-LETTER CAPITAL R
+<Multi_key> <asterisk> <space> <S>	:	"𝔖"	U1D516	# MATHEMATICAL FRAKTUR CAPITAL S
+<Multi_key> <asterisk> <space> <T>	:	"𝔗"	U1D517	# MATHEMATICAL FRAKTUR CAPITAL T
+<Multi_key> <asterisk> <space> <U>	:	"𝔘"	U1D518	# MATHEMATICAL FRAKTUR CAPITAL U
+<Multi_key> <asterisk> <space> <V>	:	"𝔙"	U1D519	# MATHEMATICAL FRAKTUR CAPITAL V
+<Multi_key> <asterisk> <space> <W>	:	"𝔚"	U1D51A	# MATHEMATICAL FRAKTUR CAPITAL W
+<Multi_key> <asterisk> <space> <X>	:	"𝔛"	U1D51B	# MATHEMATICAL FRAKTUR CAPITAL X
+<Multi_key> <asterisk> <space> <Y>	:	"𝔜"	U1D51C	# MATHEMATICAL FRAKTUR CAPITAL Y
+<Multi_key> <asterisk> <space> <Z>	:	"ℨ"	U2128	# BLACK-LETTER CAPITAL Z
 
-<Multi_key> <asterisk> <period> <a>	:	"𝔞"	U1D51E	# MATHEMATICAL FRAKTUR SMALL A
-<Multi_key> <asterisk> <period> <b>	:	"𝔟"	U1D51F	# MATHEMATICAL FRAKTUR SMALL B
-<Multi_key> <asterisk> <period> <c>	:	"𝔠"	U1D520	# MATHEMATICAL FRAKTUR SMALL C
-<Multi_key> <asterisk> <period> <d>	:	"𝔡"	U1D521	# MATHEMATICAL FRAKTUR SMALL D
-<Multi_key> <asterisk> <period> <e>	:	"𝔢"	U1D522	# MATHEMATICAL FRAKTUR SMALL E
-<Multi_key> <asterisk> <period> <f>	:	"𝔣"	U1D523	# MATHEMATICAL FRAKTUR SMALL F
-<Multi_key> <asterisk> <period> <g>	:	"𝔤"	U1D524	# MATHEMATICAL FRAKTUR SMALL G
-<Multi_key> <asterisk> <period> <h>	:	"𝔥"	U1D525	# MATHEMATICAL FRAKTUR SMALL H
-<Multi_key> <asterisk> <period> <i>	:	"𝔦"	U1D526	# MATHEMATICAL FRAKTUR SMALL I
-<Multi_key> <asterisk> <period> <j>	:	"𝔧"	U1D527	# MATHEMATICAL FRAKTUR SMALL J
-<Multi_key> <asterisk> <period> <k>	:	"𝔨"	U1D528	# MATHEMATICAL FRAKTUR SMALL K
-<Multi_key> <asterisk> <period> <l>	:	"𝔩"	U1D529	# MATHEMATICAL FRAKTUR SMALL L
-<Multi_key> <asterisk> <period> <m>	:	"𝔪"	U1D52A	# MATHEMATICAL FRAKTUR SMALL M
-<Multi_key> <asterisk> <period> <n>	:	"𝔫"	U1D52B	# MATHEMATICAL FRAKTUR SMALL N
-<Multi_key> <asterisk> <period> <o>	:	"𝔬"	U1D52C	# MATHEMATICAL FRAKTUR SMALL O
-<Multi_key> <asterisk> <period> <p>	:	"𝔭"	U1D52D	# MATHEMATICAL FRAKTUR SMALL P
-<Multi_key> <asterisk> <period> <q>	:	"𝔮"	U1D52E	# MATHEMATICAL FRAKTUR SMALL Q
-<Multi_key> <asterisk> <period> <r>	:	"𝔯"	U1D52F	# MATHEMATICAL FRAKTUR SMALL R
-<Multi_key> <asterisk> <period> <s>	:	"𝔰"	U1D530	# MATHEMATICAL FRAKTUR SMALL S
-<Multi_key> <asterisk> <period> <t>	:	"𝔱"	U1D531	# MATHEMATICAL FRAKTUR SMALL T
-<Multi_key> <asterisk> <period> <u>	:	"𝔲"	U1D532	# MATHEMATICAL FRAKTUR SMALL U
-<Multi_key> <asterisk> <period> <v>	:	"𝔳"	U1D533	# MATHEMATICAL FRAKTUR SMALL V
-<Multi_key> <asterisk> <period> <w>	:	"𝔴"	U1D534	# MATHEMATICAL FRAKTUR SMALL W
-<Multi_key> <asterisk> <period> <x>	:	"𝔵"	U1D535	# MATHEMATICAL FRAKTUR SMALL X
-<Multi_key> <asterisk> <period> <y>	:	"𝔶"	U1D536	# MATHEMATICAL FRAKTUR SMALL Y
-<Multi_key> <asterisk> <period> <z>	:	"𝔷"	U1D537	# MATHEMATICAL FRAKTUR SMALL Z
+<Multi_key> <asterisk> <space> <a>	:	"𝔞"	U1D51E	# MATHEMATICAL FRAKTUR SMALL A
+<Multi_key> <asterisk> <space> <b>	:	"𝔟"	U1D51F	# MATHEMATICAL FRAKTUR SMALL B
+<Multi_key> <asterisk> <space> <c>	:	"𝔠"	U1D520	# MATHEMATICAL FRAKTUR SMALL C
+<Multi_key> <asterisk> <space> <d>	:	"𝔡"	U1D521	# MATHEMATICAL FRAKTUR SMALL D
+<Multi_key> <asterisk> <space> <e>	:	"𝔢"	U1D522	# MATHEMATICAL FRAKTUR SMALL E
+<Multi_key> <asterisk> <space> <f>	:	"𝔣"	U1D523	# MATHEMATICAL FRAKTUR SMALL F
+<Multi_key> <asterisk> <space> <g>	:	"𝔤"	U1D524	# MATHEMATICAL FRAKTUR SMALL G
+<Multi_key> <asterisk> <space> <h>	:	"𝔥"	U1D525	# MATHEMATICAL FRAKTUR SMALL H
+<Multi_key> <asterisk> <space> <i>	:	"𝔦"	U1D526	# MATHEMATICAL FRAKTUR SMALL I
+<Multi_key> <asterisk> <space> <j>	:	"𝔧"	U1D527	# MATHEMATICAL FRAKTUR SMALL J
+<Multi_key> <asterisk> <space> <k>	:	"𝔨"	U1D528	# MATHEMATICAL FRAKTUR SMALL K
+<Multi_key> <asterisk> <space> <l>	:	"𝔩"	U1D529	# MATHEMATICAL FRAKTUR SMALL L
+<Multi_key> <asterisk> <space> <m>	:	"𝔪"	U1D52A	# MATHEMATICAL FRAKTUR SMALL M
+<Multi_key> <asterisk> <space> <n>	:	"𝔫"	U1D52B	# MATHEMATICAL FRAKTUR SMALL N
+<Multi_key> <asterisk> <space> <o>	:	"𝔬"	U1D52C	# MATHEMATICAL FRAKTUR SMALL O
+<Multi_key> <asterisk> <space> <p>	:	"𝔭"	U1D52D	# MATHEMATICAL FRAKTUR SMALL P
+<Multi_key> <asterisk> <space> <q>	:	"𝔮"	U1D52E	# MATHEMATICAL FRAKTUR SMALL Q
+<Multi_key> <asterisk> <space> <r>	:	"𝔯"	U1D52F	# MATHEMATICAL FRAKTUR SMALL R
+<Multi_key> <asterisk> <space> <s>	:	"𝔰"	U1D530	# MATHEMATICAL FRAKTUR SMALL S
+<Multi_key> <asterisk> <space> <t>	:	"𝔱"	U1D531	# MATHEMATICAL FRAKTUR SMALL T
+<Multi_key> <asterisk> <space> <u>	:	"𝔲"	U1D532	# MATHEMATICAL FRAKTUR SMALL U
+<Multi_key> <asterisk> <space> <v>	:	"𝔳"	U1D533	# MATHEMATICAL FRAKTUR SMALL V
+<Multi_key> <asterisk> <space> <w>	:	"𝔴"	U1D534	# MATHEMATICAL FRAKTUR SMALL W
+<Multi_key> <asterisk> <space> <x>	:	"𝔵"	U1D535	# MATHEMATICAL FRAKTUR SMALL X
+<Multi_key> <asterisk> <space> <y>	:	"𝔶"	U1D536	# MATHEMATICAL FRAKTUR SMALL Y
+<Multi_key> <asterisk> <space> <z>	:	"𝔷"	U1D537	# MATHEMATICAL FRAKTUR SMALL Z
 
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
@@ -181,42 +181,42 @@
 
 # Some archaic Greek.  If we only wanted *normal* characters we wouldn't be
 # doing this at all!
-# "period" will indicate a sort of variant of some kind; G is still the "greek" marker
-<Multi_key> <G> <period> <p>	: "ϖ"	U03D6		# GREEK PI SYMBOL
+# "space" will indicate a sort of variant of some kind; G is still the "greek" marker
+<Multi_key> <G> <space> <p>	: "ϖ"	U03D6		# GREEK PI SYMBOL
 # Reserving .f in case we want PHI SYMBOL.  Digamma was "w" sound anyway.
-<Multi_key> <G> <period> <w>	: "ϝ"	U03DD		# GREEK SMALL LETTER DIGAMMA
-<Multi_key> <G> <period> <W>	: "Ϝ"	U03DC		# GREEK CAPITAL LETTER DIGAMMA
+<Multi_key> <G> <space> <w>	: "ϝ"	U03DD		# GREEK SMALL LETTER DIGAMMA
+<Multi_key> <G> <space> <W>	: "Ϝ"	U03DC		# GREEK CAPITAL LETTER DIGAMMA
 <Multi_key> <G> <Q>	: "Ϟ"	U03DE	# GREEK LETTER QOPPA
 <Multi_key> <G> <q>	: "ϟ"	U03DF	# GREEK SMALL LETTER QOPPA
-<Multi_key> <G> <period> <Q>	: "Ϙ"	U03D8	# GREEK LETTER ARCHAIC QOPPA
-<Multi_key> <G> <period> <q>	: "ϙ"	U03D9	# GREEK SMALL LETTER ARCHAIC QOPPA
+<Multi_key> <G> <space> <Q>	: "Ϙ"	U03D8	# GREEK LETTER ARCHAIC QOPPA
+<Multi_key> <G> <space> <q>	: "ϙ"	U03D9	# GREEK SMALL LETTER ARCHAIC QOPPA
 <Multi_key> <G> <ampersand>	: "ϗ"	U03D7	# GREEK KAI SYMBOL
-<Multi_key> <G> <period> <Z>	: "Ϡ"	U03E0	# GREEK LETTER SAMPI
-<Multi_key> <G> <period> <z>	: "ϡ"	U03E1	# GREEK SMALL LETTER SAMPI
-<Multi_key> <G> <period> <period> <Z> : "Ͳ"  U0372  # GREEK CAPITAL LETTER ARCHAIC SAMPI
-<Multi_key> <G> <period> <period> <z> : "ͳ"  U0373  # GREEK SMALL LETTER ARCHAIC SAMPI
+<Multi_key> <G> <space> <Z>	: "Ϡ"	U03E0	# GREEK LETTER SAMPI
+<Multi_key> <G> <space> <z>	: "ϡ"	U03E1	# GREEK SMALL LETTER SAMPI
+<Multi_key> <G> <space> <space> <Z> : "Ͳ"  U0372  # GREEK CAPITAL LETTER ARCHAIC SAMPI
+<Multi_key> <G> <space> <space> <z> : "ͳ"  U0373  # GREEK SMALL LETTER ARCHAIC SAMPI
 # Sorry, couldn't think of better ones for these.  Might want .s for SAN.
-<Multi_key> <G> <period> <question>      : "Ϛ"	U03DA	# GREEK LETTER STIGMA
+<Multi_key> <G> <space> <question>      : "Ϛ"	U03DA	# GREEK LETTER STIGMA
 <Multi_key> <G> <slash>	       : "ϛ"	U03DB	# GREEK SMALL LETTER STIGMA
 <Multi_key> <G> <apostrophe>    : "ʹ"	U02B9	# MODIFIER LETTER PRIME, canonically equivalent to U0374 GREEK NUMERAL SIGN
 # While we're at it...
-<Multi_key> <G> <period> <apostrophe>	: "′"	U2032	# PRIME
-<Multi_key> <G> <period> <quotedbl>      : "″"	U2033	# DOUBLE PRIME
+<Multi_key> <G> <space> <apostrophe>	: "′"	U2032	# PRIME
+<Multi_key> <G> <space> <quotedbl>      : "″"	U2033	# DOUBLE PRIME
 <Multi_key> <G> <comma>	       : "͵"	U0375	# GREEK LOWER NUMERAL SIGN (for thousands)
 # Do we want BETA SYMBOL, RHO SYMBOL, KAPPA SYMBOL, PHI SYMBOL, THETA SYMBOL?
 # The format makes them obvious enough I guess.  PI SYMBOL is different enough
 # that there's no question, and it is separate from these.
-<Multi_key> <G> <period> <b>    : "ϐ"	U03D0	# GREEK BETA SYMBOL
-<Multi_key> <G> <period> <u>    : "ϑ"	U03D1	# GREEK THETA SYMBOL
-<Multi_key> <G> <period> <Y>    : "ϒ"	U03D2	# GREEK UPSILON WITH HOOK SYMBOL
-<Multi_key> <G> <period> <f>    : "ϕ"	U03D5	# GREEK PHI SYMBOL
-<Multi_key> <G> <period> <k>    : "ϰ"	U03F0	# GREEK KAPPA SYMBOL
-<Multi_key> <G> <period> <r>    : "ϱ"	U03F1	# GREEK RHO SYMBOL
-<Multi_key> <G> <period> <U>    : "ϴ"	U03F4	# GREEK CAPITAL THETA SYMBOL
-<Multi_key> <G> <period> <e>    : "ϵ"	U03F5	# GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <G> <space> <b>    : "ϐ"	U03D0	# GREEK BETA SYMBOL
+<Multi_key> <G> <space> <u>    : "ϑ"	U03D1	# GREEK THETA SYMBOL
+<Multi_key> <G> <space> <Y>    : "ϒ"	U03D2	# GREEK UPSILON WITH HOOK SYMBOL
+<Multi_key> <G> <space> <f>    : "ϕ"	U03D5	# GREEK PHI SYMBOL
+<Multi_key> <G> <space> <k>    : "ϰ"	U03F0	# GREEK KAPPA SYMBOL
+<Multi_key> <G> <space> <r>    : "ϱ"	U03F1	# GREEK RHO SYMBOL
+<Multi_key> <G> <space> <U>    : "ϴ"	U03F4	# GREEK CAPITAL THETA SYMBOL
+<Multi_key> <G> <space> <e>    : "ϵ"	U03F5	# GREEK LUNATE EPSILON SYMBOL
 # Not doing the lunate sigmas and dotted versions thereof...  What about SAN, which is at least a letter?
-<Multi_key> <G> <period> <s>	 : "ϻ"	  U03FB	      # GREEK SMALL LETTER SAN
-<Multi_key> <G> <period> <S>	 : "Ϻ"	  U03FA	      # GREEK CAPITAL LETTER SAN
+<Multi_key> <G> <space> <s>	 : "ϻ"	  U03FB	      # GREEK SMALL LETTER SAN
+<Multi_key> <G> <space> <S>	 : "Ϻ"	  U03FA	      # GREEK CAPITAL LETTER SAN
 
 # If you wanted to actually type in Greek, you would also need άίέ
 # etc.  But you would probably just switch to a Greek keyboard layout.
@@ -418,111 +418,111 @@
 # Actual script letters
 # mnemonic is \ from scrip, and following the "alternate selector" ; from fraktur
 
-<Multi_key> <backslash> <period> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
-<Multi_key> <backslash> <period> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
-<Multi_key> <backslash> <period> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
-<Multi_key> <backslash> <period> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
-<Multi_key> <backslash> <period> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
-<Multi_key> <backslash> <period> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
-<Multi_key> <backslash> <period> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
-<Multi_key> <backslash> <period> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
-<Multi_key> <backslash> <period> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
-<Multi_key> <backslash> <period> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
-<Multi_key> <backslash> <period> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
-<Multi_key> <backslash> <period> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
-<Multi_key> <backslash> <period> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
-<Multi_key> <backslash> <period> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
-<Multi_key> <backslash> <period> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
-<Multi_key> <backslash> <period> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
-<Multi_key> <backslash> <period> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
-<Multi_key> <backslash> <period> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
-<Multi_key> <backslash> <period> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
-<Multi_key> <backslash> <period> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
-<Multi_key> <backslash> <period> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
-<Multi_key> <backslash> <period> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
-<Multi_key> <backslash> <period> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
-<Multi_key> <backslash> <period> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
-<Multi_key> <backslash> <period> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
-<Multi_key> <backslash> <period> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
-<Multi_key> <backslash> <period> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
-<Multi_key> <backslash> <period> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
-<Multi_key> <backslash> <period> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
-<Multi_key> <backslash> <period> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
-<Multi_key> <backslash> <period> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
-<Multi_key> <backslash> <period> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
-<Multi_key> <backslash> <period> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
-<Multi_key> <backslash> <period> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
-<Multi_key> <backslash> <period> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
-<Multi_key> <backslash> <period> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
-<Multi_key> <backslash> <period> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
-<Multi_key> <backslash> <period> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
-<Multi_key> <backslash> <period> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
-<Multi_key> <backslash> <period> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
-<Multi_key> <backslash> <period> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
-<Multi_key> <backslash> <period> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
-<Multi_key> <backslash> <period> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
-<Multi_key> <backslash> <period> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
-<Multi_key> <backslash> <period> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
-<Multi_key> <backslash> <period> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
-<Multi_key> <backslash> <period> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
-<Multi_key> <backslash> <period> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
-<Multi_key> <backslash> <period> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
-<Multi_key> <backslash> <period> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
-<Multi_key> <backslash> <period> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
-<Multi_key> <backslash> <period> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
-<Multi_key> <backslash> <period> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
-<Multi_key> <backslash> <period> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
-<Multi_key> <backslash> <period> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
-<Multi_key> <backslash> <period> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
-<Multi_key> <backslash> <period> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
-<Multi_key> <backslash> <period> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
-<Multi_key> <backslash> <period> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
-<Multi_key> <backslash> <period> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
-<Multi_key> <backslash> <period> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
-<Multi_key> <backslash> <period> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
-<Multi_key> <backslash> <period> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
-<Multi_key> <backslash> <period> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
-<Multi_key> <backslash> <period> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
-<Multi_key> <backslash> <period> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
-<Multi_key> <backslash> <period> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
-<Multi_key> <backslash> <period> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
-<Multi_key> <backslash> <period> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
-<Multi_key> <backslash> <period> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
-<Multi_key> <backslash> <period> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
-<Multi_key> <backslash> <period> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
-<Multi_key> <backslash> <period> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
-<Multi_key> <backslash> <period> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
-<Multi_key> <backslash> <period> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
-<Multi_key> <backslash> <period> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
-<Multi_key> <backslash> <period> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
-<Multi_key> <backslash> <period> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
+<Multi_key> <backslash> <space> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
+<Multi_key> <backslash> <space> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
+<Multi_key> <backslash> <space> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
+<Multi_key> <backslash> <space> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
+<Multi_key> <backslash> <space> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
+<Multi_key> <backslash> <space> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
+<Multi_key> <backslash> <space> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
+<Multi_key> <backslash> <space> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
+<Multi_key> <backslash> <space> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
+<Multi_key> <backslash> <space> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
+<Multi_key> <backslash> <space> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
+<Multi_key> <backslash> <space> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
+<Multi_key> <backslash> <space> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
+<Multi_key> <backslash> <space> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
+<Multi_key> <backslash> <space> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
+<Multi_key> <backslash> <space> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
+<Multi_key> <backslash> <space> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
+<Multi_key> <backslash> <space> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
+<Multi_key> <backslash> <space> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
+<Multi_key> <backslash> <space> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
+<Multi_key> <backslash> <space> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
+<Multi_key> <backslash> <space> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
+<Multi_key> <backslash> <space> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
+<Multi_key> <backslash> <space> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
+<Multi_key> <backslash> <space> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
+<Multi_key> <backslash> <space> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
+<Multi_key> <backslash> <space> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
+<Multi_key> <backslash> <space> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
+<Multi_key> <backslash> <space> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
+<Multi_key> <backslash> <space> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
+<Multi_key> <backslash> <space> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
+<Multi_key> <backslash> <space> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
+<Multi_key> <backslash> <space> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
+<Multi_key> <backslash> <space> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
+<Multi_key> <backslash> <space> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
+<Multi_key> <backslash> <space> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
+<Multi_key> <backslash> <space> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
+<Multi_key> <backslash> <space> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
+<Multi_key> <backslash> <space> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
+<Multi_key> <backslash> <space> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
+<Multi_key> <backslash> <space> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
+<Multi_key> <backslash> <space> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
+<Multi_key> <backslash> <space> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
+<Multi_key> <backslash> <space> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
+<Multi_key> <backslash> <space> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
+<Multi_key> <backslash> <space> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
+<Multi_key> <backslash> <space> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
+<Multi_key> <backslash> <space> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
+<Multi_key> <backslash> <space> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
+<Multi_key> <backslash> <space> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
+<Multi_key> <backslash> <space> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
+<Multi_key> <backslash> <space> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
+<Multi_key> <backslash> <space> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
+<Multi_key> <backslash> <space> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
+<Multi_key> <backslash> <space> <C>                         :       "𝒞"     U1D49E  # MATHEMATICAL SCRIPT CAPITAL C
+<Multi_key> <backslash> <space> <D>                         :       "𝒟"     U1D49F  # MATHEMATICAL SCRIPT CAPITAL D
+<Multi_key> <backslash> <space> <E>                         :       "ℰ"     U2130   # SCRIPT CAPITAL E
+<Multi_key> <backslash> <space> <F>                         :       "ℱ"     U2131   # SCRIPT CAPITAL F
+<Multi_key> <backslash> <space> <G>                         :       "𝒢"     U1D4A2  # MATHEMATICAL SCRIPT CAPITAL G
+<Multi_key> <backslash> <space> <H>                         :       "ℋ"     U210B   # SCRIPT CAPITAL H
+<Multi_key> <backslash> <space> <I>                         :       "ℐ"     U2110   # SCRIPT CAPITAL I
+<Multi_key> <backslash> <space> <J>                         :       "𝒥"     U1D4A5  # MATHEMATICAL SCRIPT CAPITAL J
+<Multi_key> <backslash> <space> <K>                         :       "𝒦"     U1D4A6  # MATHEMATICAL SCRIPT CAPITAL K
+<Multi_key> <backslash> <space> <L>                         :       "ℒ"     U2112   # SCRIPT CAPITAL L
+<Multi_key> <backslash> <space> <M>                         :       "ℳ"     U2133   # SCRIPT CAPITAL M
+<Multi_key> <backslash> <space> <N>                         :       "𝒩"     U1D4A9  # MATHEMATICAL SCRIPT CAPITAL N
+<Multi_key> <backslash> <space> <O>                         :       "𝒪"     U1D4AA  # MATHEMATICAL SCRIPT CAPITAL O
+<Multi_key> <backslash> <space> <P>                         :       "𝒫"     U1D4AB  # MATHEMATICAL SCRIPT CAPITAL P
+<Multi_key> <backslash> <space> <Q>                         :       "𝒬"     U1D4AC  # MATHEMATICAL SCRIPT CAPITAL Q
+<Multi_key> <backslash> <space> <R>                         :       "ℛ"     U211B   # SCRIPT CAPITAL R
+<Multi_key> <backslash> <space> <S>                         :       "𝒮"     U1D4AE  # MATHEMATICAL SCRIPT CAPITAL S
+<Multi_key> <backslash> <space> <T>                         :       "𝒯"     U1D4AF  # MATHEMATICAL SCRIPT CAPITAL T
+<Multi_key> <backslash> <space> <U>                         :       "𝒰"     U1D4B0  # MATHEMATICAL SCRIPT CAPITAL U
+<Multi_key> <backslash> <space> <V>                         :       "𝒱"     U1D4B1  # MATHEMATICAL SCRIPT CAPITAL V
+<Multi_key> <backslash> <space> <W>                         :       "𝒲"     U1D4B2  # MATHEMATICAL SCRIPT CAPITAL W
+<Multi_key> <backslash> <space> <X>                         :       "𝒳"     U1D4B3  # MATHEMATICAL SCRIPT CAPITAL X
+<Multi_key> <backslash> <space> <Y>                         :       "𝒴"     U1D4B4  # MATHEMATICAL SCRIPT CAPITAL Y
+<Multi_key> <backslash> <space> <Z>                         :       "𝒵"     U1D4B5  # MATHEMATICAL SCRIPT CAPITAL Z
 
-<Multi_key> <backslash> <period> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
-<Multi_key> <backslash> <period> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
-<Multi_key> <backslash> <period> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
-<Multi_key> <backslash> <period> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
-<Multi_key> <backslash> <period> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
-<Multi_key> <backslash> <period> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
-<Multi_key> <backslash> <period> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
-<Multi_key> <backslash> <period> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
-<Multi_key> <backslash> <period> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
-<Multi_key> <backslash> <period> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
-<Multi_key> <backslash> <period> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
-<Multi_key> <backslash> <period> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
-<Multi_key> <backslash> <period> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
-<Multi_key> <backslash> <period> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
-<Multi_key> <backslash> <period> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
-<Multi_key> <backslash> <period> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
-<Multi_key> <backslash> <period> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
-<Multi_key> <backslash> <period> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
-<Multi_key> <backslash> <period> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
-<Multi_key> <backslash> <period> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
-<Multi_key> <backslash> <period> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
-<Multi_key> <backslash> <period> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
-<Multi_key> <backslash> <period> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
-<Multi_key> <backslash> <period> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
-<Multi_key> <backslash> <period> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
-<Multi_key> <backslash> <period> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
+<Multi_key> <backslash> <space> <a>                         :       "𝒶"     U1D4B6  # MATHEMATICAL SCRIPT SMALL A
+<Multi_key> <backslash> <space> <b>                         :       "𝒷"     U1D4B7  # MATHEMATICAL SCRIPT SMALL B
+<Multi_key> <backslash> <space> <c>                         :       "𝒸"     U1D4B8  # MATHEMATICAL SCRIPT SMALL C
+<Multi_key> <backslash> <space> <d>                         :       "𝒹"     U1D4B9  # MATHEMATICAL SCRIPT SMALL D
+<Multi_key> <backslash> <space> <e>                         :       "ℯ"     U212F   # SCRIPT SMALL E
+<Multi_key> <backslash> <space> <f>                         :       "𝒻"     U1D4BB  # MATHEMATICAL SCRIPT SMALL F
+<Multi_key> <backslash> <space> <g>                         :       "ℊ"     U210A   # SCRIPT SMALL G
+<Multi_key> <backslash> <space> <h>                         :       "𝒽"     U1D4BD  # MATHEMATICAL SCRIPT SMALL H
+<Multi_key> <backslash> <space> <i>                         :       "𝒾"     U1D4BE  # MATHEMATICAL SCRIPT SMALL I
+<Multi_key> <backslash> <space> <j>                         :       "𝒿"     U1D4BF  # MATHEMATICAL SCRIPT SMALL J
+<Multi_key> <backslash> <space> <k>                         :       "𝓀"     U1D4C0  # MATHEMATICAL SCRIPT SMALL K
+<Multi_key> <backslash> <space> <l>                         :       "𝓁"     U1D4C1  # MATHEMATICAL SCRIPT SMALL L
+<Multi_key> <backslash> <space> <m>                         :       "𝓂"     U1D4C2  # MATHEMATICAL SCRIPT SMALL M
+<Multi_key> <backslash> <space> <n>                         :       "𝓃"     U1D4C3  # MATHEMATICAL SCRIPT SMALL N
+<Multi_key> <backslash> <space> <o>                         :       "ℴ"     U2134   # SCRIPT SMALL O
+<Multi_key> <backslash> <space> <p>                         :       "𝓅"     U1D4C5  # MATHEMATICAL SCRIPT SMALL P
+<Multi_key> <backslash> <space> <q>                         :       "𝓆"     U1D4C6  # MATHEMATICAL SCRIPT SMALL Q
+<Multi_key> <backslash> <space> <r>                         :       "𝓇"     U1D4C7  # MATHEMATICAL SCRIPT SMALL R
+<Multi_key> <backslash> <space> <s>                         :       "𝓈"     U1D4C8  # MATHEMATICAL SCRIPT SMALL S
+<Multi_key> <backslash> <space> <t>                         :       "𝓉"     U1D4C9  # MATHEMATICAL SCRIPT SMALL T
+<Multi_key> <backslash> <space> <u>                         :       "𝓊"     U1D4CA  # MATHEMATICAL SCRIPT SMALL U
+<Multi_key> <backslash> <space> <v>                         :       "𝓋"     U1D4CB  # MATHEMATICAL SCRIPT SMALL V
+<Multi_key> <backslash> <space> <w>                         :       "𝓌"     U1D4CC  # MATHEMATICAL SCRIPT SMALL W
+<Multi_key> <backslash> <space> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
+<Multi_key> <backslash> <space> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
+<Multi_key> <backslash> <space> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
 
 
 
@@ -643,7 +643,7 @@
 <Multi_key> <apostrophe> <Y>         		:	"ʸ"	U02B8	# MODIFIER LETTER SMALL Y           
 <Multi_key> <apostrophe> <Z>         		:	"ᶻ"	U1DBB	# MODIFIER LETTER SMALL Z           
 
-<Multi_key> <apostrophe> <period>    		:	"·"	U00B7	# MIDDLE DOT                        
+<Multi_key> <apostrophe> <space>    		:	"·"	U00B7	# MIDDLE DOT                        
 <Multi_key> <apostrophe> <0>         		:	"⁰"	U2070	# SUPERSCRIPT ZERO                  
 <Multi_key> <apostrophe> <1>         		:	"¹"	U00B9	# SUPERSCRIPT ONE                   
 <Multi_key> <apostrophe> <2>         		:	"²"	U00B2	# SUPERSCRIPT TWO                   
@@ -724,7 +724,7 @@
 #############
 # small-caps
 # Several of these are also IPA, which is handy.  And so a few have multiple
-# entries.  Whatever.
+# entries.
 #
 # the mnemonic is "S" cuz it both means "down" in "wasd" (for squeezing the capital letter
 # down to lowercase height), and because S stands for 𝐒mall
@@ -785,83 +785,83 @@
 
 ######
 # circled characters
-# mnemonic is (X) cuz it looks like the letter is circled. the period is just cuz this is actual parenthesis and not a full circle
+# mnemonic is (X) cuz it looks like the letter is circled. the space is just cuz this is actual parenthesis and not a full circle
 
-<Multi_key>  <parenleft> <period> <1> <parenright> :  "⑴"   U2474	# PARENTHESIZED DIGIT ONE
-<Multi_key>  <parenleft> <period> <2> <parenright> :  "⑵"   U2475	# PARENTHESIZED DIGIT TWO
-<Multi_key>  <parenleft> <period> <3> <parenright> :  "⑶"   U2476	# PARENTHESIZED DIGIT THREE
-<Multi_key>  <parenleft> <period> <4> <parenright> :  "⑷"   U2477	# PARENTHESIZED DIGIT FOUR
-<Multi_key>  <parenleft> <period> <5> <parenright> :  "⑸"   U2478	# PARENTHESIZED DIGIT FIVE
-<Multi_key>  <parenleft> <period> <6> <parenright> :  "⑹"   U2479	# PARENTHESIZED DIGIT SIX
-<Multi_key>  <parenleft> <period> <7> <parenright> :  "⑺"   U247A	# PARENTHESIZED DIGIT SEVEN
-<Multi_key>  <parenleft> <period> <8> <parenright> :  "⑻"   U247B	# PARENTHESIZED DIGIT EIGHT
-<Multi_key>  <parenleft> <period> <9> <parenright> :  "⑼"   U247C	# PARENTHESIZED DIGIT NINE
-<Multi_key>  <parenleft> <period> <1> <0> <parenright> :  "⑽"   U247D	# PARENTHESIZED NUMBER TEN
-<Multi_key>  <parenleft> <period> <1> <1> <parenright> :  "⑾"   U247E	# PARENTHESIZED NUMBER ELEVEN
-<Multi_key>  <parenleft> <period> <1> <2> <parenright> :  "⑿"   U247F	# PARENTHESIZED NUMBER TWELVE
-<Multi_key>  <parenleft> <period> <1> <3> <parenright> :  "⒀"   U2480	# PARENTHESIZED NUMBER THIRTEEN
-<Multi_key>  <parenleft> <period> <1> <4> <parenright> :  "⒁"   U2481	# PARENTHESIZED NUMBER FOURTEEN
-<Multi_key>  <parenleft> <period> <1> <5> <parenright> :  "⒂"   U2482	# PARENTHESIZED NUMBER FIFTEEN
-<Multi_key>  <parenleft> <period> <1> <6> <parenright> :  "⒃"   U2483	# PARENTHESIZED NUMBER SIXTEEN
-<Multi_key>  <parenleft> <period> <1> <7> <parenright> :  "⒄"   U2484	# PARENTHESIZED NUMBER SEVENTEEN
-<Multi_key>  <parenleft> <period> <1> <8> <parenright> :  "⒅"   U2485	# PARENTHESIZED NUMBER EIGHTEEN
-<Multi_key>  <parenleft> <period> <1> <9> <parenright> :  "⒆"   U2486	# PARENTHESIZED NUMBER NINETEEN
-<Multi_key>  <parenleft> <period> <2> <0> <parenright> :  "⒇"   U2487	# PARENTHESIZED NUMBER TWENTY
+<Multi_key>  <parenleft> <space> <1> <parenright> :  "⑴"   U2474	# PARENTHESIZED DIGIT ONE
+<Multi_key>  <parenleft> <space> <2> <parenright> :  "⑵"   U2475	# PARENTHESIZED DIGIT TWO
+<Multi_key>  <parenleft> <space> <3> <parenright> :  "⑶"   U2476	# PARENTHESIZED DIGIT THREE
+<Multi_key>  <parenleft> <space> <4> <parenright> :  "⑷"   U2477	# PARENTHESIZED DIGIT FOUR
+<Multi_key>  <parenleft> <space> <5> <parenright> :  "⑸"   U2478	# PARENTHESIZED DIGIT FIVE
+<Multi_key>  <parenleft> <space> <6> <parenright> :  "⑹"   U2479	# PARENTHESIZED DIGIT SIX
+<Multi_key>  <parenleft> <space> <7> <parenright> :  "⑺"   U247A	# PARENTHESIZED DIGIT SEVEN
+<Multi_key>  <parenleft> <space> <8> <parenright> :  "⑻"   U247B	# PARENTHESIZED DIGIT EIGHT
+<Multi_key>  <parenleft> <space> <9> <parenright> :  "⑼"   U247C	# PARENTHESIZED DIGIT NINE
+<Multi_key>  <parenleft> <space> <1> <0> <parenright> :  "⑽"   U247D	# PARENTHESIZED NUMBER TEN
+<Multi_key>  <parenleft> <space> <1> <1> <parenright> :  "⑾"   U247E	# PARENTHESIZED NUMBER ELEVEN
+<Multi_key>  <parenleft> <space> <1> <2> <parenright> :  "⑿"   U247F	# PARENTHESIZED NUMBER TWELVE
+<Multi_key>  <parenleft> <space> <1> <3> <parenright> :  "⒀"   U2480	# PARENTHESIZED NUMBER THIRTEEN
+<Multi_key>  <parenleft> <space> <1> <4> <parenright> :  "⒁"   U2481	# PARENTHESIZED NUMBER FOURTEEN
+<Multi_key>  <parenleft> <space> <1> <5> <parenright> :  "⒂"   U2482	# PARENTHESIZED NUMBER FIFTEEN
+<Multi_key>  <parenleft> <space> <1> <6> <parenright> :  "⒃"   U2483	# PARENTHESIZED NUMBER SIXTEEN
+<Multi_key>  <parenleft> <space> <1> <7> <parenright> :  "⒄"   U2484	# PARENTHESIZED NUMBER SEVENTEEN
+<Multi_key>  <parenleft> <space> <1> <8> <parenright> :  "⒅"   U2485	# PARENTHESIZED NUMBER EIGHTEEN
+<Multi_key>  <parenleft> <space> <1> <9> <parenright> :  "⒆"   U2486	# PARENTHESIZED NUMBER NINETEEN
+<Multi_key>  <parenleft> <space> <2> <0> <parenright> :  "⒇"   U2487	# PARENTHESIZED NUMBER TWENTY
 
 # abcs 
 
-<Multi_key>  <parenleft> <period> <a> <parenright> :  "⒜"   U249C	# PARENTHESIZED LATIN SMALL LETTER A
-<Multi_key>  <parenleft> <period> <b> <parenright> :  "⒝"   U249D	# PARENTHESIZED LATIN SMALL LETTER B
-<Multi_key>  <parenleft> <period> <c> <parenright> :  "⒞"   U249E	# PARENTHESIZED LATIN SMALL LETTER C
-<Multi_key>  <parenleft> <period> <d> <parenright> :  "⒟"   U249F	# PARENTHESIZED LATIN SMALL LETTER D
-<Multi_key>  <parenleft> <period> <e> <parenright> :  "⒠"   U24A0	# PARENTHESIZED LATIN SMALL LETTER E
-<Multi_key>  <parenleft> <period> <f> <parenright> :  "⒡"   U24A1	# PARENTHESIZED LATIN SMALL LETTER F
-<Multi_key>  <parenleft> <period> <g> <parenright> :  "⒢"   U24A2	# PARENTHESIZED LATIN SMALL LETTER G
-<Multi_key>  <parenleft> <period> <h> <parenright> :  "⒣"   U24A3	# PARENTHESIZED LATIN SMALL LETTER H
-<Multi_key>  <parenleft> <period> <i> <parenright> :  "⒤"   U24A4	# PARENTHESIZED LATIN SMALL LETTER I
-<Multi_key>  <parenleft> <period> <j> <parenright> :  "⒥"   U24A5	# PARENTHESIZED LATIN SMALL LETTER J
-<Multi_key>  <parenleft> <period> <k> <parenright> :  "⒦"   U24A6	# PARENTHESIZED LATIN SMALL LETTER K
-<Multi_key>  <parenleft> <period> <l> <parenright> :  "⒧"   U24A7	# PARENTHESIZED LATIN SMALL LETTER L
-<Multi_key>  <parenleft> <period> <m> <parenright> :  "⒨"   U24A8	# PARENTHESIZED LATIN SMALL LETTER M
-<Multi_key>  <parenleft> <period> <n> <parenright> :  "⒩"   U24A9	# PARENTHESIZED LATIN SMALL LETTER N
-<Multi_key>  <parenleft> <period> <o> <parenright> :  "⒪"   U24AA	# PARENTHESIZED LATIN SMALL LETTER O
-<Multi_key>  <parenleft> <period> <p> <parenright> :  "⒫"   U24AB	# PARENTHESIZED LATIN SMALL LETTER P
-<Multi_key>  <parenleft> <period> <q> <parenright> :  "⒬"   U24AC	# PARENTHESIZED LATIN SMALL LETTER Q
-<Multi_key>  <parenleft> <period> <r> <parenright> :  "⒭"   U24AD	# PARENTHESIZED LATIN SMALL LETTER R
-<Multi_key>  <parenleft> <period> <s> <parenright> :  "⒮"   U24AE	# PARENTHESIZED LATIN SMALL LETTER S
-<Multi_key>  <parenleft> <period> <t> <parenright> :  "⒯"   U24AF	# PARENTHESIZED LATIN SMALL LETTER T
-<Multi_key>  <parenleft> <period> <u> <parenright> :  "⒰"   U24B0	# PARENTHESIZED LATIN SMALL LETTER U
-<Multi_key>  <parenleft> <period> <v> <parenright> :  "⒱"   U24B1	# PARENTHESIZED LATIN SMALL LETTER V
-<Multi_key>  <parenleft> <period> <w> <parenright> :  "⒲"   U24B2	# PARENTHESIZED LATIN SMALL LETTER W
-<Multi_key>  <parenleft> <period> <x> <parenright> :  "⒳"   U24B3	# PARENTHESIZED LATIN SMALL LETTER X
-<Multi_key>  <parenleft> <period> <y> <parenright> :  "⒴"   U24B4	# PARENTHESIZED LATIN SMALL LETTER Y
-<Multi_key>  <parenleft> <period> <z> <parenright> :  "⒵"   U24B5	# PARENTHESIZED LATIN SMALL LETTER Z
-<Multi_key>  <parenleft> <period> <A> <parenright> :  "🄐"   U1F110	# PARENTHESIZED LATIN CAPITAL LETTER A
-<Multi_key>  <parenleft> <period> <B> <parenright> :  "🄑"   U1F111	# PARENTHESIZED LATIN CAPITAL LETTER B
-<Multi_key>  <parenleft> <period> <C> <parenright> :  "🄒"   U1F112	# PARENTHESIZED LATIN CAPITAL LETTER C
-<Multi_key>  <parenleft> <period> <D> <parenright> :  "🄓"   U1F113	# PARENTHESIZED LATIN CAPITAL LETTER D
-<Multi_key>  <parenleft> <period> <E> <parenright> :  "🄔"   U1F114	# PARENTHESIZED LATIN CAPITAL LETTER E
-<Multi_key>  <parenleft> <period> <F> <parenright> :  "🄕"   U1F115	# PARENTHESIZED LATIN CAPITAL LETTER F
-<Multi_key>  <parenleft> <period> <G> <parenright> :  "🄖"   U1F116	# PARENTHESIZED LATIN CAPITAL LETTER G
-<Multi_key>  <parenleft> <period> <H> <parenright> :  "🄗"   U1F117	# PARENTHESIZED LATIN CAPITAL LETTER H
-<Multi_key>  <parenleft> <period> <I> <parenright> :  "🄘"   U1F118	# PARENTHESIZED LATIN CAPITAL LETTER I
-<Multi_key>  <parenleft> <period> <J> <parenright> :  "🄙"   U1F119	# PARENTHESIZED LATIN CAPITAL LETTER J
-<Multi_key>  <parenleft> <period> <K> <parenright> :  "🄚"   U1F11A	# PARENTHESIZED LATIN CAPITAL LETTER K
-<Multi_key>  <parenleft> <period> <L> <parenright> :  "🄛"   U1F11B	# PARENTHESIZED LATIN CAPITAL LETTER L
-<Multi_key>  <parenleft> <period> <M> <parenright> :  "🄜"   U1F11C	# PARENTHESIZED LATIN CAPITAL LETTER M
-<Multi_key>  <parenleft> <period> <N> <parenright> :  "🄝"   U1F11D	# PARENTHESIZED LATIN CAPITAL LETTER N
-<Multi_key>  <parenleft> <period> <O> <parenright> :  "🄞"   U1F11E	# PARENTHESIZED LATIN CAPITAL LETTER O
-<Multi_key>  <parenleft> <period> <P> <parenright> :  "🄟"   U1F11F	# PARENTHESIZED LATIN CAPITAL LETTER P
-<Multi_key>  <parenleft> <period> <Q> <parenright> :  "🄠"   U1F120	# PARENTHESIZED LATIN CAPITAL LETTER Q
-<Multi_key>  <parenleft> <period> <R> <parenright> :  "🄡"   U1F121	# PARENTHESIZED LATIN CAPITAL LETTER R
-<Multi_key>  <parenleft> <period> <S> <parenright> :  "🄢"   U1F122	# PARENTHESIZED LATIN CAPITAL LETTER S
-<Multi_key>  <parenleft> <period> <T> <parenright> :  "🄣"   U1F123	# PARENTHESIZED LATIN CAPITAL LETTER T
-<Multi_key>  <parenleft> <period> <U> <parenright> :  "🄤"   U1F124	# PARENTHESIZED LATIN CAPITAL LETTER U
-<Multi_key>  <parenleft> <period> <V> <parenright> :  "🄥"   U1F125	# PARENTHESIZED LATIN CAPITAL LETTER V
-<Multi_key>  <parenleft> <period> <W> <parenright> :  "🄦"   U1F126	# PARENTHESIZED LATIN CAPITAL LETTER W
-<Multi_key>  <parenleft> <period> <X> <parenright> :  "🄧"   U1F127	# PARENTHESIZED LATIN CAPITAL LETTER X
-<Multi_key>  <parenleft> <period> <Y> <parenright> :  "🄨"   U1F128	# PARENTHESIZED LATIN CAPITAL LETTER Y
-<Multi_key>  <parenleft> <period> <Z> <parenright> :  "🄩"   U1F129	# PARENTHESIZED LATIN CAPITAL LETTER Z
+<Multi_key>  <parenleft> <space> <a> <parenright> :  "⒜"   U249C	# PARENTHESIZED LATIN SMALL LETTER A
+<Multi_key>  <parenleft> <space> <b> <parenright> :  "⒝"   U249D	# PARENTHESIZED LATIN SMALL LETTER B
+<Multi_key>  <parenleft> <space> <c> <parenright> :  "⒞"   U249E	# PARENTHESIZED LATIN SMALL LETTER C
+<Multi_key>  <parenleft> <space> <d> <parenright> :  "⒟"   U249F	# PARENTHESIZED LATIN SMALL LETTER D
+<Multi_key>  <parenleft> <space> <e> <parenright> :  "⒠"   U24A0	# PARENTHESIZED LATIN SMALL LETTER E
+<Multi_key>  <parenleft> <space> <f> <parenright> :  "⒡"   U24A1	# PARENTHESIZED LATIN SMALL LETTER F
+<Multi_key>  <parenleft> <space> <g> <parenright> :  "⒢"   U24A2	# PARENTHESIZED LATIN SMALL LETTER G
+<Multi_key>  <parenleft> <space> <h> <parenright> :  "⒣"   U24A3	# PARENTHESIZED LATIN SMALL LETTER H
+<Multi_key>  <parenleft> <space> <i> <parenright> :  "⒤"   U24A4	# PARENTHESIZED LATIN SMALL LETTER I
+<Multi_key>  <parenleft> <space> <j> <parenright> :  "⒥"   U24A5	# PARENTHESIZED LATIN SMALL LETTER J
+<Multi_key>  <parenleft> <space> <k> <parenright> :  "⒦"   U24A6	# PARENTHESIZED LATIN SMALL LETTER K
+<Multi_key>  <parenleft> <space> <l> <parenright> :  "⒧"   U24A7	# PARENTHESIZED LATIN SMALL LETTER L
+<Multi_key>  <parenleft> <space> <m> <parenright> :  "⒨"   U24A8	# PARENTHESIZED LATIN SMALL LETTER M
+<Multi_key>  <parenleft> <space> <n> <parenright> :  "⒩"   U24A9	# PARENTHESIZED LATIN SMALL LETTER N
+<Multi_key>  <parenleft> <space> <o> <parenright> :  "⒪"   U24AA	# PARENTHESIZED LATIN SMALL LETTER O
+<Multi_key>  <parenleft> <space> <p> <parenright> :  "⒫"   U24AB	# PARENTHESIZED LATIN SMALL LETTER P
+<Multi_key>  <parenleft> <space> <q> <parenright> :  "⒬"   U24AC	# PARENTHESIZED LATIN SMALL LETTER Q
+<Multi_key>  <parenleft> <space> <r> <parenright> :  "⒭"   U24AD	# PARENTHESIZED LATIN SMALL LETTER R
+<Multi_key>  <parenleft> <space> <s> <parenright> :  "⒮"   U24AE	# PARENTHESIZED LATIN SMALL LETTER S
+<Multi_key>  <parenleft> <space> <t> <parenright> :  "⒯"   U24AF	# PARENTHESIZED LATIN SMALL LETTER T
+<Multi_key>  <parenleft> <space> <u> <parenright> :  "⒰"   U24B0	# PARENTHESIZED LATIN SMALL LETTER U
+<Multi_key>  <parenleft> <space> <v> <parenright> :  "⒱"   U24B1	# PARENTHESIZED LATIN SMALL LETTER V
+<Multi_key>  <parenleft> <space> <w> <parenright> :  "⒲"   U24B2	# PARENTHESIZED LATIN SMALL LETTER W
+<Multi_key>  <parenleft> <space> <x> <parenright> :  "⒳"   U24B3	# PARENTHESIZED LATIN SMALL LETTER X
+<Multi_key>  <parenleft> <space> <y> <parenright> :  "⒴"   U24B4	# PARENTHESIZED LATIN SMALL LETTER Y
+<Multi_key>  <parenleft> <space> <z> <parenright> :  "⒵"   U24B5	# PARENTHESIZED LATIN SMALL LETTER Z
+<Multi_key>  <parenleft> <space> <A> <parenright> :  "🄐"   U1F110	# PARENTHESIZED LATIN CAPITAL LETTER A
+<Multi_key>  <parenleft> <space> <B> <parenright> :  "🄑"   U1F111	# PARENTHESIZED LATIN CAPITAL LETTER B
+<Multi_key>  <parenleft> <space> <C> <parenright> :  "🄒"   U1F112	# PARENTHESIZED LATIN CAPITAL LETTER C
+<Multi_key>  <parenleft> <space> <D> <parenright> :  "🄓"   U1F113	# PARENTHESIZED LATIN CAPITAL LETTER D
+<Multi_key>  <parenleft> <space> <E> <parenright> :  "🄔"   U1F114	# PARENTHESIZED LATIN CAPITAL LETTER E
+<Multi_key>  <parenleft> <space> <F> <parenright> :  "🄕"   U1F115	# PARENTHESIZED LATIN CAPITAL LETTER F
+<Multi_key>  <parenleft> <space> <G> <parenright> :  "🄖"   U1F116	# PARENTHESIZED LATIN CAPITAL LETTER G
+<Multi_key>  <parenleft> <space> <H> <parenright> :  "🄗"   U1F117	# PARENTHESIZED LATIN CAPITAL LETTER H
+<Multi_key>  <parenleft> <space> <I> <parenright> :  "🄘"   U1F118	# PARENTHESIZED LATIN CAPITAL LETTER I
+<Multi_key>  <parenleft> <space> <J> <parenright> :  "🄙"   U1F119	# PARENTHESIZED LATIN CAPITAL LETTER J
+<Multi_key>  <parenleft> <space> <K> <parenright> :  "🄚"   U1F11A	# PARENTHESIZED LATIN CAPITAL LETTER K
+<Multi_key>  <parenleft> <space> <L> <parenright> :  "🄛"   U1F11B	# PARENTHESIZED LATIN CAPITAL LETTER L
+<Multi_key>  <parenleft> <space> <M> <parenright> :  "🄜"   U1F11C	# PARENTHESIZED LATIN CAPITAL LETTER M
+<Multi_key>  <parenleft> <space> <N> <parenright> :  "🄝"   U1F11D	# PARENTHESIZED LATIN CAPITAL LETTER N
+<Multi_key>  <parenleft> <space> <O> <parenright> :  "🄞"   U1F11E	# PARENTHESIZED LATIN CAPITAL LETTER O
+<Multi_key>  <parenleft> <space> <P> <parenright> :  "🄟"   U1F11F	# PARENTHESIZED LATIN CAPITAL LETTER P
+<Multi_key>  <parenleft> <space> <Q> <parenright> :  "🄠"   U1F120	# PARENTHESIZED LATIN CAPITAL LETTER Q
+<Multi_key>  <parenleft> <space> <R> <parenright> :  "🄡"   U1F121	# PARENTHESIZED LATIN CAPITAL LETTER R
+<Multi_key>  <parenleft> <space> <S> <parenright> :  "🄢"   U1F122	# PARENTHESIZED LATIN CAPITAL LETTER S
+<Multi_key>  <parenleft> <space> <T> <parenright> :  "🄣"   U1F123	# PARENTHESIZED LATIN CAPITAL LETTER T
+<Multi_key>  <parenleft> <space> <U> <parenright> :  "🄤"   U1F124	# PARENTHESIZED LATIN CAPITAL LETTER U
+<Multi_key>  <parenleft> <space> <V> <parenright> :  "🄥"   U1F125	# PARENTHESIZED LATIN CAPITAL LETTER V
+<Multi_key>  <parenleft> <space> <W> <parenright> :  "🄦"   U1F126	# PARENTHESIZED LATIN CAPITAL LETTER W
+<Multi_key>  <parenleft> <space> <X> <parenright> :  "🄧"   U1F127	# PARENTHESIZED LATIN CAPITAL LETTER X
+<Multi_key>  <parenleft> <space> <Y> <parenright> :  "🄨"   U1F128	# PARENTHESIZED LATIN CAPITAL LETTER Y
+<Multi_key>  <parenleft> <space> <Z> <parenright> :  "🄩"   U1F129	# PARENTHESIZED LATIN CAPITAL LETTER Z
 
 
 # numbers with attached period

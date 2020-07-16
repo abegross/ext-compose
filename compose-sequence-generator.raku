@@ -42,7 +42,7 @@ B<Usage Examples:>
 
 	raku <PROGRAM-NAME> --multiple --regular="0a 1b 2C 3 4 5  6 7h 8i 9#" --sequence="⎄★|" --composed="𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
 	raku <PROGRAM-NAME> --regular="aou" --composed="𝒂𝒐𝒖" --sequence="⎄/★"
-	raku {$*PROGRAM-NAME} --multiple --regular="↑← ↑→ ↓← ↓→" --composed="↰↱↲↳" --sequence="⎄★"
+	raku <PROGRAM-NAME> --multiple --regular="↑← ↑→ ↓← ↓→" --composed="↰↱↲↳" --sequence="⎄★"
 =end item
 =end pod
 
