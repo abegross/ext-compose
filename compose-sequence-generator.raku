@@ -131,51 +131,51 @@ my %specials =
 		'★' => '★',
 		;
 
-sub MAIN ( 
-	Str:D :$regular! is rw, #= the letter you type out
-	Bool :$multiple,        #= allow more than one `regular` per `composed`
-	Str:D :$composed! is rw,#= the letter xcompose spits out
-	Str:D :$sequence! is rw #= the sequence you type (including the ⎄ key)
-) {
-	$regular  .= split($multiple ?? " " !! "", :skip-empty);
-	$composed .= split("",:skip-empty);
+unit sub MAIN ( 
+	Str:D :r(:regular($regular))! is rw,  #= the letter you type out
+	Bool  :m(:multiple($multiple)),       #= allow more than one `regular` per `composed`
+	Str:D :c(:composed($composed))! is rw,#= the letter xcompose spits out
+	Str:D :s(:sequence($sequence))! is rw #= the sequence you type (including the ⎄ key)
+); 
 
-	my $replace := {
-		#replace each symbol with its named counterpart, or its codepoint
-		.split("",:skip-empty).map({
-			if %specials{$_} or /<[A..z0..9]>/ {
-				"<{%specials{$_}//$_}>" 
-			} else {
-				"<U{$_.ord.base(16)}>"
-			}	
-		}).join(" ");
-	}
-	$sequence = $replace($sequence);
+$regular  .= split($multiple ?? " " !! "", :skip-empty);
+$composed .= split("",:skip-empty);
 
-	if $regular.elems == $composed.elems {
-		# create a hash between each sequence in `regular` and `composed`
-		my %sequences = ($regular »=>» $composed).map: -> $this {
-			my $current-sequence = $sequence.subst('<★>', $replace($this.key));
-			my $desc =
-				"\t: \"{$this.value}\"" ~
-				" U{$this.value.ord.base(16)}" ~
-				"\t# {$this.value.uniname}";
-			$current-sequence => $desc;
-		};
+my $replace := {
+	#replace each symbol with its named counterpart, or its codepoint
+	.split("",:skip-empty).map({
+		if %specials{$_} or /<[A..z0..9]>/ {
+			"<{%specials{$_}//$_}>" 
+		} else {
+			"<U{$_.ord.base(16)}>"
+		}	
+	}).join(" ");
+}
+$sequence = $replace($sequence);
 
-		# format the output nicely
-		my $len = max map { .chars }, %sequences.keys;
-		my @sequences = map { sprintf("%-"~$len~"s %s", .key, .value) }, %sequences.sort({.value});
+if $regular.elems == $composed.elems {
+	# create a hash between each sequence in `regular` and `composed`
+	my %sequences = ($regular »=>» $composed).map: -> $this {
+		my $current-sequence = $sequence.subst('<★>', $replace($this.key));
+		my $desc =
+			"\t: \"{$this.value}\"" ~
+			" U{$this.value.ord.base(16)}" ~
+			"\t# {$this.value.uniname}";
+		$current-sequence => $desc;
+	};
 
-		# print and copy the output
-		put @sequences.join("\n");
-		use Clipboard:from<Perl5>;
-		Clipboard.copy_to_all_selections(@sequences.join("\n"));
-	} else {
-		print Q:c:to/END/;
-		regular ({$regular.elems}) is not the same length as composed ({$composed.elems})
-			regular:	{$regular}
-			composed:	{$composed}
-		END
-	}
+	# format the output nicely
+	my $len = max map { .chars }, %sequences.keys;
+	my @sequences = map { sprintf("%-"~$len~"s %s", .key, .value) }, %sequences.sort({.value});
+
+	# print and copy the output
+	put @sequences.join("\n");
+	use Clipboard:from<Perl5>;
+	Clipboard.copy_to_all_selections(@sequences.join("\n"));
+} else {
+	print Q:c:to/END/;
+	regular ({$regular.elems}) is not the same length as composed ({$composed.elems})
+		regular:	{$regular}
+		composed:	{$composed}
+	END
 }
