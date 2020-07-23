@@ -12,7 +12,7 @@
 # are taken by Hiragana and Katakana, so the hint here is ｢J｣oseon (조선/朝鮮).
 #
 #
-# An extra space may be required at the end of radicals to avoid conflicts. 
+# An extra space may be required at the end of jamo to avoid conflicts. 
 # (think of it as a way to "lock in" your compose sequence)
 #
 # Ex: 가 is "ga␣" so that you can type 각, which is gag␣ so that you can type gagg for 갂.
@@ -22,33 +22,36 @@
 #
 #
 #
-# =RADICALS=
+# =JAMO=
 #
 # Gotchas:
 # ᅙ is "?" cuz its a glottal stop, and ? looks like ʔ which is the glottal stop in IPA.
-# ᄓ is "nk" because "ng" is taken from ᅌ.
+# ᄓ is "nk" because "ng" is taken by ᅌ.
 #
 #
-# -REGULAR RADICALS-
+# -REGULAR JAMO-
 #
-# The subselector for radicals is ｢J｣ because 
+# The subselector for jamo is ｢J｣ because 
 # ① your hand is already there, so its easy to just press it again. 
-# ② ｢J｣ungseong and ｢J｣ongseong
+# ② ｢J｣amo, ｢J｣ungseong, and ｢J｣ongseong all start with a ｢J｣
 #
+# Ex: 우 is ⎄Ju␣
+# Ex: ㅜ is ⎄JJu
 # Ex: ㅀ is ⎄JJrh
-# Ex: ㅇ is ⎄JJ␣ (cuz ㅇ looks like "o")
-# Ex: ㅱ is ⎄JJmo
-# Ex: ㅭ is ⎄JJr?
+# Ex: ㅇ is ⎄JJ␣  (cuz ㅇ is just a filler in place of a consonant)
 # Ex: ㆁ is ⎄JJng␣ (the extra space is to not conflict with the next example)
+# Ex: ㅱ is ⎄JJmo (cuz ㅇ looks like "o")
+# Ex: ㅭ is ⎄JJr?
 # Ex: ㆃ is ⎄JJngz
 #
-# -COMBINABLE RADICALS-
+# -COMBINABLE JAMO-
 #
-# The subselector for choseong radicals is ｢I｣nitial.
-# The subselector for jongseong  radicals is ｢V｣owel.
-# The subselector for jungseong  radicals is ｢F｣inal.
+# The subselector for choseong   jamo is ｢I｣nitial.
+# The subselector for jongseong  jamo is ｢V｣owel.
+# The subselector for jungseong  jamo is ｢F｣inal.
 #
 # Ex: ᄚ is ⎄JIrh
+# Ex: ᅮ   is ⎄JVu␣
 # Ex: ᆪ   is ⎄JFgs␣
 # Ex: ᇄ   is ⎄JFgsg
 #
@@ -11254,12 +11257,12 @@
 
 
 ################################
-########### RADICALS ###########
+############# JAMO #############
 ################################
 
 
 
-# RADICALS
+# JAMO
 
 <Multi_key> <J> <J> <g> <space>         	: "ㄱ" U3131	# HANGUL LETTER KIYEOK
 <Multi_key> <J> <J> <g> <g>             	: "ㄲ" U3132	# HANGUL LETTER SSANGKIYEOK
@@ -11358,12 +11361,12 @@
 
 
 ###############################
-##### COMBINABLE RADICALS #####
+####### COMBINABLE JAMO #######
 ###############################
 
-# COMBINABLE RADICALS
+# COMBINABLE JAMO
 
-# The selector for choseong radicals is ｢I｣nitial.
+# The selector for choseong jamo is ｢I｣nitial.
 
 <Multi_key> <J> <I> <g> <space>           	: "ᄀ" U1100	# HANGUL CHOSEONG KIYEOK
 <Multi_key> <J> <I> <g> <g>               	: "ᄁ" U1101	# HANGUL CHOSEONG SSANGKIYEOK
@@ -11489,7 +11492,7 @@
 <Multi_key> <J> <I> <question> <question> 	: "ꥼ" UA97C	# HANGUL CHOSEONG SSANGYEORINHIEUH
 
 
-# The selector for jongseong radicals is ｢V｣owel.
+# The selector for jongseong jamo is ｢V｣owel.
 
 <Multi_key> <J> <V> <space>                 	: "ᅠ" U1160	# HANGUL JUNGSEONG FILLER
 <Multi_key> <J> <V> <a> <space>             	: "ᅡ" U1161	# HANGUL JUNGSEONG A
@@ -11587,7 +11590,7 @@
 <Multi_key> <J> <V> <period> <e> <space>    	: "ퟆ" UD7C6	# HANGUL JUNGSEONG ARAEA-E
 
 
-# The selector for jungseong radicals is ｢F｣inal.
+# The selector for jungseong jamo is ｢F｣inal.
 
 <Multi_key> <J> <F> <g> <space>                 	: "ᆨ" U11A8	# HANGUL JONGSEONG KIYEOK
 <Multi_key> <J> <F> <g> <g>                     	: "ᆩ" U11A9	# HANGUL JONGSEONG SSANGKIYEOK
@@ -11733,9 +11736,9 @@
 ########## HALFWIDTH ##########
 ###############################
 
-# COMBINABLE RADICALS
+# HALFWIDTH JAMO
 
-# The selector for halfwidth radicals is ｢H｣afwidth.
+# The selector for halfwidth jamo is ｢H｣afwidth.
 
 <Multi_key> <J> <H> <space>         	: "ﾠ" UFFA0	# HALFWIDTH HANGUL FILLER
 <Multi_key> <J> <H> <g> <space>     	: "ﾡ" UFFA1	# HALFWIDTH HANGUL LETTER KIYEOK
@@ -11873,6 +11876,6 @@
 #MISCELLANEOUS
 
 <Multi_key> <J> <space> 		: "ㅤ" U3164	# HANGUL FILLER
-<Multi_key> <J> <period> 		: U302E	# HANGUL SINGLE DOT TONE MARK
-<Multi_key> <J> <2> <period> 	: U302F	# HANGUL DOUBLE DOT TONE MARK
+<Multi_key> <J> <period> 		: U302E			# HANGUL SINGLE DOT TONE MARK
+<Multi_key> <J> <colon> 		: U302F			# HANGUL DOUBLE DOT TONE MARK
 

@@ -145,22 +145,29 @@ $regular  .= split($multiple ?? " " !! "", :skip-empty);
 # then split by spaces, not by each letter
 $composed .= split($composed.chars == $regular.elems*2-1 ?? " " !! "",:skip-empty);
 
-my $replace := {
-	#replace each symbol with its named counterpart, or its codepoint
+#| replace each symbol with its named counterpart, or its codepoint
+sub replace($_) {
+	state %cache; # caches the symbols so it doesnt need to recompute each character (30% faster)
 	.split("",:skip-empty).map({
-		if %specials{$_} or /<[A..z0..9]>/ {
-			"<{%specials{$_}//$_}>" 
+		my ($key,$value) = $_,"";
+		if %cache{$key}:exists { 
+			%cache{$key}
 		} else {
-			"<U{$_.ord.base(16)}>"
-		}	
+			if %specials{$_} or /<[A..Za..z0..9]>/ {
+				$value = '<'~(%specials{$_}//$_)~'>'
+			} else {
+				$value = '<U'~(.ord.base(16))~'>'
+			}	
+			%cache{$key} = $value;
+		}
 	}).join(" ");
 }
-$sequence = $replace($sequence);
+$sequence = replace($sequence);
 
 if $regular.elems == $composed.elems {
 	# create a hash between each sequence in `regular` and `composed`
 	my %sequences = ($regular »=>» $composed).map: -> $this {
-		my $current-sequence = $sequence.subst('<★>', $replace($this.key));
+		my $current-sequence = $sequence.subst('<★>', replace($this.key));
 		my $desc =
 			"\t: \"{$this.value}\"" ~
 			" U{$this.value.ord.base(16)}" ~

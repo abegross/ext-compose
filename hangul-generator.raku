@@ -13,7 +13,7 @@ say q:to/END/;
 # are taken by Hiragana and Katakana, so the hint here is ｢J｣oseon (조선/朝鮮).
 #
 #
-# An extra space may be required at the end of radicals to avoid conflicts. 
+# An extra space may be required at the end of jamo to avoid conflicts. 
 # (think of it as a way to "lock in" your compose sequence)
 #
 # Ex: 가 is "ga␣" so that you can type 각, which is gag␣ so that you can type gagg for 갂.
@@ -23,33 +23,36 @@ say q:to/END/;
 #
 #
 #
-# =RADICALS=
+# =JAMO=
 #
 # Gotchas:
 # ᅙ is "?" cuz its a glottal stop, and ? looks like ʔ which is the glottal stop in IPA.
-# ᄓ is "nk" because "ng" is taken from ᅌ.
+# ᄓ is "nk" because "ng" is taken by ᅌ.
 #
 #
-# -REGULAR RADICALS-
+# -REGULAR JAMO-
 #
-# The subselector for radicals is ｢J｣ because 
+# The subselector for jamo is ｢J｣ because 
 # ① your hand is already there, so its easy to just press it again. 
-# ② ｢J｣ungseong and ｢J｣ongseong
+# ② ｢J｣amo, ｢J｣ungseong, and ｢J｣ongseong all start with a ｢J｣
 #
+# Ex: 우 is ⎄Ju␣
+# Ex: ㅜ is ⎄JJu
 # Ex: ㅀ is ⎄JJrh
-# Ex: ㅇ is ⎄JJ␣ (cuz ㅇ looks like "o")
-# Ex: ㅱ is ⎄JJmo
-# Ex: ㅭ is ⎄JJr?
+# Ex: ㅇ is ⎄JJ␣  (cuz ㅇ is just a filler in place of a consonant)
 # Ex: ㆁ is ⎄JJng␣ (the extra space is to not conflict with the next example)
+# Ex: ㅱ is ⎄JJmo (cuz ㅇ looks like "o")
+# Ex: ㅭ is ⎄JJr?
 # Ex: ㆃ is ⎄JJngz
 #
-# -COMBINABLE RADICALS-
+# -COMBINABLE JAMO-
 #
-# The subselector for choseong radicals is ｢I｣nitial.
-# The subselector for jongseong  radicals is ｢V｣owel.
-# The subselector for jungseong  radicals is ｢F｣inal.
+# The subselector for choseong   jamo is ｢I｣nitial.
+# The subselector for jongseong  jamo is ｢V｣owel.
+# The subselector for jungseong  jamo is ｢F｣inal.
 #
 # Ex: ᄚ is ⎄JIrh
+# Ex: ᅮ   is ⎄JVu␣
 # Ex: ᆪ   is ⎄JFgs␣
 # Ex: ᇄ   is ⎄JFgsg
 #
@@ -79,14 +82,14 @@ sub make-hangul($codepoints, Str $sequence, @regular-list) {
 	my @regular = @regular-list.map: -> $v { @regular-list.grep(/^$v.+/) ?? $v ~ "␣" !! $v };
 	my @hangul = $codepoints.map: {[@regular[$++], .chr]};
 
-	return shell('raku ./compose-sequence-generator.raku --multiple ' ~
+	return shell('raku ./compose-creator.raku --multiple ' ~
 			qq{--regular="@hangul.map({.[0]})" --composed="@hangul.map({.[1]})" } ~ 
 			qq{--sequence="⎄J$sequence"}, :out, cwd => $*PROGRAM.dirname).out.slurp;
 }
 
 
 # add the hangul filler/space and tone marks
-say shell('raku ./compose-sequence-generator.raku --multiple ' ~
+say shell('raku ./compose-creator.raku --multiple ' ~
 	'--regular="␣" --composed="ㅤ" --sequence="⎄J★"', 
 	:out, cwd => $*PROGRAM.dirname).out.slurp;
 
@@ -105,7 +108,7 @@ for 0xAC00..0xD7A3 {
 	$name ~= '␣' if $badcim.chars < 2 and $badcim !~~ /<[CDHJKMPT]>/;
 	@hangul.push: [$name.lc, .chr];
 }
-say shell('raku ./compose-sequence-generator.raku --multiple ' ~
+say shell('raku ./compose-creator.raku --multiple ' ~
 	'--regular="' ~ @hangul.map({.[0]}) ~ '" ' ~
 	'--composed="' ~ @hangul.map({.[1]}) ~ '" ' ~
 	'--sequence="⎄J★"', :out, cwd => $*PROGRAM.dirname).out.slurp;
@@ -116,22 +119,22 @@ say shell('raku ./compose-sequence-generator.raku --multiple ' ~
 say Q:b:to/END/;
 \n
 ################################
-########### RADICALS ###########
+############# JAMO #############
 ################################
-\n\n\n# RADICALS
+\n\n\n# JAMO
 END
 
-my @radicals = <g gg gs n nj nh d dd r rg rm rb rs rt rp rh m b bb bs s ss ␣ j jj c k t p h a ae ya yae eo e yeo ye o wa wae oe yo u weo we wi yu eu yi i nn nd ns nz rgs rd rbs rz r? mb ms mz mo bg bd bsg bsd bj bt bo bbo sg sn sd sb sj z oo ng ngs ngz po hh ? yoya yoae yoi yeyeo yuye yui . .i>;
-say make-hangul((|(0x3131..0x3163),|(0x3165..0x318E)), "J★", @radicals);
+my @jamo = <g gg gs n nj nh d dd r rg rm rb rs rt rp rh m b bb bs s ss ␣ j jj c k t p h a ae ya yae eo e yeo ye o wa wae oe yo u weo we wi yu eu yi i nn nd ns nz rgs rd rbs rz r? mb ms mz mo bg bd bsg bsd bj bt bo bbo sg sn sd sb sj z oo ng ngs ngz po hh ? yoya yoae yoi yeyeo yuye yui . .i>;
+say make-hangul((|(0x3131..0x3163),|(0x3165..0x318E)), "J★", @jamo);
 
 
 say Q:b:to/END/;
 \n
 ###############################
-##### COMBINABLE RADICALS #####
+####### COMBINABLE JAMO #######
 ###############################
-\n# COMBINABLE RADICALS
-\n# The selector for choseong radicals is ｢I｣nitial.
+\n# COMBINABLE JAMO
+\n# The selector for choseong jamo is ｢I｣nitial.
 END
 
 # choseong
@@ -141,7 +144,7 @@ say make-hangul((|(0x1100..0x115F),|(0xA960..0xA97C)), "I★", @choseong);
 
 # jongseong
 say Q:b:to/END/;
-\n# The selector for jongseong radicals is ｢V｣owel.
+\n# The selector for jongseong jamo is ｢V｣owel.
 END
 my @jongseong-range = (|(0x1160..0x11A7),|(0xD7B0..0xD7C6));
 my @jongseong = @jongseong-range.map: {
@@ -152,7 +155,7 @@ say make-hangul(@jongseong-range, "V★", @jongseong);
 
 # jungseong
 say Q:b:to/END/;
-\n# The selector for jungseong radicals is ｢F｣inal.
+\n# The selector for jungseong jamo is ｢F｣inal.
 END
 my @jungseong = <g gg gs n nj nh d l lg lm lb ls lt lp lh m b bs s ss o j c k t p h gl gsg nk nd ns nz nt dg dl lgs ln ld ldh ll lmg lms lbs lbh lbo lss lz lk l? mg ml mb ms mss mz mc mh mo bl bp bh bo sg sd sl sb z ngg nggg ngng ngk ng ngs ngz pb po hn hl hm hb ? gn gb gc gk gh nn nl nc dd ddb db ds dsg dj dc dt lgg lgh llk lmh lbd lbp lng l?h lo mn mnn mm mbs mj bd blp bm bb bsd bj because sm sbo ssg ssd sz sj sc st sh zb zbo ngm ngh jb jbb jj ps pt>;
 say make-hangul((|(0x11A8..0x11FF),|(0xD7CB..0xD7FB)), "F★", @jungseong);
@@ -163,8 +166,8 @@ say Q:b:to/END/;
 ###############################
 ########## HALFWIDTH ##########
 ###############################
-\n# COMBINABLE RADICALS
-\n# The selector for halfwidth radicals is ｢H｣afwidth.
+\n# HALFWIDTH JAMO
+\n# The selector for halfwidth jamo is ｢H｣afwidth.
 END
 say make-hangul((0xFFA0..0xFFDC).grep({$_ unless .uniprop eq "Cn"}), "H★",
 <␣ g gg gs n nj nh d dd r rg rm rd rs rt rp rh m b bb bs s ss ng j jj c k t p h a ae ya yae eo e yeo ye o wa wae oe yo u weo we wi yu eu yi i>
@@ -196,6 +199,6 @@ say Q:b:to/END/;
 \n\n
 #MISCELLANEOUS\n
 <Multi_key> <J> <space> 		: "ㅤ" U3164	# HANGUL FILLER
-<Multi_key> <J> <period> 		: U302E	# HANGUL SINGLE DOT TONE MARK
-<Multi_key> <J> <2> <period> 	: U302F	# HANGUL DOUBLE DOT TONE MARK
+<Multi_key> <J> <period> 		: U302E			# HANGUL SINGLE DOT TONE MARK
+<Multi_key> <J> <colon> 		: U302F			# HANGUL DOUBLE DOT TONE MARK
 END
