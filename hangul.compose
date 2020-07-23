@@ -11867,3 +11867,12 @@
 <Multi_key> <J> <parenleft> <space> <o> <j> <e> <o> <n> <parenright> 	: "㈝" U321D	# PARENTHESIZED KOREAN CHARACTER OJEON
 <Multi_key> <J> <parenleft> <space> <o> <h> <u> <parenright>         	: "㈞" U321E	# PARENTHESIZED KOREAN CHARACTER O HU
 
+
+
+
+#MISCELLANEOUS
+
+<Multi_key> <J> <space> 		: "ㅤ" U3164	# HANGUL FILLER
+<Multi_key> <J> <period> 		: U302E	# HANGUL SINGLE DOT TONE MARK
+<Multi_key> <J> <2> <period> 	: U302F	# HANGUL DOUBLE DOT TONE MARK
+

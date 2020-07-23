@@ -190,3 +190,12 @@ END
 say make-hangul((0x3200..0x321E), "( ★)",
 	<g n d r m b s ng j c k t p h ga na da ra ma ba sa a ja ca ka ta pa ha ju ojeon ohu>
 );
+
+
+say Q:b:to/END/;
+\n\n
+#MISCELLANEOUS\n
+<Multi_key> <J> <space> 		: "ㅤ" U3164	# HANGUL FILLER
+<Multi_key> <J> <period> 		: U302E	# HANGUL SINGLE DOT TONE MARK
+<Multi_key> <J> <2> <period> 	: U302F	# HANGUL DOUBLE DOT TONE MARK
+END
