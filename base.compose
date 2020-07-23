@@ -29,9 +29,8 @@
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 ### or && ?
 <Multi_key> <ampersand> <at>    :   "⅋" U214B   # TURNED AMPERSAND
-# Printable sign for space.  But is \<space> too useful a key combo to use
-# for this?
-<Multi_key> <backslash> <space>		: "␣"	U2423		# OPEN BOX
+# Printable sign for space. overrides default sequence for ~ (tilde)
+<Multi_key> <minus> <space>		: "␣"	U2423		# OPEN BOX
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH

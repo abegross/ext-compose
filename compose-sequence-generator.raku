@@ -128,6 +128,7 @@ my %specials =
 		'↓' => 'Down',
 		'→' => 'Right',
 		'←' => 'Left',
+		'␣' => 'space',
 		'★' => '★',
 		;
 
@@ -139,7 +140,10 @@ unit sub MAIN (
 ); 
 
 $regular  .= split($multiple ?? " " !! "", :skip-empty);
-$composed .= split("",:skip-empty);
+
+# if theres twice as many characters in $composed as there is in $regular
+# then split by spaces, not by each letter
+$composed .= split($composed.chars == $regular.elems*2-1 ?? " " !! "",:skip-empty);
 
 my $replace := {
 	#replace each symbol with its named counterpart, or its codepoint
@@ -170,8 +174,8 @@ if $regular.elems == $composed.elems {
 
 	# print and copy the output
 	put @sequences.join("\n");
-	use Clipboard:from<Perl5>;
-	Clipboard.copy_to_all_selections(@sequences.join("\n"));
+	#use Clipboard:from<Perl5>;
+	#Clipboard.copy_to_all_selections(@sequences.join("\n"));
 } else {
 	print Q:c:to/END/;
 	regular ({$regular.elems}) is not the same length as composed ({$composed.elems})
