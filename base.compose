@@ -1,17 +1,3 @@
-# for Emacs: -*- coding: utf-8 -*-
-
-# def emit(keys, codepoint, word):
-#     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
-#            (keys, unichr(codepoint), codepoint, word)).encode('utf8')
-# numbers = 'one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'
-# words = numbers.upper().split()
-# emit('<0>', 0x24EA, "ZERO")
-# for num, word in zip(range(1, 21), words):
-#     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
-
-#Control characters
-<Multi_key> <Return> <Return>: "" # CARRIAGE RETURN
-<Multi_key> <Tab> <Tab> : "	" # HORIZONTAL TABULATION
 
 # Custom additions: Typography
 <Multi_key> <period> <period>		: "…"	U2026		# HORIZONTAL ELLIPSIS
@@ -1217,7 +1203,10 @@
 <Multi_key> <m>  <b> 		:	"㎆"	U3386	# SQUARE MB
 <Multi_key> <b>  <b> 		:	"㎇"	U3387	# SQUARE GB
 
-
 <Multi_key> <b> <z>	                         	     :	"⌬"		U232C	# benzene with three double bonds
 <Multi_key> <o> <c>                                  :  "◷" 	U25F7   # O'CLOCK SYMBOL (WHITE CIRCLE WITH UPPER RIGHT QUADRANT)
 <Multi_key> <j> <i>                                  :	"時"	U6642	# Ideograph time, season; era, age, period CJK
+
+#Control characters
+<Multi_key> <Return> <Return>: "" # CARRIAGE RETURN
+<Multi_key> <Tab> <Tab> : "	" # HORIZONTAL TABULATION
