@@ -1,36 +1,30 @@
-.XCompose
+ext-compose
 =========
 
-I decided to take over the project from clsn, cuz kragen/xcompose is dead at this point, and I really like the project.
+As explained in <http://canonical.org/~kragen/setting-up-keyboard.html>, your Compose key in X11 is controlled by (among other things) the file `.XCompose` in your home directory.  This file gives you a large set of bindings for Unicode characters that are useful.
 
-As explained in <http://canonical.org/~kragen/setting-up-keyboard.html>,
-your Compose key in X11 is controlled by (among other things) the file
-`.XCompose` in your home directory.  This file gives you a large set
-of bindings for Unicode characters that are useful occasionally.
+ext-compose add nearly 15,000 (and counting) new bindings!
 
-More contributions are welcome; there's a Git repository at
-<http://github.org/kragen/xcompose>.  We're trying to come up with a
-broadly acceptable set of keybindings that won't interfere with the
-traditional Compose bindings, aren't too hard to type, and cover a
-wide set of characters that are useful to use occasionally, making
-them available without the need for specialized input methods.
+More contributions are welcome and encouraged! We're trying to come up with a broadly acceptable set of keybindings that won't interfere with the traditional Compose bindings, aren't too hard to type, and cover a wide set of characters that are useful to use occasionally, making them available without the need for specialized input methods.
 
-After installing `.XCompose` you will need to restart any applications
-to see its effect for that application. Not all applications support
-XCompose, and it depends on which input method you are using.
 
-Some "extensions" have been added to this repository, and installing them
-may take a few more commands.  Use `make` to generate the extension files
-(for emoji, modifier letters, etc.)  You can include them by using the
-`include` directive in your `.XCompose` file.  So you might actually not
-want to use our `install` script, but rather create your own `.XCompose`
-(perhaps with your own personal entries) along these lines:
+Installation
+------------
 
-     include "/path/to/dotXCompose"
-	 include "/path/to/frakturcompose"
+Use the `install` script to install all the compose sequences.
+
+	 git clone https://github.com/grenzionky/ext-compose.git
+	 cd ext-compose
+	 ./install
+
+You can add custom personal compose sequences at the of the `~/.XCompose` file.
+
+
 	 include "/path/to/emoji.compose"
 	 include "/path/to/modletters.compose"
-	 include "/path/to/parens.compose"
+	 include "/path/to/fancyletters.compose"
+	 include "/path/to/hangul.compose"
+	 include "/path/to/japanese.compose"
 
 	 # I complain a lot, oy...
 	 <Multi_key> <O> <Y>	: "ѹ" U0479	# CYRILLIC SMALL LETTER UK

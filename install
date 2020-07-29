@@ -7,9 +7,18 @@ You already have a `~/.XCompose`.  Move it out of the way.
 You may want to merge it into this file, taking care to avoid
 duplicates.
 
-Kragen Javier Sitaker <kragen@canonical.org>
-
 EOF
 	exit 1
 fi
-ln -s "$(pwd)/dotXCompose" ~/.XCompose
+
+cat <<END > ~/.XCompose
+include "%L"
+include "$PWD/base.compose"
+include "$PWD/fancyletters.compose"
+include "$PWD/emoji.compose"
+include "$PWD/modletters.compose"
+include "$PWD/japanese.compose"
+include "$PWD/hangul.compose"
+include "$PWD/hebrew.compose"
+include "$PWD/diacritics.compose"
+END

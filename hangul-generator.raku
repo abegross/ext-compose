@@ -88,11 +88,6 @@ sub make-hangul($codepoints, Str $sequence, @regular-list) {
 }
 
 
-# add the hangul filler/space and tone marks
-say shell('raku ./compose-creator.raku --multiple ' ~
-	'--regular="␣" --composed="ㅤ" --sequence="⎄J★"', 
-	:out, cwd => $*PROGRAM.dirname).out.slurp;
-
 say Q:b:to/END/;
 #################################
 ##### PRECOMPOSED SYLLABLES #####
@@ -195,6 +190,8 @@ say make-hangul((0x3200..0x321E), "( ★)",
 );
 
 
+
+# add the hangul filler/space and tone marks
 say Q:b:to/END/;
 \n\n
 #MISCELLANEOUS\n

@@ -1,50 +1,4 @@
-#!/usr/bin/env perl6
-
-=begin pod
-=head1 USAGE
-=begin item 
-B<regular>
-
-the regular abcs or wtvr that will be typed out
-each letter in `regular` corresponds to the respective letter in `composed`
-=code example: --regular="0123456789"
-=end item
-
-=begin item 
-B<multiple>
-
-to make more than one character in `regular` correspond to a single 
-letter in `composed`, add this switch - now a space defines each 
-sequence in `regular`
-=code example: --multiple --regular="0a 1b 2C 3 4 5  6 7h 8i 9#"
-=end item
-
-=begin item 
-B<composed>
-
-the characters that compose spits out
-=code example: --composed="𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-=end item
-
-=begin item 
-B<sequence>
-
-the sequence ull type out using the compose key.
-"⎄" means the compose key. 
-⎄ can be accessed through '⎄[(])'
-★ is what will be replaced with whats in regular
-★ can be accessed through '⎄**'
-=code example: --sequence="⎄★|"
-=end item
-
-=begin item
-B<Usage Examples:>
-
-	raku <PROGRAM-NAME> --multiple --regular="0a 1b 2C 3 4 5  6 7h 8i 9#" --sequence="⎄★|" --composed="𝟘𝟙𝟚𝟛𝟜𝟝𝟞𝟟𝟠𝟡"
-	raku <PROGRAM-NAME> --regular="aou" --composed="𝒂𝒐𝒖" --sequence="⎄/★"
-	raku <PROGRAM-NAME> --multiple --regular="↑← ↑→ ↓← ↓→" --composed="↰↱↲↳" --sequence="⎄★"
-=end item
-=end pod
+#!/usr/bin/env raku
 
 sub USAGE() {
 	put Q:c:to/END/;
@@ -132,12 +86,13 @@ my %specials =
 		'★' => '★',
 		;
 
+
 unit sub MAIN ( 
-	Str:D :r(:regular($regular))! is rw,  #= the letter you type out
-	Bool  :m(:multiple($multiple)),       #= allow more than one `regular` per `composed`
-	Str:D :c(:composed($composed))! is rw,#= the letter xcompose spits out
-	Str:D :s(:sequence($sequence))! is rw #= the sequence you type (including the ⎄ key)
-); 
+	Bool  :m(:$multiple),			#= allow more than one `regular` per `composed`
+	:r(:$regular)! is copy,			#= the letter you type out
+	:c(:$composed)! is copy,		#= the letter xcompose spits out
+	Str:D :s(:$sequence)! is copy	#= the sequence you type (including the ⎄ key)
+);
 
 $regular  .= split($multiple ?? " " !! "", :skip-empty);
 
