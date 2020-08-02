@@ -280,6 +280,18 @@
 <Multi_key> <numbersign> <y>		:			"𝐲" U1D432 # MATHEMATICAL BOLD SMALL Y
 <Multi_key> <numbersign> <z>		:			"𝐳" U1D433 # MATHEMATICAL BOLD SMALL Z
 
+<Multi_key> <numbersign> <0> 	: "𝟎" U1D7CE	# MATHEMATICAL BOLD DIGIT ZERO
+<Multi_key> <numbersign> <1> 	: "𝟏" U1D7CF	# MATHEMATICAL BOLD DIGIT ONE
+<Multi_key> <numbersign> <2> 	: "𝟐" U1D7D0	# MATHEMATICAL BOLD DIGIT TWO
+<Multi_key> <numbersign> <3> 	: "𝟑" U1D7D1	# MATHEMATICAL BOLD DIGIT THREE
+<Multi_key> <numbersign> <4> 	: "𝟒" U1D7D2	# MATHEMATICAL BOLD DIGIT FOUR
+<Multi_key> <numbersign> <5> 	: "𝟓" U1D7D3	# MATHEMATICAL BOLD DIGIT FIVE
+<Multi_key> <numbersign> <6> 	: "𝟔" U1D7D4	# MATHEMATICAL BOLD DIGIT SIX
+<Multi_key> <numbersign> <7> 	: "𝟕" U1D7D5	# MATHEMATICAL BOLD DIGIT SEVEN
+<Multi_key> <numbersign> <8> 	: "𝟖" U1D7D6	# MATHEMATICAL BOLD DIGIT EIGHT
+<Multi_key> <numbersign> <9> 	: "𝟗" U1D7D7	# MATHEMATICAL BOLD DIGIT NINE
+
+
 
 ######
 # all double-struck letters
@@ -526,8 +538,8 @@
 
 
 #########
-# Monospace/fullwidth
-# mnemonic = " " (space) cuz its monoｓｐａｃｅd
+# Monospace/Fullwidth
+# mnemonic = "␣" (space) cuz its monoｓｐａｃｅd
 
 <Multi_key> <space> <A> 	: "Ａ" UFF21	# FULLWIDTH LATIN CAPITAL LETTER A
 <Multi_key> <space> <B> 	: "Ｂ" UFF22	# FULLWIDTH LATIN CAPITAL LETTER B
@@ -594,10 +606,9 @@
 <Multi_key> <space> <8> 	: "８" UFF18	# FULLWIDTH DIGIT EIGHT
 <Multi_key> <space> <9> 	: "９" UFF19	# FULLWIDTH DIGIT NINE
 
-<Multi_key> <space> <minus>        	: "−" U2212	# MINUS SIGN
-<Multi_key> <space> <comma>        	: "、" U3001	# IDEOGRAPHIC COMMA
-<Multi_key> <space> <period>       	: "。" U3002	# IDEOGRAPHIC FULL STOP
-<Multi_key> <space> <asciitilde>   	: "〜" U301C	# WAVE DASH
+<Multi_key> <space> <comma>      	: "，" UFF0C	# FULLWIDTH COMMA
+<Multi_key> <space> <period>     	: "．" UFF0E	# FULLWIDTH FULL STOP
+<Multi_key> <space> <asciitilde> 	: "～" UFF5E	# FULLWIDTH TILDE
 <Multi_key> <space> <exclam>       	: "！" UFF01	# FULLWIDTH EXCLAMATION MARK
 <Multi_key> <space> <quotedbl>     	: "＂" UFF02	# FULLWIDTH QUOTATION MARK
 <Multi_key> <space> <numbersign>   	: "＃" UFF03	# FULLWIDTH NUMBER SIGN
@@ -629,8 +640,9 @@
 
 
 #########
-# mathematical monospaced characters
-#
+# monospace
+# the mnemonic here is 2 spaces since a single space is already used by fullwidth characters
+
 <Multi_key> <space> <space> <A> 	: "𝙰" U1D670	# MATHEMATICAL MONOSPACE CAPITAL A
 <Multi_key> <space> <space> <B> 	: "𝙱" U1D671	# MATHEMATICAL MONOSPACE CAPITAL B
 <Multi_key> <space> <space> <C> 	: "𝙲" U1D672	# MATHEMATICAL MONOSPACE CAPITAL C
@@ -657,6 +669,7 @@
 <Multi_key> <space> <space> <X> 	: "𝚇" U1D687	# MATHEMATICAL MONOSPACE CAPITAL X
 <Multi_key> <space> <space> <Y> 	: "𝚈" U1D688	# MATHEMATICAL MONOSPACE CAPITAL Y
 <Multi_key> <space> <space> <Z> 	: "𝚉" U1D689	# MATHEMATICAL MONOSPACE CAPITAL Z
+
 <Multi_key> <space> <space> <a> 	: "𝚊" U1D68A	# MATHEMATICAL MONOSPACE SMALL A
 <Multi_key> <space> <space> <b> 	: "𝚋" U1D68B	# MATHEMATICAL MONOSPACE SMALL B
 <Multi_key> <space> <space> <c> 	: "𝚌" U1D68C	# MATHEMATICAL MONOSPACE SMALL C
@@ -684,6 +697,16 @@
 <Multi_key> <space> <space> <y> 	: "𝚢" U1D6A2	# MATHEMATICAL MONOSPACE SMALL Y
 <Multi_key> <space> <space> <z> 	: "𝚣" U1D6A3	# MATHEMATICAL MONOSPACE SMALL Z
 
+<Multi_key> <space> <space> <0> 	: "𝟶" U1D7F6	# MATHEMATICAL MONOSPACE DIGIT ZERO
+<Multi_key> <space> <space> <1> 	: "𝟷" U1D7F7	# MATHEMATICAL MONOSPACE DIGIT ONE
+<Multi_key> <space> <space> <2> 	: "𝟸" U1D7F8	# MATHEMATICAL MONOSPACE DIGIT TWO
+<Multi_key> <space> <space> <3> 	: "𝟹" U1D7F9	# MATHEMATICAL MONOSPACE DIGIT THREE
+<Multi_key> <space> <space> <4> 	: "𝟺" U1D7FA	# MATHEMATICAL MONOSPACE DIGIT FOUR
+<Multi_key> <space> <space> <5> 	: "𝟻" U1D7FB	# MATHEMATICAL MONOSPACE DIGIT FIVE
+<Multi_key> <space> <space> <6> 	: "𝟼" U1D7FC	# MATHEMATICAL MONOSPACE DIGIT SIX
+<Multi_key> <space> <space> <7> 	: "𝟽" U1D7FD	# MATHEMATICAL MONOSPACE DIGIT SEVEN
+<Multi_key> <space> <space> <8> 	: "𝟾" U1D7FE	# MATHEMATICAL MONOSPACE DIGIT EIGHT
+<Multi_key> <space> <space> <9> 	: "𝟿" U1D7FF	# MATHEMATICAL MONOSPACE DIGIT NINE
 
 
 
