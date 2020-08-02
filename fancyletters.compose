@@ -526,7 +526,7 @@
 
 
 #########
-# Monospace
+# Monospace/fullwidth
 # mnemonic = " " (space) cuz its monoｓｐａｃｅd
 
 <Multi_key> <space> <A> 	: "Ａ" UFF21	# FULLWIDTH LATIN CAPITAL LETTER A
@@ -593,6 +593,97 @@
 <Multi_key> <space> <7> 	: "７" UFF17	# FULLWIDTH DIGIT SEVEN
 <Multi_key> <space> <8> 	: "８" UFF18	# FULLWIDTH DIGIT EIGHT
 <Multi_key> <space> <9> 	: "９" UFF19	# FULLWIDTH DIGIT NINE
+
+<Multi_key> <space> <minus>        	: "−" U2212	# MINUS SIGN
+<Multi_key> <space> <comma>        	: "、" U3001	# IDEOGRAPHIC COMMA
+<Multi_key> <space> <period>       	: "。" U3002	# IDEOGRAPHIC FULL STOP
+<Multi_key> <space> <asciitilde>   	: "〜" U301C	# WAVE DASH
+<Multi_key> <space> <exclam>       	: "！" UFF01	# FULLWIDTH EXCLAMATION MARK
+<Multi_key> <space> <quotedbl>     	: "＂" UFF02	# FULLWIDTH QUOTATION MARK
+<Multi_key> <space> <numbersign>   	: "＃" UFF03	# FULLWIDTH NUMBER SIGN
+<Multi_key> <space> <dollar>       	: "＄" UFF04	# FULLWIDTH DOLLAR SIGN
+<Multi_key> <space> <percent>      	: "％" UFF05	# FULLWIDTH PERCENT SIGN
+<Multi_key> <space> <ampersand>    	: "＆" UFF06	# FULLWIDTH AMPERSAND
+<Multi_key> <space> <apostrophe>   	: "＇" UFF07	# FULLWIDTH APOSTROPHE
+<Multi_key> <space> <parenleft>    	: "（" UFF08	# FULLWIDTH LEFT PARENTHESIS
+<Multi_key> <space> <parenright>   	: "）" UFF09	# FULLWIDTH RIGHT PARENTHESIS
+<Multi_key> <space> <asterisk>     	: "＊" UFF0A	# FULLWIDTH ASTERISK
+<Multi_key> <space> <plus>         	: "＋" UFF0B	# FULLWIDTH PLUS SIGN
+<Multi_key> <space> <slash>        	: "／" UFF0F	# FULLWIDTH SOLIDUS
+<Multi_key> <space> <colon>        	: "：" UFF1A	# FULLWIDTH COLON
+<Multi_key> <space> <semicolon>    	: "；" UFF1B	# FULLWIDTH SEMICOLON
+<Multi_key> <space> <less>         	: "＜" UFF1C	# FULLWIDTH LESS-THAN SIGN
+<Multi_key> <space> <equal>        	: "＝" UFF1D	# FULLWIDTH EQUALS SIGN
+<Multi_key> <space> <greater>      	: "＞" UFF1E	# FULLWIDTH GREATER-THAN SIGN
+<Multi_key> <space> <question>     	: "？" UFF1F	# FULLWIDTH QUESTION MARK
+<Multi_key> <space> <at>           	: "＠" UFF20	# FULLWIDTH COMMERCIAL AT
+<Multi_key> <space> <bracketleft>  	: "［" UFF3B	# FULLWIDTH LEFT SQUARE BRACKET
+<Multi_key> <space> <backslash>    	: "＼" UFF3C	# FULLWIDTH REVERSE SOLIDUS
+<Multi_key> <space> <bracketright> 	: "］" UFF3D	# FULLWIDTH RIGHT SQUARE BRACKET
+<Multi_key> <space> <asciicircum>  	: "＾" UFF3E	# FULLWIDTH CIRCUMFLEX ACCENT
+<Multi_key> <space> <underscore>   	: "＿" UFF3F	# FULLWIDTH LOW LINE
+<Multi_key> <space> <grave>        	: "｀" UFF40	# FULLWIDTH GRAVE ACCENT
+<Multi_key> <space> <braceleft>    	: "｛" UFF5B	# FULLWIDTH LEFT CURLY BRACKET
+<Multi_key> <space> <bar>          	: "｜" UFF5C	# FULLWIDTH VERTICAL LINE
+<Multi_key> <space> <braceright>   	: "｝" UFF5D	# FULLWIDTH RIGHT CURLY BRACKET
+
+
+#########
+# mathematical monospaced characters
+#
+<Multi_key> <space> <space> <A> 	: "𝙰" U1D670	# MATHEMATICAL MONOSPACE CAPITAL A
+<Multi_key> <space> <space> <B> 	: "𝙱" U1D671	# MATHEMATICAL MONOSPACE CAPITAL B
+<Multi_key> <space> <space> <C> 	: "𝙲" U1D672	# MATHEMATICAL MONOSPACE CAPITAL C
+<Multi_key> <space> <space> <D> 	: "𝙳" U1D673	# MATHEMATICAL MONOSPACE CAPITAL D
+<Multi_key> <space> <space> <E> 	: "𝙴" U1D674	# MATHEMATICAL MONOSPACE CAPITAL E
+<Multi_key> <space> <space> <F> 	: "𝙵" U1D675	# MATHEMATICAL MONOSPACE CAPITAL F
+<Multi_key> <space> <space> <G> 	: "𝙶" U1D676	# MATHEMATICAL MONOSPACE CAPITAL G
+<Multi_key> <space> <space> <H> 	: "𝙷" U1D677	# MATHEMATICAL MONOSPACE CAPITAL H
+<Multi_key> <space> <space> <I> 	: "𝙸" U1D678	# MATHEMATICAL MONOSPACE CAPITAL I
+<Multi_key> <space> <space> <J> 	: "𝙹" U1D679	# MATHEMATICAL MONOSPACE CAPITAL J
+<Multi_key> <space> <space> <K> 	: "𝙺" U1D67A	# MATHEMATICAL MONOSPACE CAPITAL K
+<Multi_key> <space> <space> <L> 	: "𝙻" U1D67B	# MATHEMATICAL MONOSPACE CAPITAL L
+<Multi_key> <space> <space> <M> 	: "𝙼" U1D67C	# MATHEMATICAL MONOSPACE CAPITAL M
+<Multi_key> <space> <space> <N> 	: "𝙽" U1D67D	# MATHEMATICAL MONOSPACE CAPITAL N
+<Multi_key> <space> <space> <O> 	: "𝙾" U1D67E	# MATHEMATICAL MONOSPACE CAPITAL O
+<Multi_key> <space> <space> <P> 	: "𝙿" U1D67F	# MATHEMATICAL MONOSPACE CAPITAL P
+<Multi_key> <space> <space> <Q> 	: "𝚀" U1D680	# MATHEMATICAL MONOSPACE CAPITAL Q
+<Multi_key> <space> <space> <R> 	: "𝚁" U1D681	# MATHEMATICAL MONOSPACE CAPITAL R
+<Multi_key> <space> <space> <S> 	: "𝚂" U1D682	# MATHEMATICAL MONOSPACE CAPITAL S
+<Multi_key> <space> <space> <T> 	: "𝚃" U1D683	# MATHEMATICAL MONOSPACE CAPITAL T
+<Multi_key> <space> <space> <U> 	: "𝚄" U1D684	# MATHEMATICAL MONOSPACE CAPITAL U
+<Multi_key> <space> <space> <V> 	: "𝚅" U1D685	# MATHEMATICAL MONOSPACE CAPITAL V
+<Multi_key> <space> <space> <W> 	: "𝚆" U1D686	# MATHEMATICAL MONOSPACE CAPITAL W
+<Multi_key> <space> <space> <X> 	: "𝚇" U1D687	# MATHEMATICAL MONOSPACE CAPITAL X
+<Multi_key> <space> <space> <Y> 	: "𝚈" U1D688	# MATHEMATICAL MONOSPACE CAPITAL Y
+<Multi_key> <space> <space> <Z> 	: "𝚉" U1D689	# MATHEMATICAL MONOSPACE CAPITAL Z
+<Multi_key> <space> <space> <a> 	: "𝚊" U1D68A	# MATHEMATICAL MONOSPACE SMALL A
+<Multi_key> <space> <space> <b> 	: "𝚋" U1D68B	# MATHEMATICAL MONOSPACE SMALL B
+<Multi_key> <space> <space> <c> 	: "𝚌" U1D68C	# MATHEMATICAL MONOSPACE SMALL C
+<Multi_key> <space> <space> <d> 	: "𝚍" U1D68D	# MATHEMATICAL MONOSPACE SMALL D
+<Multi_key> <space> <space> <e> 	: "𝚎" U1D68E	# MATHEMATICAL MONOSPACE SMALL E
+<Multi_key> <space> <space> <f> 	: "𝚏" U1D68F	# MATHEMATICAL MONOSPACE SMALL F
+<Multi_key> <space> <space> <g> 	: "𝚐" U1D690	# MATHEMATICAL MONOSPACE SMALL G
+<Multi_key> <space> <space> <h> 	: "𝚑" U1D691	# MATHEMATICAL MONOSPACE SMALL H
+<Multi_key> <space> <space> <i> 	: "𝚒" U1D692	# MATHEMATICAL MONOSPACE SMALL I
+<Multi_key> <space> <space> <j> 	: "𝚓" U1D693	# MATHEMATICAL MONOSPACE SMALL J
+<Multi_key> <space> <space> <k> 	: "𝚔" U1D694	# MATHEMATICAL MONOSPACE SMALL K
+<Multi_key> <space> <space> <l> 	: "𝚕" U1D695	# MATHEMATICAL MONOSPACE SMALL L
+<Multi_key> <space> <space> <m> 	: "𝚖" U1D696	# MATHEMATICAL MONOSPACE SMALL M
+<Multi_key> <space> <space> <n> 	: "𝚗" U1D697	# MATHEMATICAL MONOSPACE SMALL N
+<Multi_key> <space> <space> <o> 	: "𝚘" U1D698	# MATHEMATICAL MONOSPACE SMALL O
+<Multi_key> <space> <space> <p> 	: "𝚙" U1D699	# MATHEMATICAL MONOSPACE SMALL P
+<Multi_key> <space> <space> <q> 	: "𝚚" U1D69A	# MATHEMATICAL MONOSPACE SMALL Q
+<Multi_key> <space> <space> <r> 	: "𝚛" U1D69B	# MATHEMATICAL MONOSPACE SMALL R
+<Multi_key> <space> <space> <s> 	: "𝚜" U1D69C	# MATHEMATICAL MONOSPACE SMALL S
+<Multi_key> <space> <space> <t> 	: "𝚝" U1D69D	# MATHEMATICAL MONOSPACE SMALL T
+<Multi_key> <space> <space> <u> 	: "𝚞" U1D69E	# MATHEMATICAL MONOSPACE SMALL U
+<Multi_key> <space> <space> <v> 	: "𝚟" U1D69F	# MATHEMATICAL MONOSPACE SMALL V
+<Multi_key> <space> <space> <w> 	: "𝚠" U1D6A0	# MATHEMATICAL MONOSPACE SMALL W
+<Multi_key> <space> <space> <x> 	: "𝚡" U1D6A1	# MATHEMATICAL MONOSPACE SMALL X
+<Multi_key> <space> <space> <y> 	: "𝚢" U1D6A2	# MATHEMATICAL MONOSPACE SMALL Y
+<Multi_key> <space> <space> <z> 	: "𝚣" U1D6A3	# MATHEMATICAL MONOSPACE SMALL Z
+
 
 
 
