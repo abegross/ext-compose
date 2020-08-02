@@ -117,8 +117,7 @@
 <Multi_key> <asterisk> <space> <z>	:	"𝔷"	U1D537	# MATHEMATICAL FRAKTUR SMALL Z
 
 
-# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
-# input method.  Aristotle Pagaltzis informs me that this is the
+# Custom additions: Greek letters.  Mapping corresponds to the
 # standard Greek keyboard layout, which is good.
 <Multi_key> <G> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
 <Multi_key> <G> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
@@ -415,8 +414,8 @@
 
 
 #######
-# Actual script letters
-# mnemonic is \ from scrip, and following the "alternate selector" ; from fraktur
+# Non-bold script letters
+# mnemonic is \ from script, and following the "alternate selector" ; from fraktur
 
 <Multi_key> <backslash> <space> <A>                         :       "𝒜"     U1D49C  # MATHEMATICAL SCRIPT CAPITAL A
 <Multi_key> <backslash> <space> <B>                         :       "ℬ"     U212C   # SCRIPT CAPITAL B
@@ -523,6 +522,77 @@
 <Multi_key> <backslash> <space> <x>                         :       "𝓍"     U1D4CD  # MATHEMATICAL SCRIPT SMALL X
 <Multi_key> <backslash> <space> <y>                         :       "𝓎"     U1D4CE  # MATHEMATICAL SCRIPT SMALL Y
 <Multi_key> <backslash> <space> <z>                         :       "𝓏"     U1D4CF  # MATHEMATICAL SCRIPT SMALL Z
+
+
+
+#########
+# Monospace
+# mnemonic = " " (space) cuz its monoｓｐａｃｅd
+
+<Multi_key> <space> <A> 	: "Ａ" UFF21	# FULLWIDTH LATIN CAPITAL LETTER A
+<Multi_key> <space> <B> 	: "Ｂ" UFF22	# FULLWIDTH LATIN CAPITAL LETTER B
+<Multi_key> <space> <C> 	: "Ｃ" UFF23	# FULLWIDTH LATIN CAPITAL LETTER C
+<Multi_key> <space> <D> 	: "Ｄ" UFF24	# FULLWIDTH LATIN CAPITAL LETTER D
+<Multi_key> <space> <E> 	: "Ｅ" UFF25	# FULLWIDTH LATIN CAPITAL LETTER E
+<Multi_key> <space> <F> 	: "Ｆ" UFF26	# FULLWIDTH LATIN CAPITAL LETTER F
+<Multi_key> <space> <G> 	: "Ｇ" UFF27	# FULLWIDTH LATIN CAPITAL LETTER G
+<Multi_key> <space> <H> 	: "Ｈ" UFF28	# FULLWIDTH LATIN CAPITAL LETTER H
+<Multi_key> <space> <I> 	: "Ｉ" UFF29	# FULLWIDTH LATIN CAPITAL LETTER I
+<Multi_key> <space> <J> 	: "Ｊ" UFF2A	# FULLWIDTH LATIN CAPITAL LETTER J
+<Multi_key> <space> <K> 	: "Ｋ" UFF2B	# FULLWIDTH LATIN CAPITAL LETTER K
+<Multi_key> <space> <L> 	: "Ｌ" UFF2C	# FULLWIDTH LATIN CAPITAL LETTER L
+<Multi_key> <space> <M> 	: "Ｍ" UFF2D	# FULLWIDTH LATIN CAPITAL LETTER M
+<Multi_key> <space> <N> 	: "Ｎ" UFF2E	# FULLWIDTH LATIN CAPITAL LETTER N
+<Multi_key> <space> <O> 	: "Ｏ" UFF2F	# FULLWIDTH LATIN CAPITAL LETTER O
+<Multi_key> <space> <P> 	: "Ｐ" UFF30	# FULLWIDTH LATIN CAPITAL LETTER P
+<Multi_key> <space> <Q> 	: "Ｑ" UFF31	# FULLWIDTH LATIN CAPITAL LETTER Q
+<Multi_key> <space> <R> 	: "Ｒ" UFF32	# FULLWIDTH LATIN CAPITAL LETTER R
+<Multi_key> <space> <S> 	: "Ｓ" UFF33	# FULLWIDTH LATIN CAPITAL LETTER S
+<Multi_key> <space> <T> 	: "Ｔ" UFF34	# FULLWIDTH LATIN CAPITAL LETTER T
+<Multi_key> <space> <U> 	: "Ｕ" UFF35	# FULLWIDTH LATIN CAPITAL LETTER U
+<Multi_key> <space> <V> 	: "Ｖ" UFF36	# FULLWIDTH LATIN CAPITAL LETTER V
+<Multi_key> <space> <W> 	: "Ｗ" UFF37	# FULLWIDTH LATIN CAPITAL LETTER W
+<Multi_key> <space> <X> 	: "Ｘ" UFF38	# FULLWIDTH LATIN CAPITAL LETTER X
+<Multi_key> <space> <Y> 	: "Ｙ" UFF39	# FULLWIDTH LATIN CAPITAL LETTER Y
+<Multi_key> <space> <Z> 	: "Ｚ" UFF3A	# FULLWIDTH LATIN CAPITAL LETTER Z
+
+<Multi_key> <space> <a> 	: "ａ" UFF41	# FULLWIDTH LATIN SMALL LETTER A
+<Multi_key> <space> <b> 	: "ｂ" UFF42	# FULLWIDTH LATIN SMALL LETTER B
+<Multi_key> <space> <c> 	: "ｃ" UFF43	# FULLWIDTH LATIN SMALL LETTER C
+<Multi_key> <space> <d> 	: "ｄ" UFF44	# FULLWIDTH LATIN SMALL LETTER D
+<Multi_key> <space> <e> 	: "ｅ" UFF45	# FULLWIDTH LATIN SMALL LETTER E
+<Multi_key> <space> <f> 	: "ｆ" UFF46	# FULLWIDTH LATIN SMALL LETTER F
+<Multi_key> <space> <g> 	: "ｇ" UFF47	# FULLWIDTH LATIN SMALL LETTER G
+<Multi_key> <space> <h> 	: "ｈ" UFF48	# FULLWIDTH LATIN SMALL LETTER H
+<Multi_key> <space> <i> 	: "ｉ" UFF49	# FULLWIDTH LATIN SMALL LETTER I
+<Multi_key> <space> <j> 	: "ｊ" UFF4A	# FULLWIDTH LATIN SMALL LETTER J
+<Multi_key> <space> <k> 	: "ｋ" UFF4B	# FULLWIDTH LATIN SMALL LETTER K
+<Multi_key> <space> <l> 	: "ｌ" UFF4C	# FULLWIDTH LATIN SMALL LETTER L
+<Multi_key> <space> <m> 	: "ｍ" UFF4D	# FULLWIDTH LATIN SMALL LETTER M
+<Multi_key> <space> <n> 	: "ｎ" UFF4E	# FULLWIDTH LATIN SMALL LETTER N
+<Multi_key> <space> <o> 	: "ｏ" UFF4F	# FULLWIDTH LATIN SMALL LETTER O
+<Multi_key> <space> <p> 	: "ｐ" UFF50	# FULLWIDTH LATIN SMALL LETTER P
+<Multi_key> <space> <q> 	: "ｑ" UFF51	# FULLWIDTH LATIN SMALL LETTER Q
+<Multi_key> <space> <r> 	: "ｒ" UFF52	# FULLWIDTH LATIN SMALL LETTER R
+<Multi_key> <space> <s> 	: "ｓ" UFF53	# FULLWIDTH LATIN SMALL LETTER S
+<Multi_key> <space> <t> 	: "ｔ" UFF54	# FULLWIDTH LATIN SMALL LETTER T
+<Multi_key> <space> <u> 	: "ｕ" UFF55	# FULLWIDTH LATIN SMALL LETTER U
+<Multi_key> <space> <v> 	: "ｖ" UFF56	# FULLWIDTH LATIN SMALL LETTER V
+<Multi_key> <space> <w> 	: "ｗ" UFF57	# FULLWIDTH LATIN SMALL LETTER W
+<Multi_key> <space> <x> 	: "ｘ" UFF58	# FULLWIDTH LATIN SMALL LETTER X
+<Multi_key> <space> <y> 	: "ｙ" UFF59	# FULLWIDTH LATIN SMALL LETTER Y
+<Multi_key> <space> <z> 	: "ｚ" UFF5A	# FULLWIDTH LATIN SMALL LETTER Z
+
+<Multi_key> <space> <0> 	: "０" UFF10	# FULLWIDTH DIGIT ZERO
+<Multi_key> <space> <1> 	: "１" UFF11	# FULLWIDTH DIGIT ONE
+<Multi_key> <space> <2> 	: "２" UFF12	# FULLWIDTH DIGIT TWO
+<Multi_key> <space> <3> 	: "３" UFF13	# FULLWIDTH DIGIT THREE
+<Multi_key> <space> <4> 	: "４" UFF14	# FULLWIDTH DIGIT FOUR
+<Multi_key> <space> <5> 	: "５" UFF15	# FULLWIDTH DIGIT FIVE
+<Multi_key> <space> <6> 	: "６" UFF16	# FULLWIDTH DIGIT SIX
+<Multi_key> <space> <7> 	: "７" UFF17	# FULLWIDTH DIGIT SEVEN
+<Multi_key> <space> <8> 	: "８" UFF18	# FULLWIDTH DIGIT EIGHT
+<Multi_key> <space> <9> 	: "９" UFF19	# FULLWIDTH DIGIT NINE
 
 
 
