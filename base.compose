@@ -30,7 +30,7 @@
 # where the thin spaces aren’t thin.  But I think this is okay.
 # This conflicts with the default binding to “~”, which is potentially
 # a problem for non-American keyboards.
-<Multi_key> <space> <minus>             : " — "                 # EM DASH surrounded by THIN SPACEs.
+#<Multi_key> <space> <minus>             : " — "                 # EM DASH surrounded by THIN SPACEs.
 
 
 # Quotation marks.
@@ -323,7 +323,7 @@
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 <Multi_key> <parenright>  <parenleft>  		:	"⌑"	U2311	# SQUARE LOZENGE
 # I'm hoping { can work as a set mnemonic
-<Multi_key> <braceleft> <backslash> 	: "∖"	U2216	SET MINUS
+<Multi_key> <braceleft> <backslash> 	: "∖"	U2216	# SET MINUS
 <Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
 <Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
 <Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
@@ -334,10 +334,10 @@
 <Multi_key> <slash> <braceleft> <equal> <parenleft> : "⊈"	U2288	# NEITHER A SUBSET OF NOR EQUAL TO
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
 <Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
-<Multi_key> <exclam> <braceleft> <parenright> : "⊅"	U2285	NOT A SUPERSET OF
-<Multi_key> <slash> <braceleft> <parenright>  : "⊅"	U2285	NOT A SUPERSET OF
-<Multi_key> <exclam> <braceleft> <equal> <parenright> : "⊉"	U2289	NEITHER A SUPERSET OF NOR EQUAL TO
-<Multi_key> <slash> <braceleft> <equal> <parenright> : "⊉"	U2289	NEITHER A SUPERSET OF NOR EQUAL TO
+<Multi_key> <exclam> <braceleft> <parenright> : "⊅"	U2285	# NOT A SUPERSET OF
+<Multi_key> <slash> <braceleft> <parenright>  : "⊅"	U2285	# NOT A SUPERSET OF
+<Multi_key> <exclam> <braceleft> <equal> <parenright> : "⊉"	U2289	# NEITHER A SUPERSET OF NOR EQUAL TO
+<Multi_key> <slash> <braceleft> <equal> <parenright> : "⊉"	U2289	# NEITHER A SUPERSET OF NOR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
@@ -735,7 +735,7 @@
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 <Multi_key> <bracketleft>  <parenleft> <bracketright> <parenright> 		:	"⎄"	U2384	# COMPOSITION SYMBOL
 <Multi_key> <0> <X> 	: "⎈" U2388	# HELM SYMBOL = control
-<Multi_key> <
+
 # Using backslash-minus-slash etc. conflicts with combining accents.
 <Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
 <Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
@@ -886,6 +886,9 @@
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 <Multi_key> <numbersign> <percent>	: "♫" U266b	# BEAMED EIGHTH NOTES
+<Multi_key> <numbersign> <q>            : "♩" U2669	# QUARTER NOTE
+<Multi_key> <numbersign> <h>            : "𝅗𝅥" U1D15E	# MUSICAL SYMBOL HALF NOTE
+<Multi_key> <numbersign> <w>            : "𝅝" U1D15D	# MUSICAL SYMBOL WHOLE NOTE
 
 
 # Combining accents, for making things you don't have precomposed chars or keystrokes for:

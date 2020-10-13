@@ -260,11 +260,12 @@
 <Multi_key> <H> <plus> <y> <o> <r> <i>			:	"ゟ"	U309F	# HIRAGANA DIGRAPH YORI
 <Multi_key> <H> <plus> <m> <a> <s> <u>			:	"升"	U5347	# CJK UNIFIED IDEOGRAPH-5347
 #<Multi_key> <H> <plus> <s> <i> <m> <e>			:	"乄"	U4E44	# CJK UNIFIED IDEOGRAPH-4E44
-<Multi_key> <H> <plus> <s> <i> <m> <e>    		:	"〆"	U3006	# IDEOGRAPHIC CLOSING MARK
+<Multi_key> <H> <plus> <s> <i> <m> <e>    		:	"乄"	U3006	# IDEOGRAPHIC CLOSING MARK
 <Multi_key> <H> <plus> <n> <a> <r> <i>			:	"𬻿"	U2CEFF	# CJK UNIFIED IDEOGRAPH-2CEFF
 
 <Multi_key> <K> <plus> <t> <o> <m> <o>			:	"𪜈"	U2A708	# CJK UNIFIED IDEOGRAPH-2A708
 <Multi_key> <K> <plus> <s> <i> <t> <e>			:	"𬼀"	U2CF00	# CJK UNIFIED IDEOGRAPH-2CF00
+<Multi_key> <K> <plus> <s> <h> <t> <e>			:	"𬼀"	U2CF00	# CJK UNIFIED IDEOGRAPH-2CF00
 <Multi_key> <K> <plus> <k> <o> <t> <o>			:	"ヿ"	U30FF	# KATAKANA DIGRAPH KOTO
 # not a ligature, but still a useful character to be able to type
 <Multi_key> <K> <plus> <n> <o> <m> <a>      		:	"々"	U3005	# IDEOGRAPHIC ITERATION MARK

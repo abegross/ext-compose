@@ -680,8 +680,8 @@
 <Multi_key> <space> <minus> <9> 	: "９" UFF19	# FULLWIDTH DIGIT NINE
 
 <Multi_key> <space> <minus> <comma>      	: "，" UFF0C	# FULLWIDTH COMMA
+<Multi_key> <space> <minus> <minus> 		: "－" UFF0D	# FULLWIDTH HYPHEN-MINUS
 <Multi_key> <space> <minus> <period>     	: "．" UFF0E	# FULLWIDTH FULL STOP
-<Multi_key> <space> <minus> <asciitilde> 	: "～" UFF5E	# FULLWIDTH TILDE
 <Multi_key> <space> <minus> <exclam>       	: "！" UFF01	# FULLWIDTH EXCLAMATION MARK
 <Multi_key> <space> <minus> <quotedbl>     	: "＂" UFF02	# FULLWIDTH QUOTATION MARK
 <Multi_key> <space> <minus> <numbersign>   	: "＃" UFF03	# FULLWIDTH NUMBER SIGN
@@ -710,6 +710,7 @@
 <Multi_key> <space> <minus> <braceleft>    	: "｛" UFF5B	# FULLWIDTH LEFT CURLY BRACKET
 <Multi_key> <space> <minus> <bar>          	: "｜" UFF5C	# FULLWIDTH VERTICAL LINE
 <Multi_key> <space> <minus> <braceright>   	: "｝" UFF5D	# FULLWIDTH RIGHT CURLY BRACKET
+<Multi_key> <space> <minus> <asciitilde> 	: "～" UFF5E	# FULLWIDTH TILDE
 
 
 
