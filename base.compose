@@ -206,7 +206,8 @@
 <Multi_key> <s> <t>		: "ﬆ"  UFB06	   # LATIN SMALL LIGATURE ST
 <Multi_key> <f> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 <Multi_key> <d> <b>                                  :  "ȸ" 	U0238   # D AND B LIGATURE
-<Multi_key> <c> <h>                                  :  "ꕈ" 	UA548   # C+H LIGATURE (VAI SYLLABLE NYI)
+#<Multi_key> <c> <h>                                  :  "ꕈ" 	UA548   # C+H LIGATURE (VAI SYLLABLE NYI)
+<Multi_key> <c> <h>                                  :  "ⴛ" 	U2D1B   # C+H LIGATURE (GEORGIAN SMALL LETTER JIL)
 # allow me still to use my ſ key, okay?
 <Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
@@ -829,6 +830,7 @@
 <Multi_key> <a> <w>			: "ɔ"	U0254		# LATIN SMALL LETTER OPEN O
 <Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
 <Multi_key> <A> <W>			: "Ɔ"	U0186		# LATIN CAPITAL LETTER OPEN O
+<Multi_key> <s> <C> 		: "ɕ"	U0255		# LATIN SMALL LETTER C WITH CURL
 <Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
 # Have to put the <less> at the beginning for these.
 <Multi_key> <less> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
